@@ -12,6 +12,7 @@
         <NavigationPage>
             <x:Arguments>
                 <local:Home/>
+               
             </x:Arguments>
         </NavigationPage>
     </FlyoutPage.Detail>

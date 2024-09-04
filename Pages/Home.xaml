@@ -13,13 +13,13 @@
             </Grid.ColumnDefinitions>
 
             <HorizontalStackLayout VerticalOptions="Start">
-                <Image Source="logo_medic.png" HeightRequest="120" WidthRequest="100"/>
+                <Image Source="logo_medic.png" HeightRequest="120" WidthRequest="107" Margin="0,-20,0,0"/>
                 <Label Text="Cure Life"
                      FontSize="24"
                      FontAttributes="Bold"
                      VerticalOptions="Center"
                      TextColor="{StaticResource SecundaryApp}"
-                     Margin="-20,0,0,0"/>
+                     Margin="-2,0,0,0"/>
             </HorizontalStackLayout>
         </Grid>
         <Label Text="Welcome!"
@@ -29,7 +29,7 @@
              Margin="10,-25,19,0"
              HorizontalOptions="Center"/>
 
-        <Label Text="Welcome to our health application! Please note the tools and resources to ensure your safety. We have made commitments to help you live a healthier life, supporting you every step of the way. You are our priority!"
+        <Label Text="¡Bienvenido a la Clínica Universitaria! Este es tu espacio de salud dentro del campus, diseñado especialmente para ti, estudiante y miembro de nuestra comunidad. Estamos aquí para apoyarte en cada etapa de tu vida universitaria, ofreciéndote atención médica integral en un entorno cercano y confiable. ¡Tu bienestar es nuestra prioridad!"
              FontSize="16"
              TextColor="Gray"
              LineBreakMode="WordWrap"
@@ -38,7 +38,7 @@
         <Image Source="doctors.svg"
              Aspect="AspectFit"
              VerticalOptions="EndAndExpand"
-             HeightRequest="600"
+             HeightRequest="650"
              Margin="-20,-200"
            />
     </VerticalStackLayout>
