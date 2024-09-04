@@ -18,10 +18,10 @@
                                    IconSource="inicio.svg"
                                    TargetType="{x:Type local:Home}"/>
                 <local:FlyoutItems Title="Servicios"
-                   IconSource="servicios.svg"
+                   IconSource="solicitudes.svg"
                    TargetType="{x:Type local:Servicios}"/>
                 <local:FlyoutItems Title="Solicitudes"
-                   IconSource="solicitudes.svg"
+                   IconSource="servicios.svg"
                    TargetType="{x:Type local:Solicitud}"/>
                 <local:FlyoutItems Title="Consultas"
                    IconSource="consulta.svg"
