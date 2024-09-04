@@ -3,10 +3,43 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MedicalUTP.Pages.Home"
              Title="Home">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+    
+    <VerticalStackLayout Spacing="20" Padding="10">
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <HorizontalStackLayout VerticalOptions="Start">
+                <Image Source="logo_medic.png" HeightRequest="120" WidthRequest="100"/>
+                <Label Text="Cure Life"
+                     FontSize="24"
+                     FontAttributes="Bold"
+                     VerticalOptions="Center"
+                     TextColor="{StaticResource SecundaryApp}"
+                     Margin="-20,0,0,0"/>
+            </HorizontalStackLayout>
+        </Grid>
+        <Label Text="Welcome!"
+             FontSize="32"
+             FontAttributes="Bold"
+             TextColor="{StaticResource PrimaryApp}"
+             Margin="10,-25,19,0"
+             HorizontalOptions="Center"/>
+
+        <Label Text="Welcome to our health application! Please note the tools and resources to ensure your safety. We have made commitments to help you live a healthier life, supporting you every step of the way. You are our priority!"
+             FontSize="16"
+             TextColor="Gray"
+             LineBreakMode="WordWrap"
+             HorizontalTextAlignment="Center"/>
+
+        <Image Source="doctors.svg"
+             Aspect="AspectFit"
+             VerticalOptions="EndAndExpand"
+             HeightRequest="600"
+             Margin="-20,-200"
+           />
     </VerticalStackLayout>
 </ContentPage>

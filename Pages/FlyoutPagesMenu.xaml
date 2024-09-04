@@ -5,6 +5,7 @@
              x:Class="MedicalUTP.Pages.FlyoutPagesMenu"
              Padding="0,40,0,0"
              IconImageSource="menu_lines.svg"
+             BackgroundColor="{StaticResource PrimaryApp}"
              Title="FlyoutPagesMenu">
 
     <CollectionView 
@@ -14,19 +15,19 @@
         <CollectionView.ItemsSource>
             <x:Array Type="{x:Type local:FlyoutItems}">
                 <local:FlyoutItems Title="Inicio"
-                                   IconSource="home.svg"
+                                   IconSource="inicio.svg"
                                    TargetType="{x:Type local:Home}"/>
                 <local:FlyoutItems Title="Servicios"
-                   IconSource="services.svg"
+                   IconSource="servicios.svg"
                    TargetType="{x:Type local:Servicios}"/>
                 <local:FlyoutItems Title="Solicitudes"
-                   IconSource="solicitud.svg"
+                   IconSource="solicitudes.svg"
                    TargetType="{x:Type local:Solicitud}"/>
                 <local:FlyoutItems Title="Consultas"
-                   IconSource="consultas.svg"
+                   IconSource="consulta.svg"
                    TargetType="{x:Type local:Consultas}"/>
                 <local:FlyoutItems Title="Contacto"
-                   IconSource="contactos.svg"
+                   IconSource="contacto.svg"
                    TargetType="{x:Type local:Contactos}"/>
             </x:Array>
         </CollectionView.ItemsSource>
@@ -42,6 +43,7 @@
                            Margin="20,0"
                            Text="{Binding Title}"
                            FontSize="20"
+                           TextColor="White"
                            FontAttributes="Bold"
                            VerticalOptions="Center"/>
                 </Grid>

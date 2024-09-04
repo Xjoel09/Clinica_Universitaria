@@ -47,4 +47,5 @@
     <Color x:Key="PrimaryApp">#6978F8</Color>
     <Color x:Key="SecundaryApp">#4F518C</Color>
     <Color x:Key="TertiaryApp">#E8E3E0</Color>
+    <Color x:Key="CuartApp">#BFCAFF</Color>
 </ResourceDictionary>
