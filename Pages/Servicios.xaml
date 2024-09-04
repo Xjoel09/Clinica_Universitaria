@@ -3,10 +3,566 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MedicalUTP.Pages.Servicios"
              Title="Servicios">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <AbsoluteLayout >
+
+        <Frame Padding="0"
+               BackgroundColor="{StaticResource PrimaryApp}"
+               CornerRadius="15"
+               HasShadow="True"
+               VerticalOptions="FillAndExpand"
+              
+               AbsoluteLayout.LayoutBounds="0,0,1,0.2"
+               AbsoluteLayout.LayoutFlags="All">
+            <Grid 
+                Padding="60"
+                BackgroundColor="{StaticResource PrimaryApp}"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand">
+
+            </Grid>
+        </Frame>
+
+        <Frame CornerRadius="50" 
+           BackgroundColor="White"
+           HeightRequest="70" 
+           WidthRequest="300"
+           AbsoluteLayout.LayoutBounds="0.5,0.17,-1,-1" 
+           AbsoluteLayout.LayoutFlags="PositionProportional"
+           HasShadow="True">
+            <StackLayout 
+            Orientation="Horizontal"
+            Padding="10,0,0,-9">
+                <Entry Placeholder="Buscar..." 
+                   BackgroundColor="Transparent"
+                       TextColor="Black"
+                       FontSize="12"
+                   HorizontalOptions="FillAndExpand"/>
+                <Image 
+                     Source="search.svg" 
+                     HeightRequest="28" 
+                     WidthRequest="30"
+                    Margin="0,0,0,10"
+                     BackgroundColor="Transparent"/>
+            </StackLayout>
+        </Frame>
+
+        <ScrollView AbsoluteLayout.LayoutFlags="All"
+                    AbsoluteLayout.LayoutBounds="0,0,1.1,1">
+            <!--Services-->
+            <VerticalStackLayout Padding="20" >
+                <Label
+                Text="Servicios"
+                FontSize="35"
+                FontAttributes="Bold"
+                TextColor="{StaticResource PrimaryApp}"
+                HorizontalOptions="Center"
+                Margin="-250,-65,-210,0"
+                Padding="250"/>
+
+                <!--Frames Services-->
+                <!--First Frame-->
+                <Frame
+                CornerRadius="19"
+                BackgroundColor="{StaticResource PrimaryApp}"
+                VerticalOptions="Start"
+                HorizontalOptions="Start"
+                Margin="0,-220,0,0"
+                WidthRequest="99"
+                HeightRequest="104"
+                HasShadow="True">
+                    <Image
+                    Source="pulmon.svg"
+                    WidthRequest="90">
+                    </Image>
+                </Frame>
+                <Frame
+                CornerRadius="31"
+                BorderColor="{StaticResource PrimaryApp}"
+                WidthRequest="245"
+                HeightRequest="115"
+                HorizontalOptions="Center"
+                Margin="85,-110,0,0"
+                HasShadow="True">
+                    <StackLayout 
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Spacing="3">
+                        <Label 
+                        Text="Consultas y evaluaciones médicas con previa cita"
+                        FontSize="14"
+                        TextColor="{StaticResource PrimaryApp}"
+                        FontAttributes="Bold"
+                        Margin="0,-5,11,93"/>
+
+                        <Label
+                        Text="Atención médica programada para diagnóstico y seguimiento de condiciones de salud."
+                        FontSize="10"
+                        TextColor="{StaticResource SecundaryApp}"
+                        Margin="0,-93,0,0"
+                        HeightRequest="100"/>
+
+
+                    </StackLayout>
+                </Frame>
+                <!-- Second frame-->
+                <Frame
+                CornerRadius="19"
+                BackgroundColor="{StaticResource PrimaryApp}"
+                VerticalOptions="Start"
+                HorizontalOptions="Start"
+                Margin="0,30,0,0"
+                WidthRequest="99"
+                HeightRequest="104"
+                HasShadow="True">
+                    <Image
+                    Source="pill.svg"
+                    WidthRequest="90">
+                    </Image>
+                </Frame>
+                <Frame
+                CornerRadius="31"
+                BorderColor="{StaticResource PrimaryApp}"
+                WidthRequest="245"
+                HeightRequest="115"
+                HorizontalOptions="Center"
+                Margin="85,-103,0,0"
+                HasShadow="True">
+                    <StackLayout 
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Spacing="3">
+                        <Label 
+                        Text="Consultas y evaluaciones de urgencias"
+                        FontSize="14"
+                        TextColor="{StaticResource PrimaryApp}"
+                        FontAttributes="Bold"
+                        Margin="0,-5,11,90"/>
+
+                        <Label
+                        Text="Atención inmediata para situaciones médicas que requieren intervención rápida."
+                        FontSize="10"
+                        TextColor="{StaticResource SecundaryApp}"
+                        Margin="0,-88,0,0"
+                        HeightRequest="100"/>
+
+                    </StackLayout>
+                </Frame>
+                <!--Third frame-->
+                <Frame
+                CornerRadius="19"
+                BackgroundColor="{StaticResource PrimaryApp}"
+                VerticalOptions="Start"
+                HorizontalOptions="Start"
+                Margin="0,30,0,0"
+                WidthRequest="99"
+                HeightRequest="104"
+                HasShadow="True">
+                    <Image
+                    Source="adn.svg"
+                    WidthRequest="90">
+                    </Image>
+                </Frame>
+                <Frame
+                CornerRadius="31"
+                BorderColor="{StaticResource PrimaryApp}"
+                WidthRequest="245"
+                HeightRequest="115"
+                HorizontalOptions="Center"
+                Margin="85,-103,0,0"
+                HasShadow="True">
+                    <StackLayout 
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Spacing="3">
+                        <Label 
+                        Text="Referencias a especialidades médicas"
+                        FontSize="14"
+                        TextColor="{StaticResource PrimaryApp}"
+                        FontAttributes="Bold"
+                        Margin="0,-4,0,100"/>
+
+                        <Label
+                        Text="Derivación a médicos especialistas para atención específica según el diagnóstico."
+                        FontSize="10"
+                        TextColor="{StaticResource SecundaryApp}"
+                        Margin="0,-98,0,0"
+                        HeightRequest="100"/>
+
+                    </StackLayout>
+                </Frame>
+                <!--Fourth frame-->
+                <Frame
+                CornerRadius="19"
+                BackgroundColor="{StaticResource PrimaryApp}"
+                VerticalOptions="Start"
+                HorizontalOptions="Start"
+                Margin="0,30,0,0"
+                WidthRequest="99"
+                HeightRequest="104"
+                HasShadow="True">
+                    <Image
+                    Source="cita.svg"
+                    WidthRequest="90">
+                    </Image>
+                </Frame>
+                <Frame
+                    CornerRadius="31"
+                    BorderColor="{StaticResource PrimaryApp}"
+                    WidthRequest="245"
+                    HeightRequest="115"
+                    HorizontalOptions="Center"
+                    Margin="85,-103,0,0"
+                    HasShadow="True">
+                    <StackLayout 
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Spacing="3">
+                        <Label 
+                        Text="Certificado de buena salud"
+                        FontSize="14"
+                        TextColor="{StaticResource PrimaryApp}"
+                        FontAttributes="Bold"
+                        Margin="0,0,0,100"/>
+
+                        <Label
+                        Text="Emisión de un documento oficial que certifica el estado de salud general de un paciente."
+                        FontSize="10"
+                        TextColor="{StaticResource SecundaryApp}"
+                        Margin="0,-100,0,0"
+                        HeightRequest="100"/>
+                    </StackLayout>
+                </Frame>
+                <!--Five frame-->
+                <Frame
+                    CornerRadius="19"
+                    BackgroundColor="{StaticResource PrimaryApp}"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Start"
+                    Margin="0,30,0,0"
+                    WidthRequest="99"
+                    HeightRequest="104"
+                    HasShadow="True">
+                    <Image
+                        Source="cita.svg"
+                        WidthRequest="90">
+                    </Image>
+                </Frame>
+                <Frame
+                    CornerRadius="31"
+                    BorderColor="{StaticResource PrimaryApp}"
+                    WidthRequest="245"
+                    HeightRequest="115"
+                    HorizontalOptions="Center"
+                    Margin="85,-103,0,0"
+                    HasShadow="True">
+                    <StackLayout 
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        Spacing="3">
+                        <Label 
+                            Text="Solicitudes de estudios de gabinete"
+                            FontSize="14"
+                            TextColor="{StaticResource PrimaryApp}"
+                            FontAttributes="Bold"
+                            Margin="0,-5,10,100"/>
+                        <Label
+                            Text="Orden médica para realizar estudios complementarios como radiografías o análisis de laboratorio."
+                            FontSize="10"
+                            TextColor="{StaticResource SecundaryApp}"
+                            Margin="0,-100,0,0"
+                            HeightRequest="50"
+                            WidthRequest="200"/>
+                    </StackLayout>
+                </Frame>
+                <!--Six frame-->
+                <Frame
+                    CornerRadius="19"
+                    BackgroundColor="{StaticResource PrimaryApp}"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Start"
+                    Margin="0,30,0,0"
+                    WidthRequest="99"
+                    HeightRequest="104"
+                    HasShadow="True">
+                    <Image
+                        Source="cita.svg"
+                        WidthRequest="90">
+                    </Image>
+                </Frame>
+                <Frame
+                    CornerRadius="31"
+                    BorderColor="{StaticResource PrimaryApp}"
+                    WidthRequest="245"
+                    HeightRequest="115"
+                    HorizontalOptions="Center"
+                    Margin="85,-103,0,0"
+                    HasShadow="True">
+                    <StackLayout 
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        Spacing="3">
+                        <Label 
+                            Text="Administración gratuita de medicamentos básicos"
+                            FontSize="14"
+                            TextColor="{StaticResource PrimaryApp}"
+                            FontAttributes="Bold"
+                            Margin="0,-5,10,100"/>
+                        <Label
+            Text="Provisión y aplicación de medicamentos esenciales sin costo para el paciente."
+            FontSize="10"
+            TextColor="{StaticResource SecundaryApp}"
+            Margin="0,-100,0,0"
+            HeightRequest="50"
+            WidthRequest="200"/>
+                    </StackLayout>
+                </Frame>
+                <!--Seven frame-->
+                <Frame
+                    CornerRadius="19"
+                    BackgroundColor="{StaticResource PrimaryApp}"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Start"
+                    Margin="0,30,0,0"
+                    WidthRequest="99"
+                    HeightRequest="104"
+                    HasShadow="True">
+                    <Image
+                        Source="cita.svg"
+                        WidthRequest="90">
+                    </Image>
+                </Frame>
+                <Frame
+                    CornerRadius="31"
+                    BorderColor="{StaticResource PrimaryApp}"
+                    WidthRequest="245"
+                    HeightRequest="115"
+                    HorizontalOptions="Center"
+                    Margin="85,-103,0,0"
+                    HasShadow="True">
+                    <StackLayout 
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        Spacing="3">
+                        <Label 
+                            Text="Curaciones y corte de puntos"
+                            FontSize="14"
+                            TextColor="{StaticResource PrimaryApp}"
+                            FontAttributes="Bold"
+                            Margin="0,-3,10,100"/>
+                        <Label
+                            Text="Tratamiento de heridas y retiro de suturas después de cirugías menores."
+                            FontSize="10"
+                            TextColor="{StaticResource SecundaryApp}"
+                            Margin="0,-100,0,0"
+                            HeightRequest="45"/>
+                    </StackLayout>
+                </Frame>
+                <!--Eight frame-->
+                <Frame
+                    CornerRadius="19"
+                    BackgroundColor="{StaticResource PrimaryApp}"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Start"
+                    Margin="0,30,0,0"
+                    WidthRequest="99"
+                    HeightRequest="104"
+                    HasShadow="True">
+                    <Image
+                        Source="cita.svg"
+                        WidthRequest="90">
+                    </Image>
+                </Frame>
+                <Frame
+                    CornerRadius="31"
+                    BorderColor="{StaticResource PrimaryApp}"
+                    WidthRequest="245"
+                    HeightRequest="115"
+                    HorizontalOptions="Center"
+                    Margin="85,-103,0,0"
+                    HasShadow="True">
+                    <StackLayout 
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        Spacing="3">
+                        <Label 
+                            Text="Control de peso y talla"
+                            FontSize="14"
+                            TextColor="{StaticResource PrimaryApp}"
+                            FontAttributes="Bold"
+                            Margin="0,-3,10,100"/>
+                        <Label
+                            Text="Monitoreo de indicadores de salud como peso y altura para evaluar el estado físico."
+                            FontSize="10"
+                            TextColor="{StaticResource SecundaryApp}"
+                            Margin="0,-100,0,0"
+                            HeightRequest="45"/>
+                    </StackLayout>
+                </Frame>
+                <!--Nine frame-->
+                <Frame
+                    CornerRadius="19"
+                    BackgroundColor="{StaticResource PrimaryApp}"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Start"
+                    Margin="0,30,0,0"
+                    WidthRequest="99"
+                    HeightRequest="104"
+                    HasShadow="True">
+                    <Image
+                        Source="cita.svg"
+                        WidthRequest="90">  
+                    </Image>
+                </Frame>
+                <Frame
+                    CornerRadius="31"
+                    BorderColor="{StaticResource PrimaryApp}"
+                    WidthRequest="245"
+                    HeightRequest="115"
+                    HorizontalOptions="Center"
+                    Margin="85,-103,0,0"
+                    HasShadow="True">
+                    <StackLayout 
+                        VerticalOptions="Center"
+                        HorizontalOptions="Center"
+                        Spacing="3">
+                        <Label 
+                            Text="Control de presión arterial"
+                            FontSize="14"
+                            TextColor="{StaticResource PrimaryApp}"
+                            FontAttributes="Bold"
+                            Margin="0,-3,10,100"/>
+                        <Label
+                            Text="Medición y seguimiento de la presión sanguínea para prevenir enfermedades cardiovasculares."
+                            FontSize="10"
+                            TextColor="{StaticResource SecundaryApp}"
+                            Margin="0,-100,0,0"
+                            HeightRequest="45"/>
+                    </StackLayout>
+                </Frame>
+                <!--Ten frame-->
+                <Frame
+                      CornerRadius="19"
+                      BackgroundColor="{StaticResource PrimaryApp}"
+                      VerticalOptions="Start"
+                      HorizontalOptions="Start"
+                      Margin="0,30,0,0"
+                      WidthRequest="99"
+                      HeightRequest="104"
+                      HasShadow="True">
+                    <Image
+                      Source="cita.svg"
+                      WidthRequest="90">
+                    </Image>
+                </Frame>
+                <Frame
+                      CornerRadius="31"
+                      BorderColor="{StaticResource PrimaryApp}"
+                      WidthRequest="245"
+                      HeightRequest="115"
+                      HorizontalOptions="Center"
+                      Margin="85,-103,0,0"
+                      HasShadow="True">
+                    <StackLayout 
+                          VerticalOptions="Center"
+                          HorizontalOptions="Center"
+                          Spacing="3">
+                        <Label 
+                              Text="Inhaloterapias"
+                              FontSize="14"
+                              TextColor="{StaticResource PrimaryApp}"
+                              FontAttributes="Bold"
+                              Margin="0,-3,10,100"/>
+                        <Label
+                          Text="Tratamientos respiratorios para aliviar síntomas de enfermedades pulmonares."
+                          FontSize="10"
+                          TextColor="{StaticResource SecundaryApp}"
+                          Margin="0,-100,0,0"
+                          HeightRequest="45"/>
+                    </StackLayout>
+                </Frame>
+                <!--Eleven frame-->
+                <Frame
+                      CornerRadius="19"
+                      BackgroundColor="{StaticResource PrimaryApp}"
+                      VerticalOptions="Start"
+                      HorizontalOptions="Start"
+                      Margin="0,30,0,0"
+                      WidthRequest="99"
+                      HeightRequest="104"
+                      HasShadow="True">
+                    <Image
+                      Source="cita.svg"
+                      WidthRequest="90">
+                    </Image>
+                </Frame>
+                <Frame
+                      CornerRadius="31"
+                      BorderColor="{StaticResource PrimaryApp}"
+                      WidthRequest="245"
+                      HeightRequest="115"
+                      HorizontalOptions="Center"
+                      Margin="85,-103,0,0"
+                      HasShadow="True">
+                    <StackLayout 
+                          VerticalOptions="Center"
+                          HorizontalOptions="Center"
+                          Spacing="3">
+                        <Label 
+                          Text="Aplicación de medicamentos inyectables"
+                          FontSize="14"
+                          TextColor="{StaticResource PrimaryApp}"
+                          FontAttributes="Bold"
+                          Margin="0,-3,10,100"/>
+                        <Label
+                          Text="Inyección de medicamentos prescritos para tratamiento directo y efectivo."
+                          FontSize="10"
+                          TextColor="{StaticResource SecundaryApp}"
+                          Margin="0,-100,0,0"
+                          HeightRequest="45"/>
+                    </StackLayout>
+                </Frame>
+                <!--Twelve frame-->
+                <Frame
+                  CornerRadius="19"
+                  BackgroundColor="{StaticResource PrimaryApp}"
+                  VerticalOptions="Start"
+                  HorizontalOptions="Start"
+                  Margin="0,30,0,0"
+                  WidthRequest="99"
+                  HeightRequest="104"
+                  HasShadow="True">
+                    <Image
+                      Source="cita.svg"
+                      WidthRequest="90">
+                    </Image>
+                </Frame>
+                <Frame
+                  CornerRadius="31"
+                  BorderColor="{StaticResource PrimaryApp}"
+                  WidthRequest="245"
+                  HeightRequest="115"
+                  HorizontalOptions="Center"
+                  Margin="85,-103,0,0"
+                  HasShadow="True">
+                    <StackLayout 
+                      VerticalOptions="Center"
+                      HorizontalOptions="Center"
+                      Spacing="3">
+                        <Label 
+                          Text="Toma de glicemia capilar"
+                          FontSize="14"
+                          TextColor="{StaticResource PrimaryApp}"
+                          FontAttributes="Bold"
+                          Margin="0,-3,10,100"/>
+                        <Label
+                          Text="Medición rápida de los niveles de azúcar en sangre a través de una pequeña punción en el dedo."
+                          FontSize="10"
+                          TextColor="{StaticResource SecundaryApp}"
+                          Margin="0,-100,0,0"
+                          HeightRequest="45"/>
+                    </StackLayout>
+                </Frame>
+            </VerticalStackLayout>
+        </ScrollView>
+    </AbsoluteLayout>
 </ContentPage>
