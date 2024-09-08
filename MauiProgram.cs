@@ -2,7 +2,7 @@
 using MedicalUTP.DataAcess;
 using Microsoft.EntityFrameworkCore;
 using MedicalUTP.Pages;
-//using MedicalUTP.ViewsModel;
+using MedicalUTP.ViewsModel;
 
 namespace MedicalUTP
 {

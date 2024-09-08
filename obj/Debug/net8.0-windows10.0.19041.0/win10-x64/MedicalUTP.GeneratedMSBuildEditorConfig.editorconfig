@@ -42,6 +42,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.Contactos
 build_metadata.AdditionalFiles.TargetPath = Pages\Contactos.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Contactos.xaml
 
+[C:/Users/Robin_J/source/repos/MedicalUTP/Pages/CRUDAdmin.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.CRUDAdmin.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CRUDAdmin.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CRUDAdmin.xaml
+
 [C:/Users/Robin_J/source/repos/MedicalUTP/Pages/FlyoutMenu.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.FlyoutMenu.xaml
@@ -59,6 +65,18 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.Home.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Home.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Home.xaml
+
+[C:/Users/Robin_J/source/repos/MedicalUTP/Pages/Login.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.Login.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Login.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Login.xaml
+
+[C:/Users/Robin_J/source/repos/MedicalUTP/Pages/Register.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.Register.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Register.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Register.xaml
 
 [C:/Users/Robin_J/source/repos/MedicalUTP/Pages/Servicios.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
