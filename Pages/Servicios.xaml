@@ -115,7 +115,7 @@
                 HeightRequest="104"
                 HasShadow="True">
                     <Image
-                    Source="doc.svg"
+                    Source="est.svg"
                     WidthRequest="90">
                     </Image>
                 </Frame>

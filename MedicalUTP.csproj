@@ -66,10 +66,16 @@
 	  <None Remove="Resources\Images\contacto.svg" />
 	  <None Remove="Resources\Images\cure_logo.svg" />
 	  <None Remove="Resources\Images\doc.svg" />
+	  <None Remove="Resources\Images\doctor1.svg" />
+	  <None Remove="Resources\Images\doctor2.svg" />
 	  <None Remove="Resources\Images\doctors.svg" />
+	  <None Remove="Resources\Images\email.svg" />
+	  <None Remove="Resources\Images\est.svg" />
 	  <None Remove="Resources\Images\home.svg" />
+	  <None Remove="Resources\Images\id.svg" />
 	  <None Remove="Resources\Images\inicio.svg" />
 	  <None Remove="Resources\Images\injeccion.svg" />
+	  <None Remove="Resources\Images\logc.svg" />
 	  <None Remove="Resources\Images\logo_medic.png" />
 	  <None Remove="Resources\Images\mask.svg" />
 	  <None Remove="Resources\Images\medic.svg" />
@@ -85,6 +91,8 @@
 	  <None Remove="Resources\Images\search.svg" />
 	  <None Remove="Resources\Images\servicios.svg" />
 	  <None Remove="Resources\Images\solicitudes.svg" />
+	  <None Remove="Resources\Images\tel.svg" />
+	  <None Remove="Resources\Images\user.svg" />
 	</ItemGroup>
 
 	<ItemGroup>

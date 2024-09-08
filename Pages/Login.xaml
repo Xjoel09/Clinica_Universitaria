@@ -16,9 +16,9 @@
                  AbsoluteLayout.LayoutBounds="0,0,300,300"
                  AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
-        <Image Source="logo_medic.png"
-               WidthRequest="190"
-               HeightRequest="190"
+        <Image Source="logc.svg"
+               WidthRequest="150"
+               HeightRequest="150"
                AbsoluteLayout.LayoutBounds="30,30,120,120"
                AbsoluteLayout.LayoutFlags="None"/>
 
@@ -33,12 +33,13 @@
                    VerticalOptions="Start"
                    TextColor="#5A67D8"
                    FontAttributes="Bold"
-                   Margin="0,20,0,10"/>
+                   Margin="0,20,0,60"/>
 
             <!-- Contenedor Usuario -->
-            <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True">
+            <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True"
+                   WidthRequest="350" HorizontalOptions="FillAndExpand" Margin="0,0,0,10">
                 <HorizontalStackLayout Spacing="10">
-                    <Image Source="user.svg" WidthRequest="20" HeightRequest="20"/>
+                    <Image Source="user.svg" WidthRequest="40" HeightRequest="40"/>
                     <Entry Placeholder="Usuario" 
                            Text="{Binding Usuario}" 
                            BackgroundColor="White"
@@ -49,16 +50,17 @@
             </Frame>
 
             <!-- Contenedor Contraseña -->
-            <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True">
+            <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True"
+                   WidthRequest="350" HorizontalOptions="FillAndExpand" Margin="0,0,0,10">
                 <HorizontalStackLayout Spacing="10">
-                    <Image Source="pasw.svg" WidthRequest="20" HeightRequest="20"/>
+                    <Image Source="pasw.svg" WidthRequest="40" HeightRequest="40"/>
                     <Entry Placeholder="Contraseña" 
                            IsPassword="True" 
                            Text="{Binding Password}" 
                            BackgroundColor="White"
                            TextColor="#5A67D8"
                            PlaceholderColor="#5A67D8"
-                           Margin="0,0,0,20"/>
+                           Margin="0,0,0,10"/>
                 </HorizontalStackLayout>
             </Frame>
 

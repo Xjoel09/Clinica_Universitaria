@@ -3,10 +3,78 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MedicalUTP.Pages.Contactos"
              Title="Contactos">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+    <AbsoluteLayout>
+        <!-- ScrollView para el contenido principal -->
+        <ScrollView AbsoluteLayout.LayoutBounds="0,0,1,1"
+                    AbsoluteLayout.LayoutFlags="All">
+            <VerticalStackLayout Padding="30" Spacing="20" HorizontalOptions="Center">
+
+                <Label Text="Contáctenos"
+                       FontSize="28"
+                       FontAttributes="Bold"
+                       TextColor="#4751d6"
+                       HorizontalOptions="Center" />
+
+                <Frame BackgroundColor="#4751d6"
+                       CornerRadius="20"
+                       Padding="20"
+                       HasShadow="True"
+                       WidthRequest="350"
+                       HorizontalOptions="Center">
+                    <VerticalStackLayout Spacing="10">
+
+                        <Label Text="Dirección:"
+                               FontSize="Medium"
+                               FontAttributes="Bold"
+                               TextColor="White" />
+                        <Label Text="Universidad Tecnológica de Panamá, Avenida Ricardo J. Alfaro, Campus Metropolitano Dr. Víctor Levi Sasso, Edificio Administrativo."
+                               FontSize="Small"
+                               TextColor="White" />
+
+                        <BoxView HeightRequest="2" />
+
+                        <Label Text="Correo Electrónico:"
+                               FontSize="Medium"
+                               FontAttributes="Bold"
+                               TextColor="White" />
+                        <Label Text="clinica.universitaria@utp.ac.pa"
+                               FontSize="Small"
+                               TextColor="White" />
+
+                        <BoxView HeightRequest="2" />
+
+                        <Label Text="Horario de Atención:"
+                               FontSize="Medium"
+                               FontAttributes="Bold"
+                               TextColor="White" />
+                        <Label Text="Lunes a viernes 8:00 a. m. a 4:00 p. m."
+                               FontSize="Small"
+                               TextColor="White" />
+
+                        <BoxView HeightRequest="2" />
+
+                        <Label Text="Teléfono:"
+                               FontSize="Medium"
+                               FontAttributes="Bold"
+                               TextColor="White" />
+                        <Label Text="(507) 560-3205/3169"
+                               FontSize="Small"
+                               TextColor="White" />
+
+                    </VerticalStackLayout>
+                </Frame>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- Imagen debajo del contenedor -->
+        <Image Source="logc.svg"
+               Aspect="AspectFit"
+               AbsoluteLayout.LayoutBounds="0.5,1,-1,AutoSize"
+               AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
+               HorizontalOptions="Center"
+               VerticalOptions="End" />
+    </AbsoluteLayout>
+
 </ContentPage>
