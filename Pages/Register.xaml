@@ -2,53 +2,100 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MedicalUTP.Pages.Register"
-                Shell.NavBarIsVisible="False"
-         NavigationPage.HasBackButton="False"
-         NavigationPage.HasNavigationBar="False"
-            BackgroundColor="White">
+             Shell.NavBarIsVisible="False"
+             NavigationPage.HasBackButton="False"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
 
+    <AbsoluteLayout>
 
+        <!-- Triángulo y Logo -->
+        <Polygon Points="200,0 400,0 400,200"
+                 Fill="#5A67D8"
+                 HorizontalOptions="End"
+                 VerticalOptions="Start"
+                 AbsoluteLayout.LayoutBounds="1,0,200,200"
+                 AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="1*" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="1*" />
-        </Grid.RowDefinitions>
+        <Image Source="logo.png"
+               WidthRequest="120"
+               HeightRequest="120"
+               AbsoluteLayout.LayoutBounds="1,0,120,120"
+               AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
+        <!-- Contenido principal -->
+        <Grid AbsoluteLayout.LayoutBounds="0.5,0.6,-1,-1"
+              AbsoluteLayout.LayoutFlags="PositionProportional">
 
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
 
+            <StackLayout Grid.Row="1" Orientation="Vertical" Spacing="10">
 
-        <StackLayout Grid.Row="1" Orientation="Vertical" Spacing="10">
+                <!-- Título de bienvenida -->
+                <Label Text="Bienvenido"
+                       FontSize="24"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Start"
+                       TextColor="#5A67D8"
+                       Margin="0,20,0,10" />
 
+                <StackLayout Orientation="Vertical" Spacing="5" HorizontalOptions="FillAndExpand" Padding="30,0">
 
-            <StackLayout Orientation="Vertical" Spacing="5" HorizontalOptions="FillAndExpand" Padding="30,0">
+                    <!-- Contenedores para los campos de entrada -->
+                    <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True">
+                        <HorizontalStackLayout Spacing="10">
+                            <Entry x:Name="UsuarioEntry" Placeholder="Usuario" PlaceholderColor="#5A67D8"/>
+                        </HorizontalStackLayout>
+                    </Frame>
 
-                <Entry x:Name="UsuarioEntry" Placeholder="Usuario"/>
-                <Entry x:Name="TelefonoEntry" Placeholder="Telefono"/>
-                <Entry x:Name="CedulaEntry" Placeholder="Cedula"/>
-                <Entry x:Name="EmailEntry" Placeholder="Correo"/>
-                <Entry x:Name="PasswordEntry" Placeholder="Password" IsPassword="True"/>
-                <StackLayout>
-                    <Picker x:Name="RolPicker" BackgroundColor="Peru" FontSize="Micro"
-                    Title="ELIJE UN ROL" >
-                        <Picker.ItemsSource >
-                            <x:Array Type="{x:Type x:String}">
-                                <x:String >Admin</x:String>
-                                <x:String>Estudiante</x:String>
-                                <x:String>Docente</x:String>
-                                <x:String>Empleado</x:String>
-                            </x:Array>
-                        </Picker.ItemsSource>
-                    </Picker>
+                    <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True">
+                        <HorizontalStackLayout Spacing="10">
+                            <Entry x:Name="TelefonoEntry" Placeholder="Teléfono" PlaceholderColor="#5A67D8"/>
+                        </HorizontalStackLayout>
+                    </Frame>
 
+                    <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True">
+                        <HorizontalStackLayout Spacing="10">
+                            <Entry x:Name="CedulaEntry" Placeholder="Cédula" PlaceholderColor="#5A67D8"/>
+                        </HorizontalStackLayout>
+                    </Frame>
+
+                    <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True">
+                        <HorizontalStackLayout Spacing="10">
+                            <Entry x:Name="EmailEntry" Placeholder="Correo" PlaceholderColor="#5A67D8"/>
+                        </HorizontalStackLayout>
+                    </Frame>
+
+                    <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True">
+                        <HorizontalStackLayout Spacing="10">
+                            <Entry x:Name="PasswordEntry" Placeholder="Contraseña" IsPassword="True" PlaceholderColor="#5A67D8"/>
+                        </HorizontalStackLayout>
+                    </Frame>
+
+                    <!-- Contenedor Rol (Picker) -->
+                    <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True">
+                        <HorizontalStackLayout Spacing="10">
+                            <Picker x:Name="RolPicker" FontSize="Micro" Title="Elije un rol" TextColor="#5A67D8" BackgroundColor="White">
+                                <Picker.Items>
+                                    <x:String>Admin</x:String>
+                                    <x:String>Estudiante</x:String>
+                                    <x:String>Docente</x:String>
+                                    <x:String>Empleado</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </HorizontalStackLayout>
+                    </Frame>
+                    <Button Text="Sign up" HeightRequest="50" FontSize="Medium" BackgroundColor="#1d94ab" Clicked="OnSaveUserClicked"/>
                 </StackLayout>
-                <Button Text="Sing up" HeightRequest="50" FontSize="Medium" BackgroundColor="#1d94ab" Clicked="OnSaveUserClicked" />
-            </StackLayout>
-            <StackLayout>
-                <Button Text="¿Ya tienes Cuenta?. Click Aqui" HeightRequest="50" WidthRequest="300" Clicked="IrASingIn"/>
-            </StackLayout>
 
-        </StackLayout>
-    </Grid>
+                <StackLayout>
+                    <Button Text="¿Ya tienes cuenta? Haz clic aquí" HeightRequest="50" WidthRequest="300" Clicked="IrASingIn"/>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </AbsoluteLayout>
 </ContentPage>

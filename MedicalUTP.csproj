@@ -74,6 +74,7 @@
 	  <None Remove="Resources\Images\mask.svg" />
 	  <None Remove="Resources\Images\medic.svg" />
 	  <None Remove="Resources\Images\menu_lines.svg" />
+	  <None Remove="Resources\Images\pasw.svg" />
 	  <None Remove="Resources\Images\peso.svg" />
 	  <None Remove="Resources\Images\pill.svg" />
 	  <None Remove="Resources\Images\presion.svg" />

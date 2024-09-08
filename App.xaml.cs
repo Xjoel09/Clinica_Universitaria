@@ -1,16 +1,36 @@
 ﻿using MedicalUTP.DataAcess;
 using MedicalUTP.Pages;
+using MedicalUTP.ViewsModel;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace MedicalUTP
 {
     public partial class App : Application
     {
-        private readonly MedicalUTPDbContext _context;
-        public App(MedicalUTPDbContext context)
+        public static IServiceProvider Services { get; private set; }
+
+        public App()
         {
             InitializeComponent();
-            _context = context;
-            MainPage = new NavigationPage( new Login(_context));
+
+            var services = new ServiceCollection();
+            ConfigureServices(services);
+
+            Services = services.BuildServiceProvider();
+
+            // Inyectar el contexto de base de datos y el ViewModel en la página de Login
+            var context = Services.GetRequiredService<MedicalUTPDbContext>();
+            var loginViewModel = Services.GetRequiredService<LoginViewModel>();
+
+            MainPage = new NavigationPage(new Login(context, loginViewModel));
+        }
+
+        private void ConfigureServices(IServiceCollection services)
+        {
+            // Registrar el contexto de base de datos y el ViewModel como servicios
+            services.AddSingleton<MedicalUTPDbContext>();
+            services.AddTransient<LoginViewModel>(); // O Singleton según lo que prefieras
         }
     }
 }
+

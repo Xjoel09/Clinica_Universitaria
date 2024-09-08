@@ -1,19 +1,23 @@
 using MedicalUTP.DataAcess;
-using MedicalUTP.Pages;
+using MedicalUTP.ViewsModel;
 
-namespace MedicalUTP.Pages;
-
-public partial class Login : ContentPage
+namespace MedicalUTP.Pages
 {
-    private readonly MedicalUTPDbContext _context;
-    public Login(MedicalUTPDbContext context)
+    public partial class Login : ContentPage
     {
-        InitializeComponent();
-        _context = context;
-    }
-    public async void IrASingUn(object sender, EventArgs e)
-    {
-        var dbContext = _context;
-        await Navigation.PushAsync(new Register(dbContext));
+        private readonly MedicalUTPDbContext _context;
+
+        public Login(MedicalUTPDbContext context, LoginViewModel viewModel)
+        {
+            _context = context;
+            InitializeComponent();
+            BindingContext = viewModel;
+        }
+
+        public async void IrASingUn(object sender, EventArgs e)
+        {
+            // Pasar el DbContext a la página de registro
+            await Navigation.PushAsync(new Register(_context));
+        }
     }
 }

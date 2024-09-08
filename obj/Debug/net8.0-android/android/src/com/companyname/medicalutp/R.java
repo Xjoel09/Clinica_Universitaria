@@ -11606,20 +11606,21 @@ public final class R {
     public static final int notification_template_icon_low_bg=0x7f0700ef;
     public static final int notification_tile_bg=0x7f0700f0;
     public static final int notify_panel_notification_icon_bg=0x7f0700f1;
-    public static final int peso=0x7f0700f2;
-    public static final int pill=0x7f0700f3;
-    public static final int presion=0x7f0700f4;
-    public static final int pulmon=0x7f0700f5;
-    public static final int pulmones=0x7f0700f6;
-    public static final int radio=0x7f0700f7;
-    public static final int salud=0x7f0700f8;
-    public static final int search=0x7f0700f9;
-    public static final int servicios=0x7f0700fa;
-    public static final int solicitudes=0x7f0700fb;
-    public static final int splash=0x7f0700fc;
-    public static final int test_level_drawable=0x7f0700fd;
-    public static final int tooltip_frame_dark=0x7f0700fe;
-    public static final int tooltip_frame_light=0x7f0700ff;
+    public static final int pasw=0x7f0700f2;
+    public static final int peso=0x7f0700f3;
+    public static final int pill=0x7f0700f4;
+    public static final int presion=0x7f0700f5;
+    public static final int pulmon=0x7f0700f6;
+    public static final int pulmones=0x7f0700f7;
+    public static final int radio=0x7f0700f8;
+    public static final int salud=0x7f0700f9;
+    public static final int search=0x7f0700fa;
+    public static final int servicios=0x7f0700fb;
+    public static final int solicitudes=0x7f0700fc;
+    public static final int splash=0x7f0700fd;
+    public static final int test_level_drawable=0x7f0700fe;
+    public static final int tooltip_frame_dark=0x7f0700ff;
+    public static final int tooltip_frame_light=0x7f070100;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
