@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MedicalUTP.Pages.Register"
+                Shell.NavBarIsVisible="False"
+         NavigationPage.HasBackButton="False"
+         NavigationPage.HasNavigationBar="False"
+            BackgroundColor="White">
+
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+
+
+
+
+        <StackLayout Grid.Row="1" Orientation="Vertical" Spacing="10">
+
+
+            <StackLayout Orientation="Vertical" Spacing="5" HorizontalOptions="FillAndExpand" Padding="30,0">
+
+                <Entry x:Name="UsuarioEntry" Placeholder="Usuario"/>
+                <Entry x:Name="TelefonoEntry" Placeholder="Telefono"/>
+                <Entry x:Name="CedulaEntry" Placeholder="Cedula"/>
+                <Entry x:Name="EmailEntry" Placeholder="Correo"/>
+                <Entry x:Name="PasswordEntry" Placeholder="Password" IsPassword="True"/>
+                <StackLayout>
+                    <Picker x:Name="RolPicker" BackgroundColor="Peru" FontSize="Micro"
+                    Title="ELIJE UN ROL" >
+                        <Picker.ItemsSource >
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String >Admin</x:String>
+                                <x:String>Estudiante</x:String>
+                                <x:String>Docente</x:String>
+                                <x:String>Empleado</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+
+                </StackLayout>
+                <Button Text="Sing up" HeightRequest="50" FontSize="Medium" BackgroundColor="#1d94ab" Clicked="OnSaveUserClicked" />
+            </StackLayout>
+            <StackLayout>
+                <Button Text="¿Ya tienes Cuenta?. Click Aqui" HeightRequest="50" WidthRequest="300" Clicked="IrASingIn"/>
+            </StackLayout>
+
+        </StackLayout>
+    </Grid>
+</ContentPage>
