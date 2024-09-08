@@ -1,14 +1,16 @@
-﻿using MedicalUTP.Pages;
+﻿using MedicalUTP.DataAcess;
+using MedicalUTP.Pages;
 
 namespace MedicalUTP
 {
     public partial class App : Application
     {
-        public App()
+        private readonly MedicalUTPDbContext _context;
+        public App(MedicalUTPDbContext context)
         {
             InitializeComponent();
-
-            MainPage = new FlyoutMenu();
+            _context = context;
+            MainPage = new NavigationPage( new Login(_context));
         }
     }
 }
