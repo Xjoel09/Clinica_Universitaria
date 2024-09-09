@@ -24,7 +24,7 @@ public partial class FlyoutMenu : FlyoutPage
             {
                 Preferences.Remove("logueado");
 
-                // Aquí estás pasando el contexto al Login y su ViewModel
+                //Contexto al Login y su ViewModel
                 Application.Current.MainPage = new NavigationPage(new Login(_context, new LoginViewModel(_context)))
                 {
                     BarBackgroundColor = Colors.White
@@ -32,7 +32,6 @@ public partial class FlyoutMenu : FlyoutPage
             }
             else
             {
-                // Navegación normal
                 Detail = new NavigationPage((Page)Activator.CreateInstance(item.TargetType));
                 IsPresented = false;
             }

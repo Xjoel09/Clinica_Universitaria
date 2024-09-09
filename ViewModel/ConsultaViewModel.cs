@@ -1,65 +1,38 @@
-using System.ComponentModel;
-using System.Windows.Input;
+using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Microsoft.Maui.Controls;
 
-namespace MedicalUTP.ViewModel;
-
-public class ConsultaViewModel : INotifyPropertyChanged
+namespace MedicalUTP.ViewModel
 {
-    public event PropertyChangedEventHandler PropertyChanged;
-
-    private string _tipoConsulta;
-    public string TipoConsulta
+    public partial class ConsultaViewModel : ObservableObject
     {
-        get => _tipoConsulta;
-        set
+        [ObservableProperty]
+        private string tipoConsulta;
+
+        [ObservableProperty]
+        private string diaSeleccionado;
+
+        [ObservableProperty]
+        private string horaSeleccionada;
+
+        public List<string> TiposConsultas { get; set; } = new List<string> { "Consultas y evaluaciones médicas con previa cita", "Consultas y evaluaciones de urgencias", "Referencias a especialidades médicas", "Certificado de buena salud", "Solicitudes de estudios de gabinete", "Administración gratuita de medicamentos básicos", "Curaciones y corte de puntos", "Control de peso y talla", "Control de presión arterial", "Inhaloterapias", "Aplicación de medicamentos inyectables", "Toma de glicemia capilar"};
+        public List<string> DiasDisponibles { get; set; } = new List<string> { "Lunes", "Martes", "Miércoles", "Jueves", "Viernes" };
+        public List<string> HorasDisponibles { get; set; } = new List<string> { "10:00 AM", "11:00 AM", "12:00 PM", "4:00 PM" };
+
+        public ConsultaViewModel()
         {
-            _tipoConsulta = value;
-            OnPropertyChanged(nameof(TipoConsulta));
         }
-    }
 
-    private string _diaSeleccionado;
-    public string DiaSeleccionado
-    {
-        get => _diaSeleccionado;
-        set
+        [RelayCommand]
+        private async Task OnSubmit()
         {
-            _diaSeleccionado = value;
-            OnPropertyChanged(nameof(DiaSeleccionado));
+            var mainPage = Application.Current?.MainPage ?? throw new InvalidOperationException("No se pudo acceder a MainPage.");
+            await mainPage.DisplayAlert("Solicitud Enviada",
+                $"Consulta: {TipoConsulta}, Día: {DiaSeleccionado}, Hora: {HoraSeleccionada}",
+                "OK");
         }
-    }
-
-    private string _horaSeleccionada;
-    public string HoraSeleccionada
-    {
-        get => _horaSeleccionada;
-        set
-        {
-            _horaSeleccionada = value;
-            OnPropertyChanged(nameof(HoraSeleccionada));
-        }
-    }
-
-    public List<string> TiposConsultas { get; set; } = new List<string> { "Consulta General", "Consulta Especialista" };
-    public List<string> DiasDisponibles { get; set; } = new List<string> { "Lunes", "Martes", "Miércoles", "Jueves", "Viernes" };
-    public List<string> HorasDisponibles { get; set; } = new List<string> { "10:00 AM", "11:00 AM", "12:00 PM", "1:00 PM" };
-
-    public ICommand SubmitCommand { get; }
-
-    public ConsultaViewModel()
-    {
-        SubmitCommand = new Command(OnSubmit);
-    }
-
-    private void OnSubmit()
-    {
-        Application.Current.MainPage.DisplayAlert("Solicitud Enviada",
-            $"Consulta: {TipoConsulta}, Día: {DiaSeleccionado}, Hora: {HoraSeleccionada}",
-            "OK");
-    }
-
-    protected virtual void OnPropertyChanged(string propertyName)
-    {
-        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }
 }
+

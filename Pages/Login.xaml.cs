@@ -16,7 +16,7 @@ namespace MedicalUTP.Pages
 
         public async void IrASingUn(object sender, EventArgs e)
         {
-            // Pasar el DbContext a la página de registro
+            //DbContext a la página de registro
             await Navigation.PushAsync(new Register(_context));
         }
     }

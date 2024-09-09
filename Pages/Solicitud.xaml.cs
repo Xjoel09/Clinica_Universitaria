@@ -7,7 +7,7 @@ public partial class Solicitud : ContentPage
     {
         InitializeComponent();
 
-        // Aquí asignamos el ViewModel a la página
+        // Asignar el ViewModel a la página
         BindingContext = new ConsultaViewModel();
     }
 }

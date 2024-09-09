@@ -5,7 +5,6 @@
              Title="Contactos">
 
     <AbsoluteLayout>
-        <!-- ScrollView para el contenido principal -->
         <ScrollView AbsoluteLayout.LayoutBounds="0,0,1,1"
                     AbsoluteLayout.LayoutFlags="All">
             <VerticalStackLayout Padding="30" Spacing="20" HorizontalOptions="Center">
@@ -67,8 +66,6 @@
 
             </VerticalStackLayout>
         </ScrollView>
-
-        <!-- Imagen debajo del contenedor -->
         <Image Source="logc.svg"
                Aspect="AspectFit"
                AbsoluteLayout.LayoutBounds="0.5,1,-1,AutoSize"
