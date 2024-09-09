@@ -3,44 +3,82 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MedicalUTP.Pages.Login"
              Shell.NavBarIsVisible="False"
-         NavigationPage.HasNavigationBar="False"
-         BackgroundColor="White">
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="1*" />
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="1*" />
-        </Grid.RowDefinitions>
+    <AbsoluteLayout>
 
+        <!-- Triángulo y Logo -->
+        <Polygon Points="0,0 300,0 0,300"
+                 Fill="#5A67D8"
+                 HorizontalOptions="Start"
+                 VerticalOptions="Start"
+                 AbsoluteLayout.LayoutBounds="0,0,300,300"
+                 AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
-        <StackLayout Grid.Row="1" Orientation="Vertical" Spacing="5">
+        <Image Source="logc.svg"
+               WidthRequest="150"
+               HeightRequest="150"
+               AbsoluteLayout.LayoutBounds="30,30,120,120"
+               AbsoluteLayout.LayoutFlags="None"/>
 
-            <Label Text="Bienvenido" TextColor="#101010" FontSize="Title" HorizontalOptions="Center" FontAttributes="Bold"></Label>
+        <!-- Contenido principal -->
+        <StackLayout Padding="30"
+                     AbsoluteLayout.LayoutBounds="0.5,0.6,-1,-1"
+                     AbsoluteLayout.LayoutFlags="PositionProportional">
 
-            <StackLayout Orientation="Vertical" Margin="0,10" Spacing="5" HorizontalOptions="Center">
+            <Label Text="Bienvenido" 
+                   FontSize="24" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Start"
+                   TextColor="#5A67D8"
+                   FontAttributes="Bold"
+                   Margin="0,20,0,60"/>
 
-                <Image
-                        HeightRequest="150"
-                        WidthRequest="150"
-                        HorizontalOptions="Center"
-                        Source="dotnet_bot.png"/>
+            <!-- Contenedor Usuario -->
+            <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True"
+                   WidthRequest="350" HorizontalOptions="FillAndExpand" Margin="0,0,0,10">
+                <HorizontalStackLayout Spacing="10">
+                    <Image Source="user.svg" WidthRequest="40" HeightRequest="40"/>
+                    <Entry Placeholder="Usuario" 
+                           Text="{Binding Usuario}" 
+                           BackgroundColor="White"
+                           TextColor="#5A67D8"
+                           PlaceholderColor="#5A67D8"
+                           Margin="0,0,0,10"/>
+                </HorizontalStackLayout>
+            </Frame>
 
+            <!-- Contenedor Contraseña -->
+            <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True"
+                   WidthRequest="350" HorizontalOptions="FillAndExpand" Margin="0,0,0,10">
+                <HorizontalStackLayout Spacing="10">
+                    <Image Source="pasw.svg" WidthRequest="40" HeightRequest="40"/>
+                    <Entry Placeholder="Contraseña" 
+                           IsPassword="True" 
+                           Text="{Binding Password}" 
+                           BackgroundColor="White"
+                           TextColor="#5A67D8"
+                           PlaceholderColor="#5A67D8"
+                           Margin="0,0,0,10"/>
+                </HorizontalStackLayout>
+            </Frame>
 
-                <Label Text="Ingrese sus credenciales" TextColor="LightSlateGray" FontSize="Small" HorizontalOptions="Center"/>
-            </StackLayout>
+            <!-- Botón de Iniciar Sesión -->
+            <Button Text="Iniciar sesión" 
+                    Command="{Binding LoginCommand}"
+                    BackgroundColor="#5A67D8" 
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"/>
 
-
-            <StackLayout Orientation="Vertical" Spacing="5" HorizontalOptions="FillAndExpand" Padding="30,0">
-                <Entry Text="{Binding Usuario}" Placeholder="Usuario"/>
-                <Entry Text="{Binding Password}" Placeholder="Contraseña" IsPassword="True"/>
-
-                <Button Text="Iniciar sesion" HeightRequest="50" FontSize="Medium" BackgroundColor="#1d94ab" Command="{Binding LoginCommand}"/>
-            </StackLayout>
-            <StackLayout>
-                <Button Text="¿No tienes Cuenta?. Click Aqui" HeightRequest="50" WidthRequest="300" Clicked="IrASingUn"/>
-            </StackLayout>
-
+            <!-- Botón de Registro -->
+            <Button Text="¿No tienes Cuenta? Click Aquí" 
+                    Clicked="IrASingUn"
+                    BackgroundColor="Transparent" 
+                    TextColor="#5A67D8"
+                    Margin="0,20,0,0"/>
         </StackLayout>
-    </Grid>
+    </AbsoluteLayout>
+
 </ContentPage>

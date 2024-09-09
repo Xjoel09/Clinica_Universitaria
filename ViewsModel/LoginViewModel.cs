@@ -64,13 +64,13 @@ namespace MedicalUTP.ViewsModel
 
                     var MainPage = Application.Current?.MainPage ?? throw new InvalidOperationException("No se pudo acceder a MainPage.");
                     await MainPage.DisplayAlert("Mensaje", "Bienvenido Estudiante", "Aceptar");
-                    Application.Current.MainPage = new FlyoutMenu();
+                    Application.Current.MainPage = new FlyoutMenu(_context);
                 }
                 else if (user.Role == "Docente")
                 {
                     var MainPage = Application.Current?.MainPage ?? throw new InvalidOperationException("No se pudo acceder a MainPage.");
                     await MainPage.DisplayAlert("Mensaje", "Bienvenido Docente", "Aceptar");
-                    Application.Current.MainPage = new FlyoutMenu();
+                    Application.Current.MainPage = new FlyoutMenu(_context);
                 }
             }
             else

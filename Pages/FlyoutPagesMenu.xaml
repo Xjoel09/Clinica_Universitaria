@@ -29,6 +29,8 @@
                 <local:FlyoutItems Title="Contacto"
                    IconSource="contacto.svg"
                    TargetType="{x:Type local:Contactos}"/>
+                <local:FlyoutItems Title="Cerrar Sesión"
+                                   IconSource="logout1.svg"/>
             </x:Array>
         </CollectionView.ItemsSource>
         <CollectionView.ItemTemplate>

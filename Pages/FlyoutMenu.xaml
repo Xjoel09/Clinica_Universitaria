@@ -2,6 +2,7 @@
 <FlyoutPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:local="clr-namespace:MedicalUTP.Pages"
+            xmlns:local1="clr-namespace:MedicalUTP.ViewsModel"
              x:Class="MedicalUTP.Pages.FlyoutMenu"
              Title="FlyoutMenu">
 
