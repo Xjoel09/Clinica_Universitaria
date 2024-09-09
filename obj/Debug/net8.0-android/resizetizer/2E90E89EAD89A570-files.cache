@@ -18,6 +18,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\id.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\inicio.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\injeccion.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\logc.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\logout1.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\mask.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\medic.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\menu_lines.png
@@ -53,6 +54,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\id.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\inicio.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\injeccion.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\logc.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\logout1.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\mask.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\medic.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\menu_lines.png
@@ -88,6 +90,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\id.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\inicio.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\injeccion.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\logc.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\logout1.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\mask.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\medic.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\menu_lines.png
@@ -123,6 +126,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\id.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\inicio.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\injeccion.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\logc.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\logout1.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\mask.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\medic.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\menu_lines.png
@@ -158,6 +162,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\id.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\inicio.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\injeccion.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\logc.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\logout1.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\mask.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\medic.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\menu_lines.png

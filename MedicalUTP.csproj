@@ -76,6 +76,7 @@
 	  <None Remove="Resources\Images\inicio.svg" />
 	  <None Remove="Resources\Images\injeccion.svg" />
 	  <None Remove="Resources\Images\logc.svg" />
+	  <None Remove="Resources\Images\logout1.svg" />
 	  <None Remove="Resources\Images\logo_medic.png" />
 	  <None Remove="Resources\Images\mask.svg" />
 	  <None Remove="Resources\Images\medic.svg" />
