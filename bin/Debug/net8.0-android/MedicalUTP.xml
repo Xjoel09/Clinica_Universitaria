@@ -4,6 +4,25 @@
         <name>MedicalUTP</name>
     </assembly>
     <members>
+        <member name="T:MedicalUTP.ViewModel.ConsultaViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MedicalUTP.ViewModel.ConsultaViewModel.TipoConsulta">
+            <inheritdoc cref="F:MedicalUTP.ViewModel.ConsultaViewModel.tipoConsulta"/>
+        </member>
+        <member name="P:MedicalUTP.ViewModel.ConsultaViewModel.DiaSeleccionado">
+            <inheritdoc cref="F:MedicalUTP.ViewModel.ConsultaViewModel.diaSeleccionado"/>
+        </member>
+        <member name="P:MedicalUTP.ViewModel.ConsultaViewModel.HoraSeleccionada">
+            <inheritdoc cref="F:MedicalUTP.ViewModel.ConsultaViewModel.horaSeleccionada"/>
+        </member>
+        <member name="F:MedicalUTP.ViewModel.ConsultaViewModel.submitCommand">
+            <summary>The backing field for <see cref="P:MedicalUTP.ViewModel.ConsultaViewModel.SubmitCommand"/>.</summary>
+        </member>
+        <member name="P:MedicalUTP.ViewModel.ConsultaViewModel.SubmitCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MedicalUTP.ViewModel.ConsultaViewModel.OnSubmit"/>.</summary>
+        </member>
         <member name="T:MedicalUTP.ViewsModel.LoginViewModel">
             <inheritdoc/>
             <inheritdoc/>
@@ -32,6 +51,15 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TipoConsulta">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TipoConsulta" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DiaSeleccionado">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DiaSeleccionado" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.HoraSeleccionada">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "HoraSeleccionada" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Usuario">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Usuario" generated properties.</summary>
         </member>
@@ -49,6 +77,15 @@
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TipoConsulta">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TipoConsulta" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DiaSeleccionado">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DiaSeleccionado" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.HoraSeleccionada">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "HoraSeleccionada" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Usuario">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Usuario" generated properties.</summary>

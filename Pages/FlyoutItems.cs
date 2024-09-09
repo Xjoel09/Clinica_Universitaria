@@ -11,7 +11,6 @@ namespace MedicalUTP.Pages
         public required string Title { get; set; }
         public required string IconSource { get; set; }
         public required Type? TargetType { get; set; }
-
         public bool IsLogout { get; set; } = false;
     }
 }

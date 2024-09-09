@@ -18,7 +18,7 @@ namespace MedicalUTP
 
             Services = services.BuildServiceProvider();
 
-            // Inyectar el contexto de base de datos y el ViewModel en la página de Login
+            // Inyectar base de datos y el ViewModel en la página de Login
             var context = Services.GetRequiredService<MedicalUTPDbContext>();
             var loginViewModel = Services.GetRequiredService<LoginViewModel>();
 
@@ -27,9 +27,9 @@ namespace MedicalUTP
 
         private void ConfigureServices(IServiceCollection services)
         {
-            // Registrar el contexto de base de datos y el ViewModel como servicios
+            // Registrar base de datos y el ViewModel como servicios
             services.AddSingleton<MedicalUTPDbContext>();
-            services.AddTransient<LoginViewModel>(); // O Singleton según lo que prefieras
+            services.AddTransient<LoginViewModel>(); 
         }
     }
 }

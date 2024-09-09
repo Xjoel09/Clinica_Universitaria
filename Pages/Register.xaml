@@ -8,8 +8,6 @@
              BackgroundColor="White">
 
     <AbsoluteLayout>
-
-        <!-- Triángulo y Logo -->
         <Polygon Points="200,0 400,0 400,200"
                  Fill="#5A67D8"
                  HorizontalOptions="End"
@@ -23,7 +21,6 @@
                AbsoluteLayout.LayoutBounds="1,0,120,120"
                AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
-        <!-- Contenido principal -->
         <Grid AbsoluteLayout.LayoutBounds="0.5,0.6,-1,-1"
               AbsoluteLayout.LayoutFlags="PositionProportional">
 
@@ -35,7 +32,6 @@
 
             <StackLayout Grid.Row="1" Orientation="Vertical" Spacing="10">
 
-                <!-- Título de bienvenida -->
                 <Label Text="Bienvenido"
                        FontSize="24"
                        HorizontalOptions="Center"
@@ -45,7 +41,6 @@
 
                 <StackLayout Orientation="Vertical" Spacing="10" HorizontalOptions="FillAndExpand" Padding="30,0">
 
-                    <!-- Contenedores para los campos de entrada -->
                     <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True">
                         <HorizontalStackLayout Spacing="10">
                             <Image Source="user.svg" WidthRequest="20" HeightRequest="20"/>
@@ -81,7 +76,6 @@
                         </HorizontalStackLayout>
                     </Frame>
 
-                    <!-- Contenedor Rol (Picker) -->
                     <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True">
                         <HorizontalStackLayout Spacing="10">
                             <Image Source="user.svg" WidthRequest="20" HeightRequest="20"/>
@@ -96,7 +90,6 @@
                         </HorizontalStackLayout>
                     </Frame>
 
-                    <!-- Botón de Registro -->
                     <Button Text="Sign up" HeightRequest="50" FontSize="Medium" BackgroundColor="#1d94ab" Clicked="OnSaveUserClicked"/>
 
                 </StackLayout>

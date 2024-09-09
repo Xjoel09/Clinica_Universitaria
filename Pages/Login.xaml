@@ -8,7 +8,6 @@
 
     <AbsoluteLayout>
 
-        <!-- Triángulo y Logo -->
         <Polygon Points="0,0 300,0 0,300"
                  Fill="#5A67D8"
                  HorizontalOptions="Start"
@@ -22,7 +21,6 @@
                AbsoluteLayout.LayoutBounds="30,30,120,120"
                AbsoluteLayout.LayoutFlags="None"/>
 
-        <!-- Contenido principal -->
         <StackLayout Padding="30"
                      AbsoluteLayout.LayoutBounds="0.5,0.6,-1,-1"
                      AbsoluteLayout.LayoutFlags="PositionProportional">
@@ -35,7 +33,6 @@
                    FontAttributes="Bold"
                    Margin="0,20,0,60"/>
 
-            <!-- Contenedor Usuario -->
             <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True"
                    WidthRequest="350" HorizontalOptions="FillAndExpand" Margin="0,0,0,10">
                 <HorizontalStackLayout Spacing="10">
@@ -49,7 +46,6 @@
                 </HorizontalStackLayout>
             </Frame>
 
-            <!-- Contenedor Contraseña -->
             <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True"
                    WidthRequest="350" HorizontalOptions="FillAndExpand" Margin="0,0,0,10">
                 <HorizontalStackLayout Spacing="10">
@@ -64,7 +60,6 @@
                 </HorizontalStackLayout>
             </Frame>
 
-            <!-- Botón de Iniciar Sesión -->
             <Button Text="Iniciar sesión" 
                     Command="{Binding LoginCommand}"
                     BackgroundColor="#5A67D8" 
@@ -72,7 +67,6 @@
                     CornerRadius="25"
                     HeightRequest="50"/>
 
-            <!-- Botón de Registro -->
             <Button Text="¿No tienes Cuenta? Click Aquí" 
                     Clicked="IrASingUn"
                     BackgroundColor="Transparent" 

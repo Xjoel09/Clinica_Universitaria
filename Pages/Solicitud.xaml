@@ -37,7 +37,6 @@
                     </Picker>
                 </Frame>
 
-                <!-- Botón Enviar Solicitud -->
                 <Button Text="Enviar Solicitud"
                         BackgroundColor="{StaticResource SecundaryApp}"
                         TextColor="White"
