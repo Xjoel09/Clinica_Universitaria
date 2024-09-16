@@ -55,7 +55,7 @@ namespace MedicalUTP.ViewsModel
 
                     var MainPage = Application.Current?.MainPage ?? throw new InvalidOperationException("No se pudo acceder a MainPage.");
                     await MainPage.DisplayAlert("Mensaje", "Bienvenido Administrador", "Aceptar");
-                    Application.Current.MainPage = new CRUDAdmin();
+                    Application.Current.MainPage = new CRUDAdmin(_context);
                 }
                 else if (user.Role == "Estudiante")
                 {

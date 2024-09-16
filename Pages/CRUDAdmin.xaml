@@ -1,12 +1,88 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MedicalUTP.Models"
              x:Class="MedicalUTP.Pages.CRUDAdmin"
+             xmlns:viewmodels="clr-namespace:MedicalUTP.ViewsModel"
+             x:DataType="viewmodels:CRUDAdminViewModel"
+             BackgroundColor="White"
              Title="CRUDAdmin">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+
+    <Grid RowDefinitions="Auto,*" Padding="10">
+        <Label Text="Administración de Usuarios" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" TextColor="Navy" />
+
+        <RefreshView Grid.Row="1" Command="{Binding LoadUsersCommand}">
+            <CollectionView ItemsSource="{Binding Users}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="local:User">
+                        <Frame Margin="0,5" Padding="5" BorderColor="LightGray" CornerRadius="5">
+                            <Grid ColumnDefinitions="2*,2*,2*,3*,2*,Auto,Auto">
+                                <Label Grid.Column="0" Text="{Binding Nombre}" />
+                                <Label Grid.Column="1" Text="{Binding Cedula}" />
+                                <Label Grid.Column="2" Text="{Binding Telefono}" />
+                                <Label Grid.Column="3" Text="{Binding Correo}" />
+                                <Label Grid.Column="4" Text="{Binding Role}" />
+
+                                <Button Grid.Column="5" Text="Actualizar" 
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:CRUDAdminViewModel}}, Path=UpdateUserCommand}" 
+                                        CommandParameter="{Binding .}" 
+                                        Margin="2,0"
+                                        BackgroundColor="DodgerBlue"
+                                        TextColor="White" />
+
+                                <Button Grid.Column="6" Text="Eliminar" 
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:CRUDAdminViewModel}}, Path=DeleteUserCommand}" 
+                                        CommandParameter="{Binding .}" 
+                                        BackgroundColor="Red" 
+                                        TextColor="White" />
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                <CollectionView.Header>
+                    <Grid ColumnDefinitions="2*,2*,2*,3*,2*,Auto,Auto" Padding="10" BackgroundColor="LightGray">
+                        <Label Grid.Column="0" Text="Usuario" FontAttributes="Bold" />
+                        <Label Grid.Column="1" Text="Cédula" FontAttributes="Bold" />
+                        <Label Grid.Column="2" Text="Teléfono" FontAttributes="Bold" />
+                        <Label Grid.Column="3" Text="Correo" FontAttributes="Bold" />
+                        <Label Grid.Column="4" Text="Rol" FontAttributes="Bold" />
+                        <Label Grid.Column="5" Text="Acciones" FontAttributes="Bold" Grid.ColumnSpan="2" HorizontalOptions="Center" />
+                    </Grid>
+                </CollectionView.Header>
+            </CollectionView>
+        </RefreshView>
+
+
+        <Grid IsVisible="{Binding IsEditPopupVisible}"
+              BackgroundColor="#80000000"
+              Grid.RowSpan="2">
+            <Frame BackgroundColor="#5A67D8"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   Padding="20"
+                   CornerRadius="10">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Editar Usuario" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"/>
+                    <Entry Text="{Binding SelectedUser.Nombre}" Placeholder="Nombre"/>
+                    <Entry Text="{Binding SelectedUser.Telefono}" Placeholder="Teléfono"/>
+                    <Entry Text="{Binding SelectedUser.Cedula}" Placeholder="Cédula"/>
+                    <Entry Text="{Binding SelectedUser.Correo}" Placeholder="Correo"/>
+                    <Picker SelectedItem="{Binding SelectedUser.Role}" Title="Rol">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Admin</x:String>
+                                <x:String>Estudiante</x:String>
+                                <x:String>Docente</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20">
+                        <Button Text="Guardar" Command="{Binding SaveUserChangesCommand}"/>
+                        <Button Text="Cancelar" Command="{Binding CancelEditCommand}"/>
+                    </StackLayout>
+                </VerticalStackLayout>
+            </Frame>
+        </Grid>
+
+    </Grid>
 </ContentPage>

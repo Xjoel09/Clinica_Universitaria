@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -15,4 +16,5 @@ namespace MedicalUTP.Models
         public required string Password { get; set; }
         public required string Role { get; set; }
     }
+
 }

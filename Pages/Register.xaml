@@ -44,42 +44,42 @@
                     <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True">
                         <HorizontalStackLayout Spacing="10">
                             <Image Source="user.svg" WidthRequest="20" HeightRequest="20"/>
-                            <Entry x:Name="UsuarioEntry" Placeholder="Usuario" PlaceholderColor="#5A67D8"/>
+                            <Entry x:Name="UsuarioEntry" Placeholder="Usuario" PlaceholderColor="#5A67D8" TextColor="Black"/>
                         </HorizontalStackLayout>
                     </Frame>
 
                     <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True">
                         <HorizontalStackLayout Spacing="10">
                             <Image Source="tel.svg" WidthRequest="20" HeightRequest="20"/>
-                            <Entry x:Name="TelefonoEntry" Placeholder="Teléfono" PlaceholderColor="#5A67D8"/>
+                            <Entry x:Name="TelefonoEntry" Placeholder="Teléfono" PlaceholderColor="#5A67D8" TextColor="Black"/>
                         </HorizontalStackLayout>
                     </Frame>
 
                     <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True">
                         <HorizontalStackLayout Spacing="10">
                             <Image Source="id.svg" WidthRequest="20" HeightRequest="20"/>
-                            <Entry x:Name="CedulaEntry" Placeholder="Cédula" PlaceholderColor="#5A67D8"/>
+                            <Entry x:Name="CedulaEntry" Placeholder="Cédula" PlaceholderColor="#5A67D8" TextColor="Black"/>
                         </HorizontalStackLayout>
                     </Frame>
 
                     <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True">
                         <HorizontalStackLayout Spacing="10">
                             <Image Source="email.svg" WidthRequest="20" HeightRequest="20"/>
-                            <Entry x:Name="EmailEntry" Placeholder="Correo" PlaceholderColor="#5A67D8"/>
+                            <Entry x:Name="EmailEntry" Placeholder="Correo" PlaceholderColor="#5A67D8" TextColor="Black" />
                         </HorizontalStackLayout>
                     </Frame>
 
                     <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True">
                         <HorizontalStackLayout Spacing="10">
                             <Image Source="pasw.svg" WidthRequest="20" HeightRequest="20"/>
-                            <Entry x:Name="PasswordEntry" Placeholder="Contraseña" IsPassword="True" PlaceholderColor="#5A67D8"/>
+                            <Entry x:Name="PasswordEntry" Placeholder="Contraseña" IsPassword="True" PlaceholderColor="#5A67D8" TextColor="Black"/>
                         </HorizontalStackLayout>
                     </Frame>
 
                     <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True">
                         <HorizontalStackLayout Spacing="10">
                             <Image Source="user.svg" WidthRequest="20" HeightRequest="20"/>
-                            <Picker x:Name="RolPicker" FontSize="Micro" Title="Elije un rol" TextColor="#5A67D8" BackgroundColor="White">
+                            <Picker x:Name="RolPicker" FontSize="Micro" Title="Elije un rol" TextColor="Black" BackgroundColor="#5A67D8">
                                 <Picker.Items>
                                     <x:String>Admin</x:String>
                                     <x:String>Estudiante</x:String>

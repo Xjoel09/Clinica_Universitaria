@@ -24,6 +24,7 @@ namespace MedicalUTP
             builder.Services.AddTransient<Login>();
             builder.Services.AddTransient<LoginViewModel>();
             builder.Services.AddTransient<Register>();
+            builder.Services.AddTransient<CRUDAdmin>();
 
             var dbContext = new MedicalUTPDbContext();
             dbContext.Database.EnsureCreated();
