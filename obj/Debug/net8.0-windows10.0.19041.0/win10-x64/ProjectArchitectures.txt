@@ -1,1 +1,1 @@
-C:\Users\cesar\source\repos\Clinica_Universitaria\MedicalUTP.csproj;x64
+C:\Users\joset\Source\Repos\Clinica_Universitaria\MedicalUTP.csproj;x64

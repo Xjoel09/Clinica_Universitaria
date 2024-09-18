@@ -1,9 +1,9 @@
 ﻿using System.Collections.ObjectModel;
-using System.Windows.Input;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using MedicalUTP.DataAcess;
 using MedicalUTP.Models;
+using MedicalUTP.Pages;
 using Microsoft.EntityFrameworkCore;
 
 namespace MedicalUTP.ViewsModel
@@ -29,14 +29,14 @@ namespace MedicalUTP.ViewsModel
         [RelayCommand]
         private async Task LoadUsers()
         {
-            var userList = await _context.User.ToListAsync();
+            var userList = await _context.User.Where(u => u.Role != "Admin").ToListAsync();
             Users = new ObservableCollection<User>(userList);
         }
 
         [RelayCommand]
         private async Task DeleteUser(User user)
         {
-            if (user != null)
+            if (user != null && user.Role != "Admin")
             {
                 _context.User.Remove(user);
                 await _context.SaveChangesAsync();
@@ -47,7 +47,7 @@ namespace MedicalUTP.ViewsModel
         [RelayCommand]
         private async Task UpdateUser(User user)
         {
-            if (user != null)
+            if (user != null && user.Role != "Admin")
             {
                 SelectedUser = new User
                 {
@@ -67,7 +67,7 @@ namespace MedicalUTP.ViewsModel
         [RelayCommand]
         private async Task SaveUserChanges()
         {
-            if (SelectedUser != null)
+            if (SelectedUser != null && SelectedUser.Role != "Admin")
             {
                 var userToUpdate = Users.FirstOrDefault(u => u.IdUser == SelectedUser.IdUser);
                 if (userToUpdate != null)
@@ -93,6 +93,13 @@ namespace MedicalUTP.ViewsModel
         private void CancelEdit()
         {
             IsEditPopupVisible = false;
+        }
+
+        [RelayCommand]
+        private async Task LogOut()
+        {
+            Preferences.Remove("logueado");
+            Application.Current.MainPage = new NavigationPage(new Login(_context, new LoginViewModel(_context)));
         }
     }
 }

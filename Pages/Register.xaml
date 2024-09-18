@@ -81,10 +81,10 @@
                             <Image Source="user.svg" WidthRequest="20" HeightRequest="20"/>
                             <Picker x:Name="RolPicker" FontSize="Micro" Title="Elije un rol" TextColor="Black" BackgroundColor="#5A67D8">
                                 <Picker.Items>
-                                    <x:String>Admin</x:String>
+                                    <!--<x:String>Admin</x:String>-->
                                     <x:String>Estudiante</x:String>
                                     <x:String>Docente</x:String>
-                                    <x:String>Empleado</x:String>
+                                    <x:String>Administrativo</x:String>
                                 </Picker.Items>
                             </Picker>
                         </HorizontalStackLayout>

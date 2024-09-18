@@ -8,95 +8,95 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MedicalUTP
-build_property.ProjectDir = C:\Users\Robin_J\source\repos\MedicalUTP\
+build_property.ProjectDir = C:\Users\joset\Source\Repos\Clinica_Universitaria\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[C:/Users/Robin_J/source/repos/MedicalUTP/App.xaml]
+[C:/Users/joset/Source/Repos/Clinica_Universitaria/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Robin_J/source/repos/MedicalUTP/AppShell.xaml]
+[C:/Users/joset/Source/Repos/Clinica_Universitaria/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Robin_J/source/repos/MedicalUTP/MainPage.xaml]
+[C:/Users/joset/Source/Repos/Clinica_Universitaria/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/Robin_J/source/repos/MedicalUTP/Pages/Consultas.xaml]
+[C:/Users/joset/Source/Repos/Clinica_Universitaria/Pages/Consultas.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.Consultas.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Consultas.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Consultas.xaml
 
-[C:/Users/Robin_J/source/repos/MedicalUTP/Pages/Contactos.xaml]
+[C:/Users/joset/Source/Repos/Clinica_Universitaria/Pages/Contactos.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.Contactos.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Contactos.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Contactos.xaml
 
-[C:/Users/Robin_J/source/repos/MedicalUTP/Pages/CRUDAdmin.xaml]
+[C:/Users/joset/Source/Repos/Clinica_Universitaria/Pages/CRUDAdmin.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.CRUDAdmin.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\CRUDAdmin.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\CRUDAdmin.xaml
 
-[C:/Users/Robin_J/source/repos/MedicalUTP/Pages/FlyoutMenu.xaml]
+[C:/Users/joset/Source/Repos/Clinica_Universitaria/Pages/FlyoutMenu.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.FlyoutMenu.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\FlyoutMenu.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\FlyoutMenu.xaml
 
-[C:/Users/Robin_J/source/repos/MedicalUTP/Pages/FlyoutPagesMenu.xaml]
+[C:/Users/joset/Source/Repos/Clinica_Universitaria/Pages/FlyoutPagesMenu.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.FlyoutPagesMenu.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\FlyoutPagesMenu.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\FlyoutPagesMenu.xaml
 
-[C:/Users/Robin_J/source/repos/MedicalUTP/Pages/Home.xaml]
+[C:/Users/joset/Source/Repos/Clinica_Universitaria/Pages/Home.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.Home.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Home.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Home.xaml
 
-[C:/Users/Robin_J/source/repos/MedicalUTP/Pages/Login.xaml]
+[C:/Users/joset/Source/Repos/Clinica_Universitaria/Pages/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.Login.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Login.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Login.xaml
 
-[C:/Users/Robin_J/source/repos/MedicalUTP/Pages/Register.xaml]
+[C:/Users/joset/Source/Repos/Clinica_Universitaria/Pages/Register.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.Register.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Register.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Register.xaml
 
-[C:/Users/Robin_J/source/repos/MedicalUTP/Pages/Servicios.xaml]
+[C:/Users/joset/Source/Repos/Clinica_Universitaria/Pages/Servicios.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.Servicios.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Servicios.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Servicios.xaml
 
-[C:/Users/Robin_J/source/repos/MedicalUTP/Pages/Solicitud.xaml]
+[C:/Users/joset/Source/Repos/Clinica_Universitaria/Pages/Solicitud.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.Solicitud.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Solicitud.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Solicitud.xaml
 
-[C:/Users/Robin_J/source/repos/MedicalUTP/Resources/Styles/Colors.xaml]
+[C:/Users/joset/Source/Repos/Clinica_Universitaria/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Robin_J/source/repos/MedicalUTP/Resources/Styles/Styles.xaml]
+[C:/Users/joset/Source/Repos/Clinica_Universitaria/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

@@ -23,6 +23,53 @@
         <member name="P:MedicalUTP.ViewModel.ConsultaViewModel.SubmitCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MedicalUTP.ViewModel.ConsultaViewModel.OnSubmit"/>.</summary>
         </member>
+        <member name="T:MedicalUTP.ViewsModel.CRUDAdminViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MedicalUTP.ViewsModel.CRUDAdminViewModel.Users">
+            <inheritdoc cref="F:MedicalUTP.ViewsModel.CRUDAdminViewModel._users"/>
+        </member>
+        <member name="P:MedicalUTP.ViewsModel.CRUDAdminViewModel.SelectedUser">
+            <inheritdoc cref="F:MedicalUTP.ViewsModel.CRUDAdminViewModel._selectedUser"/>
+        </member>
+        <member name="P:MedicalUTP.ViewsModel.CRUDAdminViewModel.IsEditPopupVisible">
+            <inheritdoc cref="F:MedicalUTP.ViewsModel.CRUDAdminViewModel._isEditPopupVisible"/>
+        </member>
+        <member name="F:MedicalUTP.ViewsModel.CRUDAdminViewModel.loadUsersCommand">
+            <summary>The backing field for <see cref="P:MedicalUTP.ViewsModel.CRUDAdminViewModel.LoadUsersCommand"/>.</summary>
+        </member>
+        <member name="P:MedicalUTP.ViewsModel.CRUDAdminViewModel.LoadUsersCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MedicalUTP.ViewsModel.CRUDAdminViewModel.LoadUsers"/>.</summary>
+        </member>
+        <member name="F:MedicalUTP.ViewsModel.CRUDAdminViewModel.deleteUserCommand">
+            <summary>The backing field for <see cref="P:MedicalUTP.ViewsModel.CRUDAdminViewModel.DeleteUserCommand"/>.</summary>
+        </member>
+        <member name="P:MedicalUTP.ViewsModel.CRUDAdminViewModel.DeleteUserCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MedicalUTP.ViewsModel.CRUDAdminViewModel.DeleteUser(MedicalUTP.Models.User)"/>.</summary>
+        </member>
+        <member name="F:MedicalUTP.ViewsModel.CRUDAdminViewModel.updateUserCommand">
+            <summary>The backing field for <see cref="P:MedicalUTP.ViewsModel.CRUDAdminViewModel.UpdateUserCommand"/>.</summary>
+        </member>
+        <member name="P:MedicalUTP.ViewsModel.CRUDAdminViewModel.UpdateUserCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MedicalUTP.ViewsModel.CRUDAdminViewModel.UpdateUser(MedicalUTP.Models.User)"/>.</summary>
+        </member>
+        <member name="F:MedicalUTP.ViewsModel.CRUDAdminViewModel.saveUserChangesCommand">
+            <summary>The backing field for <see cref="P:MedicalUTP.ViewsModel.CRUDAdminViewModel.SaveUserChangesCommand"/>.</summary>
+        </member>
+        <member name="P:MedicalUTP.ViewsModel.CRUDAdminViewModel.SaveUserChangesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MedicalUTP.ViewsModel.CRUDAdminViewModel.SaveUserChanges"/>.</summary>
+        </member>
+        <member name="F:MedicalUTP.ViewsModel.CRUDAdminViewModel.cancelEditCommand">
+            <summary>The backing field for <see cref="P:MedicalUTP.ViewsModel.CRUDAdminViewModel.CancelEditCommand"/>.</summary>
+        </member>
+        <member name="P:MedicalUTP.ViewsModel.CRUDAdminViewModel.CancelEditCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:MedicalUTP.ViewsModel.CRUDAdminViewModel.CancelEdit"/>.</summary>
+        </member>
         <member name="T:MedicalUTP.ViewsModel.LoginViewModel">
             <inheritdoc/>
             <inheritdoc/>
@@ -60,6 +107,15 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.HoraSeleccionada">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "HoraSeleccionada" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Users">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Users" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedUser">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedUser" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsEditPopupVisible">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsEditPopupVisible" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Usuario">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Usuario" generated properties.</summary>
         </member>
@@ -86,6 +142,15 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.HoraSeleccionada">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "HoraSeleccionada" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Users">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Users" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedUser">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedUser" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsEditPopupVisible">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsEditPopupVisible" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Usuario">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Usuario" generated properties.</summary>

@@ -8,7 +8,7 @@
              BackgroundColor="White"
              Title="CRUDAdmin">
 
-    <Grid RowDefinitions="Auto,*" Padding="10">
+    <!--<Grid RowDefinitions="Auto,*" Padding="10">
         <Label Text="Administración de Usuarios" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" TextColor="Navy" />
 
         <RefreshView Grid.Row="1" Command="{Binding LoadUsersCommand}">
@@ -52,6 +52,103 @@
             </CollectionView>
         </RefreshView>
 
+
+        <Grid IsVisible="{Binding IsEditPopupVisible}"
+              BackgroundColor="#80000000"
+              Grid.RowSpan="2">
+            <Frame BackgroundColor="#5A67D8"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   Padding="20"
+                   CornerRadius="10">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Editar Usuario" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"/>
+                    <Entry Text="{Binding SelectedUser.Nombre}" Placeholder="Nombre"/>
+                    <Entry Text="{Binding SelectedUser.Telefono}" Placeholder="Teléfono"/>
+                    <Entry Text="{Binding SelectedUser.Cedula}" Placeholder="Cédula"/>
+                    <Entry Text="{Binding SelectedUser.Correo}" Placeholder="Correo"/>
+                    <Picker SelectedItem="{Binding SelectedUser.Role}" Title="Rol">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Admin</x:String>
+                                <x:String>Estudiante</x:String>
+                                <x:String>Docente</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20">
+                        <Button Text="Guardar" Command="{Binding SaveUserChangesCommand}"/>
+                        <Button Text="Cancelar" Command="{Binding CancelEditCommand}"/>
+                    </StackLayout>
+                </VerticalStackLayout>
+            </Frame>
+        </Grid>
+
+    </Grid>-->
+    <Grid RowDefinitions="Auto,*" Padding="10">
+        <Grid ColumnDefinitions="Auto,*">
+            <Button Grid.Column="0"
+                    Text="Salir" 
+                    Command="{Binding LogOutCommand}"
+                    BackgroundColor="#5A67D8" 
+                    TextColor="White"
+                    CornerRadius="15"
+                    FontSize="12"
+                    WidthRequest="60"
+                    HeightRequest="30"
+                    Margin="0,0,10,0"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Start"/>
+
+            <Label Grid.Column="1"
+                   Text="Administración de Usuarios" 
+                   FontSize="24" 
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center"
+                   TextColor="Navy" />
+        </Grid>
+
+        <RefreshView Grid.Row="1" Command="{Binding LoadUsersCommand}">
+            <CollectionView ItemsSource="{Binding Users}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="local:User">
+                        <Frame Margin="0,5" Padding="10" BorderColor="LightGray" CornerRadius="5">
+                            <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="Auto,*">
+                                <Label Grid.Row="0" Grid.Column="0" Text="Usuario:" FontAttributes="Bold" />
+                                <Label Grid.Row="0" Grid.Column="1" Text="{Binding Nombre}" />
+
+                                <Label Grid.Row="1" Grid.Column="0" Text="Cédula:" FontAttributes="Bold" />
+                                <Label Grid.Row="1" Grid.Column="1" Text="{Binding Cedula}" />
+
+                                <Label Grid.Row="2" Grid.Column="0" Text="Teléfono:" FontAttributes="Bold" />
+                                <Label Grid.Row="2" Grid.Column="1" Text="{Binding Telefono}" />
+
+                                <Label Grid.Row="3" Grid.Column="0" Text="Correo:" FontAttributes="Bold" />
+                                <Label Grid.Row="3" Grid.Column="1" Text="{Binding Correo}" />
+
+                                <Label Grid.Row="4" Grid.Column="0" Text="Rol:" FontAttributes="Bold" />
+                                <Label Grid.Row="4" Grid.Column="1" Text="{Binding Role}" />
+
+                                <StackLayout Grid.Row="5" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalOptions="Center" Spacing="10" Margin="0,10,0,0">
+                                    <Button Text="Actualizar" 
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:CRUDAdminViewModel}}, Path=UpdateUserCommand}" 
+                                            CommandParameter="{Binding .}" 
+                                            BackgroundColor="DodgerBlue"
+                                            TextColor="White" />
+
+                                    <Button Text="Eliminar" 
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:CRUDAdminViewModel}}, Path=DeleteUserCommand}" 
+                                            CommandParameter="{Binding .}" 
+                                            BackgroundColor="Red" 
+                                            TextColor="White" />
+                                </StackLayout>
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </RefreshView>
 
         <Grid IsVisible="{Binding IsEditPopupVisible}"
               BackgroundColor="#80000000"

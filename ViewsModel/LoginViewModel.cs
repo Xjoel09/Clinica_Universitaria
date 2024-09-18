@@ -1,13 +1,8 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.Maui.Controls;
 using MedicalUTP.DataAcess;
 using MedicalUTP.Pages;
+using MedicalUTP.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace MedicalUTP.ViewsModel
@@ -30,10 +25,31 @@ namespace MedicalUTP.ViewsModel
         public LoginViewModel(MedicalUTPDbContext context)
         {
             _context = context;
+            EnsureAdminAccountExists();
         }
         public LoginViewModel()
         {
 
+        }
+
+        private async Task EnsureAdminAccountExists()
+        {
+            var adminExists = await _context.User.AnyAsync(u => u.Role == "Admin");
+            if (!adminExists)
+            {
+                var adminUser = new User
+                {
+                    Nombre = "Admin",
+                    Telefono = "1234567890",
+                    Cedula = "admin123",
+                    Correo = "admin@example.com",
+                    Password = "adminPassword123", 
+                    Role = "Admin"
+                };
+
+                _context.User.Add(adminUser);
+                await _context.SaveChangesAsync();
+            }
         }
 
         [RelayCommand]
