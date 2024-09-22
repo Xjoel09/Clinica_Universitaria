@@ -16,19 +16,23 @@
             <x:Array Type="{x:Type local:FlyoutItems}">
                 <local:FlyoutItems Title="Inicio"
                                    IconSource="inicio.svg"
-                                   TargetType="{x:Type local:Home}"/>
+                                    /> <!--TargetType="{x:Type local:Home}"-->
                 <local:FlyoutItems Title="Servicios"
                    IconSource="solicitudes.svg"
-                   TargetType="{x:Type local:Servicios}"/>
+                   /> <!--TargetType="{x:Type local:Servicios}"-->
                 <local:FlyoutItems Title="Solicitudes"
                    IconSource="servicios.svg"
-                   TargetType="{x:Type local:Solicitud}"/>
+                   /><!--TargetType="{x:Type local:Solicitud}"-->
+                <local:FlyoutItems Title="Historial"
+                        IconSource="servicios.svg"
+                        /><!--TargetType="{x:Type local:HistorialCitas}"-->
                 <local:FlyoutItems Title="Consultas"
                    IconSource="consulta.svg"
-                   TargetType="{x:Type local:Consultas}"/>
+                   /><!--TargetType="{x:Type local:Consultas}"-->
+
                 <local:FlyoutItems Title="Contacto"
                    IconSource="contacto.svg"
-                   TargetType="{x:Type local:Contactos}"/>
+                   /><!--TargetType="{x:Type local:Contactos}"-->
                 <local:FlyoutItems Title="Cerrar Sesión"
                                    IconSource="logout1.svg"/>
             </x:Array>

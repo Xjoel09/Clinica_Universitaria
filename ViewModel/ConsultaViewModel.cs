@@ -1,38 +1,191 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using Microsoft.Maui.Controls;
+using MedicalUTP.Models;
+using MedicalUTP.DataAcess;
+using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
 
 namespace MedicalUTP.ViewModel
 {
     public partial class ConsultaViewModel : ObservableObject
     {
+        private readonly MedicalUTPDbContext _context;
         [ObservableProperty]
         private string tipoConsulta;
-
         [ObservableProperty]
-        private string diaSeleccionado;
-
+        private DateTime fechaSeleccionada = DateTime.Now;
         [ObservableProperty]
-        private string horaSeleccionada;
-
-        public List<string> TiposConsultas { get; set; } = new List<string> { "Consultas y evaluaciones médicas con previa cita", "Consultas y evaluaciones de urgencias", "Referencias a especialidades médicas", "Certificado de buena salud", "Solicitudes de estudios de gabinete", "Administración gratuita de medicamentos básicos", "Curaciones y corte de puntos", "Control de peso y talla", "Control de presión arterial", "Inhaloterapias", "Aplicación de medicamentos inyectables", "Toma de glicemia capilar"};
-        public List<string> DiasDisponibles { get; set; } = new List<string> { "Lunes", "Martes", "Miércoles", "Jueves", "Viernes" };
-        public List<string> HorasDisponibles { get; set; } = new List<string> { "10:00 AM", "11:00 AM", "12:00 PM", "4:00 PM" };
-
-        public ConsultaViewModel()
+        private TimeSpan horaSeleccionada;
+        [ObservableProperty]
+        private string motivoConsulta;
+        [ObservableProperty]
+        private string medicoAsignado;
+        public List<string> TiposConsultas { get; } = new List<string>
         {
+            "Consultas y evaluaciones médicas con previa cita",
+            "Consultas y evaluaciones de urgencias",
+            "Referencias a especialidades médicas",
+            "Certificado de buena salud",
+            "Solicitudes de estudios de gabinete",
+            "Administración gratuita de medicamentos básicos",
+            "Curaciones y corte de puntos",
+            "Control de peso y talla",
+            "Control de presión arterial",
+            "Inhaloterapias",
+            "Aplicación de medicamentos inyectables",
+            "Toma de glicemia capilar"
+        };
+
+        public List<string> MedicosAsignados { get; } = new List<string>
+        {
+            "Dr Juanes Aguilar",
+            "Dr Acuña Chapulini",
+            "Dr Vellonicimo Cordoba"
+        };
+        public List<TimeSpan> HorasDisponibles { get; } = new List<TimeSpan>
+        {
+            new TimeSpan(10, 0, 0),
+            new TimeSpan(11, 0, 0),
+            new TimeSpan(12, 0, 0),
+            new TimeSpan(16, 0, 0)
+        };
+        public ConsultaViewModel(MedicalUTPDbContext context)
+        {
+            _context = context;
         }
-
         [RelayCommand]
-        private async Task OnSubmit()
+        private async Task AgendarCita()
         {
-            var mainPage = Application.Current?.MainPage ?? throw new InvalidOperationException("No se pudo acceder a MainPage.");
-            await mainPage.DisplayAlert("Solicitud Enviada",
-                $"Consulta: {TipoConsulta}, Día: {DiaSeleccionado}, Hora: {HoraSeleccionada}",
-                "OK");
+            if (string.IsNullOrWhiteSpace(TipoConsulta) || string.IsNullOrWhiteSpace(MotivoConsulta))
+            {
+                await Application.Current.MainPage.DisplayAlert("Error", "Por favor, complete todos los campos", "OK");
+                return;
+            }
+            try
+            {
+
+                var nuevaCita = new Cita
+                {
+                    TipoConsulta = TipoConsulta,
+                    FechaHora = FechaSeleccionada.Date + HoraSeleccionada,
+                    MotivoConsulta = MotivoConsulta,
+                    MedicoAsignado = MedicoAsignado
+                };
+
+                _context.Citas.Add(nuevaCita);
+                await _context.SaveChangesAsync();
+
+                await Application.Current.MainPage.DisplayAlert("Cita Agendada",
+                    $"Su cita ha sido agendada para el {nuevaCita.FechaHora:dd/MM/yyyy} a las {nuevaCita.FechaHora:HH:mm}",
+                    "OK");
+
+                
+                TipoConsulta = string.Empty;
+                FechaSeleccionada = DateTime.Now;
+                HoraSeleccionada = TimeSpan.Zero;
+                MedicoAsignado = string.Empty;
+                MotivoConsulta = string.Empty;
+            }
+            catch (DbUpdateException dbEx)
+            {
+                var innerException = dbEx.InnerException?.Message ?? "No hay detalles adicionales.";
+                Debug.WriteLine($"Error de actualización en la base de datos: {innerException}");
+                await Application.Current.MainPage.DisplayAlert("Error", $"No se pudo agendar la cita. Por favor, inténtelo de nuevo.{innerException}", "OK");
+            }
         }
     }
 }
 
+//using CommunityToolkit.Mvvm.ComponentModel;
+//using CommunityToolkit.Mvvm.Input;
+//using System;
+//using System.Collections.Generic;
+//using System.Threading.Tasks;
+//using Microsoft.Maui.Controls;
+//using MedicalUTP.Models;
+//using System.Collections.ObjectModel;
+//using MedicalUTP.DataAcess;
+
+//namespace MedicalUTP.ViewModel
+//{
+//    public partial class ConsultaViewModel : ObservableObject
+//    {
+//        private readonly MedicalUTPDbContext _context;
+
+//        [ObservableProperty]
+//        private string tipoConsulta;
+//        [ObservableProperty]
+//        private DateTime fechaSeleccionada = DateTime.Now;
+//        [ObservableProperty]
+//        private TimeSpan horaSeleccionada;
+//        [ObservableProperty]
+//        private string motivoConsulta;
+
+//        public List<string> TiposConsultas { get; } = new List<string>
+//        {
+//            "Consultas y evaluaciones médicas con previa cita",
+//            "Consultas y evaluaciones de urgencias",
+//            "Referencias a especialidades médicas",
+//            "Certificado de buena salud",
+//            "Solicitudes de estudios de gabinete",
+//            "Administración gratuita de medicamentos básicos",
+//            "Curaciones y corte de puntos",
+//            "Control de peso y talla",
+//            "Control de presión arterial",
+//            "Inhaloterapias",
+//            "Aplicación de medicamentos inyectables",
+//            "Toma de glicemia capilar"
+//        };
+
+//        public List<TimeSpan> HorasDisponibles { get; } = new List<TimeSpan>
+//        {
+//            new TimeSpan(10, 0, 0),
+//            new TimeSpan(11, 0, 0),
+//            new TimeSpan(12, 0, 0),
+//            new TimeSpan(16, 0, 0)
+//        };
+
+//        public ConsultaViewModel(MedicalUTPDbContext context)
+//        {
+//            _context = context;
+//        }
+
+//        [RelayCommand]
+//        private async Task AgendarCita()
+//        {
+//            if (string.IsNullOrWhiteSpace(TipoConsulta) || string.IsNullOrWhiteSpace(MotivoConsulta))
+//            {
+//                await Application.Current.MainPage.DisplayAlert("Error", "Por favor, complete todos los campos", "OK");
+//                return;
+//            }
+
+//            try
+//            {
+//                var nuevaCita = new Cita
+//                {
+//                    TipoConsulta = TipoConsulta,
+//                    FechaHora = FechaSeleccionada.Date + HoraSeleccionada,
+//                    MotivoConsulta = MotivoConsulta,
+//                    MedicoAsignado = "Dr. Ejemplo" // En un sistema real, esto se asignaría dinámicamente
+//                };
+
+//                _context.Citas.Add(nuevaCita);
+//                await _context.SaveChangesAsync();
+
+//                await Application.Current.MainPage.DisplayAlert("Cita Agendada",
+//                    $"Su cita ha sido agendada para el {nuevaCita.FechaHora:dd/MM/yyyy} a las {nuevaCita.FechaHora:HH:mm}",
+//                    "OK");
+
+//                // Limpiar los campos después de agendar
+//                TipoConsulta = string.Empty;
+//                FechaSeleccionada = DateTime.Now;
+//                HoraSeleccionada = TimeSpan.Zero;
+//                MotivoConsulta = string.Empty;
+//            }
+//            catch (Exception ex)
+//            {
+//                await Application.Current.MainPage.DisplayAlert("Error", $"No se pudo agendar la cita: {ex.Message}", "OK");
+//            }
+//        }
+//    }
+//}

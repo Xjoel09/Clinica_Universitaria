@@ -1,5 +1,6 @@
 ﻿using MedicalUTP.DataAcess;
 using MedicalUTP.Pages;
+using MedicalUTP.ViewModel;
 using MedicalUTP.ViewsModel;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -29,7 +30,26 @@ namespace MedicalUTP
         {
             // Registrar base de datos y el ViewModel como servicios
             services.AddSingleton<MedicalUTPDbContext>();
-            services.AddTransient<LoginViewModel>(); 
+            services.AddTransient<LoginViewModel>();
+            services.AddTransient<ConsultaViewModel>();
+            services.AddTransient<HistorialCitasViewModel>();
+            services.AddTransient<HistorialCitas>();
+            services.AddTransient<Solicitud>();
+            services.AddTransient<Servicios>();
+            services.AddTransient<Consultas>(); 
+
+        }
+
+        // Método para cambiar a FlyoutMenu después del login
+        public static void GoToMainPage()
+        {
+            var context = Services.GetRequiredService<MedicalUTPDbContext>();
+            MainThread.BeginInvokeOnMainThread(() =>
+            {
+                 var MainPage = Application.Current?.MainPage ?? throw new InvalidOperationException("No se pudo acceder a MainPage.");
+                 MainPage.DisplayAlert("Mensaje", "Bienvenido Estudiante", "Aceptar");
+                 Application.Current.MainPage = new FlyoutMenu(context, Services);
+            });
         }
     }
 }

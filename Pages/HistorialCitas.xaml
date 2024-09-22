@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MedicalUTP.Pages.HistorialCitas"
+             Title="HistorialCitas">
+    <StackLayout>
+        <Button Text="Actualizar Historial" 
+                Command="{Binding ActualizarHistorialCommand}"/>
+        <Label Text="Citas Futuras" FontAttributes="Bold" Margin="0,20,0,0"/>
+        <CollectionView ItemsSource="{Binding CitasFuturas}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Margin="10" Padding="10">
+                        <StackLayout>
+                            <Label Text="{Binding TipoConsulta}" FontAttributes="Bold"/>
+                            <Label Text="{Binding FechaHora, StringFormat='Fecha: {0:dd/MM/yyyy HH:mm}'}"/>
+                            <Label Text="{Binding MedicoAsignado, StringFormat='Médico: {0}'}"/>
+                            <Label Text="{Binding MotivoConsulta, StringFormat='Motivo: {0}'}"/>
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Label Text="Citas Pasadas" FontAttributes="Bold" Margin="0,20,0,0"/>
+        <CollectionView ItemsSource="{Binding CitasPasadas}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Margin="10" Padding="10">
+                        <StackLayout>
+                            <Label Text="{Binding TipoConsulta}" FontAttributes="Bold"/>
+                            <Label Text="{Binding FechaHora, StringFormat='Fecha: {0:dd/MM/yyyy HH:mm}'}"/>
+                            <Label Text="{Binding MedicoAsignado, StringFormat='Médico: {0}'}"/>
+                            <Label Text="{Binding MotivoConsulta, StringFormat='Motivo: {0}'}"/>
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

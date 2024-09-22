@@ -10,6 +10,7 @@ namespace MedicalUTP.ViewsModel
     public partial class LoginViewModel : ObservableObject
     {
         private readonly MedicalUTPDbContext _context;
+        private readonly IServiceProvider _serviceProvider;
 
         [ObservableProperty]
         public string usuario = string.Empty;
@@ -60,8 +61,8 @@ namespace MedicalUTP.ViewsModel
             if (user != null)
             {
                 Preferences.Set("logueado", "si");
-
-
+                // Después de la autenticación exitosa
+                
                 if (user.Role == "Admin")
                 {
                     // isAdmin = true;
@@ -78,15 +79,17 @@ namespace MedicalUTP.ViewsModel
                     //isAdmin = false;
                     //isStudent = true;
 
-                    var MainPage = Application.Current?.MainPage ?? throw new InvalidOperationException("No se pudo acceder a MainPage.");
-                    await MainPage.DisplayAlert("Mensaje", "Bienvenido Estudiante", "Aceptar");
-                    Application.Current.MainPage = new FlyoutMenu(_context);
+                    //var MainPage = Application.Current?.MainPage ?? throw new InvalidOperationException("No se pudo acceder a MainPage.");
+                    //await MainPage.DisplayAlert("Mensaje", "Bienvenido Estudiante", "Aceptar");
+                    //Application.Current.MainPage = new FlyoutMenu(_context, _serviceProvider);
+                    App.GoToMainPage();
                 }
                 else if (user.Role == "Docente")
                 {
-                    var MainPage = Application.Current?.MainPage ?? throw new InvalidOperationException("No se pudo acceder a MainPage.");
-                    await MainPage.DisplayAlert("Mensaje", "Bienvenido Docente", "Aceptar");
-                    Application.Current.MainPage = new FlyoutMenu(_context);
+                    //var MainPage = Application.Current?.MainPage ?? throw new InvalidOperationException("No se pudo acceder a MainPage.");
+                    //await MainPage.DisplayAlert("Mensaje", "Bienvenido Docente", "Aceptar");
+                    //Application.Current.MainPage = new FlyoutMenu(_context, _serviceProvider);
+                    App.GoToMainPage();
                 }
             }
             else

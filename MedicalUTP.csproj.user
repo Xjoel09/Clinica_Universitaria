@@ -23,6 +23,9 @@
     <MauiXaml Update="Pages\FlyoutPagesMenu.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Pages\HistorialCitas.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Pages\Home.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
