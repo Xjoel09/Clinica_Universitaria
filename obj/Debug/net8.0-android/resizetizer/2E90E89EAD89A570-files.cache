@@ -2,6 +2,7 @@
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\adn.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\aguja.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\blood.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\casa.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\cita.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\consulta.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\contacto.png
@@ -13,6 +14,8 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\doctors.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\email.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\est.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\flecha1.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\historial.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\home.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\id.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\inicio.png
@@ -22,6 +25,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\logout1.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\mask.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\medic.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\menu_lines.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\off.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\pasw.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\peso.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\pill.png
@@ -34,10 +38,12 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\search.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\servicios.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\solicitudes.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\tel.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\tell.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-hdpi\user.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\adn.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\aguja.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\blood.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\casa.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\cita.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\consulta.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\contacto.png
@@ -49,6 +55,8 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\doctors.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\email.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\est.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\flecha1.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\historial.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\home.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\id.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\inicio.png
@@ -58,6 +66,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\logout1.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\mask.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\medic.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\menu_lines.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\off.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\pasw.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\peso.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\pill.png
@@ -70,10 +79,12 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\search.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\servicios.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\solicitudes.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\tel.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\tell.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-mdpi\user.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\adn.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\aguja.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\blood.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\casa.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\cita.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\consulta.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\contacto.png
@@ -85,6 +96,8 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\doctors.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\dotnet_bot.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\email.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\est.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\flecha1.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\historial.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\home.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\id.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\inicio.png
@@ -94,6 +107,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\logout1.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\mask.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\medic.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\menu_lines.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\off.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\pasw.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\peso.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\pill.png
@@ -106,10 +120,12 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\search.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\servicios.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\solicitudes.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\tel.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\tell.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xhdpi\user.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\adn.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\aguja.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\blood.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\casa.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\cita.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\consulta.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\contacto.png
@@ -121,6 +137,8 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\doctors.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\dotnet_bot.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\email.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\est.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\flecha1.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\historial.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\home.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\id.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\inicio.png
@@ -130,6 +148,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\logout1.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\mask.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\medic.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\menu_lines.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\off.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\pasw.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\peso.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\pill.png
@@ -142,10 +161,12 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\search.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\servicios.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\solicitudes.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\tel.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\tell.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxhdpi\user.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\adn.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\aguja.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\blood.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\casa.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\cita.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\consulta.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\contacto.png
@@ -157,6 +178,8 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\doctors.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\email.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\est.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\flecha1.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\historial.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\home.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\id.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\inicio.png
@@ -166,6 +189,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\logout1.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\mask.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\medic.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\menu_lines.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\off.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\pasw.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\peso.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\pill.png
@@ -178,6 +202,7 @@ obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\search.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\servicios.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\solicitudes.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\tel.png
+obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\tell.png
 obj\Debug\net8.0-android\resizetizer\r\drawable-xxxhdpi\user.png
 obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml

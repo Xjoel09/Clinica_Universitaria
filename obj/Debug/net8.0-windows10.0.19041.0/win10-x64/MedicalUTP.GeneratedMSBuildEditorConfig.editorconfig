@@ -60,6 +60,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.FlyoutPag
 build_metadata.AdditionalFiles.TargetPath = Pages\FlyoutPagesMenu.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\FlyoutPagesMenu.xaml
 
+[C:/Users/joset/Source/Repos/Clinica_Universitaria/Pages/Historial.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.Historial.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Historial.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Historial.xaml
+
 [C:/Users/joset/Source/Repos/Clinica_Universitaria/Pages/HistorialCitas.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.HistorialCitas.xaml
