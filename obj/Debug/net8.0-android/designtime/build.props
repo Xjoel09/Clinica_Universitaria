@@ -24,11 +24,7 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-<<<<<<< HEAD
 _nugetassetstimestamp=638626944424119611
-=======
-_nugetassetstimestamp=638625597149881629
->>>>>>> 215a60945fa300ef4b0f85e24f48606ade0b4efd
 typemapkind=strings-asm
 androidmanifestplaceholders=
 projectfullpath=c:\users\robin_j\source\repos\medicalutp\medicalutp.csproj

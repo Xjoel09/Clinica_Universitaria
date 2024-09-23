@@ -25,7 +25,6 @@
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.medicalutp</ApplicationId>
-
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
 		<ApplicationVersion>1</ApplicationVersion>
@@ -41,7 +40,7 @@
 	<ItemGroup>
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\icon.svg" size="100" />
-
+.
 		<!-- Splash Screen -->
 		<MauiSplashScreen Include="Resources\Splash\splash1.svg" />
 
