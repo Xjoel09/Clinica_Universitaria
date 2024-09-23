@@ -40,7 +40,7 @@ namespace MedicalUTP
 
         }
 
-        // Método para cambiar a FlyoutMenu después del login
+        // Método para cambiar a FlyoutMenu después del login, optimiza el codigo de el LoginViewModel
         public static void GoToMainPage()
         {
             var context = Services.GetRequiredService<MedicalUTPDbContext>();
