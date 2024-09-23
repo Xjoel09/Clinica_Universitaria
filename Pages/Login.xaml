@@ -9,7 +9,7 @@
     <AbsoluteLayout>
 
         <Polygon Points="0,0 300,0 0,300"
-                 Fill="#5A67D8"
+                 Fill="{StaticResource PrimaryApp}"
                  HorizontalOptions="Start"
                  VerticalOptions="Start"
                  AbsoluteLayout.LayoutBounds="0,0,300,300"
@@ -29,19 +29,19 @@
                    FontSize="24" 
                    HorizontalOptions="Center" 
                    VerticalOptions="Start"
-                   TextColor="#5A67D8"
+                   TextColor="{StaticResource PrimaryApp}"
                    FontAttributes="Bold"
                    Margin="0,20,0,60"/>
 
-            <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True"
+            <Frame CornerRadius="20" Padding="10" BorderColor="{StaticResource PrimaryApp}" BackgroundColor="White" HasShadow="True"
                    WidthRequest="350" HorizontalOptions="FillAndExpand" Margin="0,0,0,10">
                 <HorizontalStackLayout Spacing="10">
                     <Image Source="user.svg" WidthRequest="40" HeightRequest="40"/>
                     <Entry Placeholder="Usuario" 
                            Text="{Binding Usuario}" 
                            BackgroundColor="White"
-                           TextColor="#5A67D8"
-                           PlaceholderColor="#5A67D8"
+                           TextColor="{StaticResource PrimaryApp}"
+                           PlaceholderColor="{StaticResource PrimaryApp}"
                            Margin="0,0,0,10"/>
                 </HorizontalStackLayout>
             </Frame>
@@ -54,15 +54,15 @@
                            IsPassword="True" 
                            Text="{Binding Password}" 
                            BackgroundColor="White"
-                           TextColor="#5A67D8"
-                           PlaceholderColor="#5A67D8"
+                           TextColor="{StaticResource PrimaryApp}"
+                           PlaceholderColor="{StaticResource PrimaryApp}"
                            Margin="0,0,0,10"/>
                 </HorizontalStackLayout>
             </Frame>
 
             <Button Text="Iniciar sesión" 
                     Command="{Binding LoginCommand}"
-                    BackgroundColor="#5A67D8" 
+                    BackgroundColor="{StaticResource PrimaryApp}" 
                     TextColor="White"
                     CornerRadius="25"
                     HeightRequest="50"/>
@@ -70,7 +70,7 @@
             <Button Text="¿No tienes Cuenta? Click Aquí" 
                     Clicked="IrASingUn"
                     BackgroundColor="Transparent" 
-                    TextColor="#5A67D8"
+                    TextColor="{StaticResource PrimaryApp}"
                     Margin="0,20,0,0"/>
         </StackLayout>
     </AbsoluteLayout>

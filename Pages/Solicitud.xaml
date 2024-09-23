@@ -9,43 +9,44 @@
         <VerticalStackLayout Padding="20" Spacing="15">
             <Label Text="Agendar Nueva Cita" 
                FontSize="24" 
+               TextColor="{StaticResource PrimaryApp}"
                FontAttributes="Bold" 
                HorizontalOptions="Center"/>
 
-            <Frame BorderColor="Gray" Padding="10" CornerRadius="5">
+            <Frame BorderColor="{StaticResource PrimaryApp}" Padding="10" CornerRadius="5">
                 <VerticalStackLayout Spacing="10">
-                    <Label Text="Tipo de Consulta" FontAttributes="Bold"/>
+                    <Label Text="Tipo de Consulta" FontAttributes="Bold" TextColor="{StaticResource PrimaryApp}"/>
                     <Picker ItemsSource="{Binding TiposConsultas}"
                         SelectedItem="{Binding TipoConsulta}"
-                        Title="Seleccione el tipo de consulta"/>
+                        Title="Seleccione el tipo de consulta" TextColor="{StaticResource SecundaryApp}"/>
                 </VerticalStackLayout>
             </Frame>
 
-            <Frame BorderColor="Gray" Padding="10" CornerRadius="5">
+            <Frame BorderColor="{StaticResource PrimaryApp}" Padding="10" CornerRadius="5">
                 <VerticalStackLayout Spacing="10">
-                    <Label Text="Fecha y Hora" FontAttributes="Bold"/>
-                    <DatePicker Date="{Binding FechaSeleccionada}"
-                            MinimumDate="{x:Static system:DateTime.Today}"/>
+                    <Label Text="Fecha y Hora" FontAttributes="Bold" TextColor="{StaticResource PrimaryApp}"/>
+                    <DatePicker Date="{Binding FechaSeleccionada}" TextColor="{StaticResource SecundaryApp}"
+                            MinimumDate="{x:Static system:DateTime.Today}" />
                     <Picker ItemsSource="{Binding HorasDisponibles}"
-                        SelectedItem="{Binding HoraSeleccionada}"
+                        SelectedItem="{Binding HoraSeleccionada} " TextColor="{StaticResource SecundaryApp}"
                         Title="Seleccione la hora"/>
                 </VerticalStackLayout>
             </Frame>
 
-            <Frame BorderColor="Gray" Padding="10" CornerRadius="5">
+            <Frame BorderColor="{StaticResource PrimaryApp}" Padding="10" CornerRadius="5">
                 <VerticalStackLayout Spacing="10">
-                    <Label Text="Medicos Disponbles" FontAttributes="Bold"/>
+                    <Label Text="Medicos Disponbles" FontAttributes="Bold" TextColor="{StaticResource PrimaryApp}"/>
                     <Picker ItemsSource="{Binding MedicosAsignados}"
-                            SelectedItem="{Binding MedicoAsignado}"
-                            Title="Seleccione su medico de preferencia"/>
+                            SelectedItem="{Binding MedicoAsignado}" 
+                            Title="Seleccione su medico de preferencia" TextColor="{StaticResource SecundaryApp}"/>
                 </VerticalStackLayout>
             </Frame>
 
-            <Frame BorderColor="Gray" Padding="10" CornerRadius="5">
+            <Frame BorderColor="{StaticResource PrimaryApp}" Padding="10" CornerRadius="5">
                 <VerticalStackLayout Spacing="10">
-                    <Label Text="Motivo de la Consulta" FontAttributes="Bold"/>
+                    <Label Text="Motivo de la Consulta" FontAttributes="Bold" TextColor="{StaticResource PrimaryApp}"/>
                     <Editor Text="{Binding MotivoConsulta}"
-                        Placeholder="Describa brevemente el motivo de su consulta"
+                        Placeholder="Describa brevemente el motivo de su consulta" TextColor="{StaticResource SecundaryApp}"
                         AutoSize="TextChanges"
                         MaxLength="500"/>
                 </VerticalStackLayout>
@@ -53,9 +54,10 @@
 
             <Button Text="Agendar Cita"
                 Command="{Binding AgendarCitaCommand}"
-                BackgroundColor="#007AFF"
+                BackgroundColor="{StaticResource PrimaryApp}"
                 TextColor="White"
                 CornerRadius="5"
+                FontAttributes="Bold"
                 HeightRequest="50"
                 Margin="0,20,0,0"/>
         </VerticalStackLayout>

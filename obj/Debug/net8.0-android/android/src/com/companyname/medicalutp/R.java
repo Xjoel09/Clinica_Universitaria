@@ -11628,7 +11628,7 @@ public final class R {
     public static final int search=0x7f070105;
     public static final int servicios=0x7f070106;
     public static final int solicitudes=0x7f070107;
-    public static final int splash=0x7f070108;
+    public static final int splash1=0x7f070108;
     public static final int tel=0x7f070109;
     public static final int tell=0x7f07010a;
     public static final int test_level_drawable=0x7f07010b;
@@ -12370,10 +12370,10 @@ public final class R {
     public static final int toolbar=0x7f0b0071;
   }
   public static final class mipmap {
-    public static final int appicon=0x7f0d0000;
-    public static final int appicon_background=0x7f0d0001;
-    public static final int appicon_foreground=0x7f0d0002;
-    public static final int appicon_round=0x7f0d0003;
+    public static final int icon=0x7f0d0000;
+    public static final int icon_background=0x7f0d0001;
+    public static final int icon_foreground=0x7f0d0002;
+    public static final int icon_round=0x7f0d0003;
   }
   public static final class plurals {
     public static final int mtrl_badge_content_description=0x7f0e0000;

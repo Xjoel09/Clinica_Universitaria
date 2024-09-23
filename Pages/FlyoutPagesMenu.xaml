@@ -15,31 +15,38 @@
         <CollectionView.ItemsSource>
             <x:Array Type="{x:Type local:FlyoutItems}">
                 <local:FlyoutItems Title="Inicio"
-                                   IconSource="inicio.svg"
+                                    BackgroundColor="{StaticResource PrimaryApp}"
+                                   IconSource="casa.svg"
                                     /> <!--TargetType="{x:Type local:Home}"-->
                 <local:FlyoutItems Title="Servicios"
+                                    BackgroundColor="{StaticResource PrimaryApp}"
                    IconSource="solicitudes.svg"
                    /> <!--TargetType="{x:Type local:Servicios}"-->
                 <local:FlyoutItems Title="Solicitudes"
+                                    BackgroundColor="{StaticResource PrimaryApp}"
                    IconSource="servicios.svg"
                    /><!--TargetType="{x:Type local:Solicitud}"-->
                 <local:FlyoutItems Title="Historial"
-                        IconSource="servicios.svg"
+                                    BackgroundColor="{StaticResource PrimaryApp}"
+                        IconSource="historial.svg"
                         /><!--TargetType="{x:Type local:HistorialCitas}"-->
                 <local:FlyoutItems Title="Consultas"
-                   IconSource="consulta.svg"
+                                    BackgroundColor="{StaticResource PrimaryApp}"
+                   IconSource="flecha1.svg"
                    /><!--TargetType="{x:Type local:Consultas}"-->
 
                 <local:FlyoutItems Title="Contacto"
-                   IconSource="contacto.svg"
+                                    BackgroundColor="{StaticResource PrimaryApp}"
+                   IconSource="tell.svg"
                    /><!--TargetType="{x:Type local:Contactos}"-->
                 <local:FlyoutItems Title="Cerrar Sesión"
-                                   IconSource="logout1.svg"/>
+                                   BackgroundColor="{StaticResource PrimaryApp}"
+                                   IconSource="off.svg"/>
             </x:Array>
         </CollectionView.ItemsSource>
         <CollectionView.ItemTemplate>
             <DataTemplate>
-                <Grid Padding="5,10">
+                <Grid Padding="5,10"  BackgroundColor="{Binding BackgroundColor}">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="30"/>
                         <ColumnDefinition Width="*"/>

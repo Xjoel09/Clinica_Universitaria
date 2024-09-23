@@ -1,102 +1,121 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\",
+  "WorkspaceRootPath": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\viewmodel\\consultaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:viewmodel\\consultaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\medicalutp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:medicalutp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\pages\\solicitud.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\solicitud.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\resources\\splash\\splash1.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:resources\\splash\\splash1.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:models\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Robin_J\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.90\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\pages\\solicitud.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\solicitud.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\pages\\flyoutmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\flyoutmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\pages\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\login.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\viewsmodel\\crudadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:viewsmodel\\crudadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\pages\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\viewsmodel\\historialcitasviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:viewsmodel\\historialcitasviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\pages\\newpage1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\newpage1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\pages\\flyoutpagesmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\flyoutpagesmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\pages\\flyoutmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\flyoutmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\pages\\flyoutpagesmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\pages\\flyoutpagesmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\flyoutpagesmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\viewsmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:viewsmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\pages\\flyoutmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\flyoutmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\pages\\historialcitas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\historialcitas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\pages\\crudadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\crudadmin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\pages\\historialcitas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\pages\\historialcitas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\historialcitas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\dataacess\\medicalutpdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:dataacess\\medicalutpdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\pages\\solicitud.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\solicitud.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\pages\\consultas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\consultas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\pages\\contactos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\contactos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\pages\\crudadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\crudadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\pages\\contactos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\contactos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\pages\\flyoutitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\pages\\flyoutitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\flyoutitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\joset\\source\\repos\\clinica_universitaria\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\pages\\historialcitas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\historialcitas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\pages\\flyoutmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\flyoutmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\pages\\historial.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\historial.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\viewsmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:viewsmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\pages\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\home.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\viewsmodel\\historialcitasviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:viewsmodel\\historialcitasviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\pages\\solicitud.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\solicitud.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\pages\\contactos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\contactos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\pages\\consultas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\consultas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|c:\\users\\robin_j\\source\\repos\\medicalutp\\pages\\contactos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B48A9064-6D36-4E13-A4B1-EEF62ACFA9CA}|MedicalUTP.csproj|solutionrelative:pages\\contactos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,323 +125,368 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\ViewsModel\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "ViewsModel\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\ViewsModel\\LoginViewModel.cs",
-              "RelativeToolTip": "ViewsModel\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T23:12:34.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MedicalUTPDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\DataAcess\\MedicalUTPDbContext.cs",
-              "RelativeDocumentMoniker": "DataAcess\\MedicalUTPDbContext.cs",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\DataAcess\\MedicalUTPDbContext.cs",
-              "RelativeToolTip": "DataAcess\\MedicalUTPDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAzwAIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T01:48:37.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwAwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T01:19:34.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HistorialCitas.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\HistorialCitas.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\HistorialCitas.xaml.cs",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\HistorialCitas.xaml.cs",
-              "RelativeToolTip": "Pages\\HistorialCitas.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T00:01:54.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HistorialCitasViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\ViewsModel\\HistorialCitasViewModel.cs",
-              "RelativeDocumentMoniker": "ViewsModel\\HistorialCitasViewModel.cs",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\ViewsModel\\HistorialCitasViewModel.cs",
-              "RelativeToolTip": "ViewsModel\\HistorialCitasViewModel.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwBwAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T19:47:59.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "HistorialCitas.xaml",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\HistorialCitas.xaml",
-              "RelativeDocumentMoniker": "Pages\\HistorialCitas.xaml",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\HistorialCitas.xaml",
-              "RelativeToolTip": "Pages\\HistorialCitas.xaml",
-              "ViewState": "AgIAABUAAAAAAAAAAIBMwCYAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-19T19:32:12.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cita.cs",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Models\\Cita.cs",
-              "RelativeDocumentMoniker": "Models\\Cita.cs",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Models\\Cita.cs",
-              "RelativeToolTip": "Models\\Cita.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T16:12:33.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CRUDAdminViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\ViewsModel\\CRUDAdminViewModel.cs",
-              "RelativeDocumentMoniker": "ViewsModel\\CRUDAdminViewModel.cs",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\ViewsModel\\CRUDAdminViewModel.cs",
-              "RelativeToolTip": "ViewsModel\\CRUDAdminViewModel.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAwwFMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-18T22:51:21.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CRUDAdmin.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\CRUDAdmin.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\CRUDAdmin.xaml.cs",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\CRUDAdmin.xaml.cs",
-              "RelativeToolTip": "Pages\\CRUDAdmin.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T20:39:10.415Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ConsultaViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\ViewModel\\ConsultaViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModel\\ConsultaViewModel.cs",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\ViewModel\\ConsultaViewModel.cs",
-              "RelativeToolTip": "ViewModel\\ConsultaViewModel.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T17:54:50.836Z",
+              "Title": "MedicalUTP.csproj",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\MedicalUTP.csproj",
+              "RelativeDocumentMoniker": "MedicalUTP.csproj",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\MedicalUTP.csproj",
+              "RelativeToolTip": "MedicalUTP.csproj",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-23T19:50:13.999Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T02:38:43.009Z",
-              "EditorCaption": ""
+              "DocumentIndex": 2,
+              "Title": "Microsoft.Maui.Resizetizer.After.targets",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.90\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.90\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ToolTip": "C:\\Users\\Robin_J\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.90\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.90\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAD0BAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-09-23T19:55:54.737Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Solicitud.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\Solicitud.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\Solicitud.xaml.cs",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\Solicitud.xaml.cs",
-              "RelativeToolTip": "Pages\\Solicitud.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T17:53:38.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FlyoutPagesMenu.xaml",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\FlyoutPagesMenu.xaml",
-              "RelativeDocumentMoniker": "Pages\\FlyoutPagesMenu.xaml",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\FlyoutPagesMenu.xaml",
-              "RelativeToolTip": "Pages\\FlyoutPagesMenu.xaml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABMAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-09T02:40:20.262Z",
-              "EditorCaption": ""
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-09-23T19:52:57.893Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Solicitud.xaml",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\Solicitud.xaml",
-              "RelativeDocumentMoniker": "Pages\\Solicitud.xaml",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\Solicitud.xaml",
-              "RelativeToolTip": "Pages\\Solicitud.xaml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACYAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-08T18:37:33.265Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\App.xaml",
-              "RelativeToolTip": "App.xaml",
+              "Title": "splash1.svg",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Resources\\Splash\\splash1.svg",
+              "RelativeDocumentMoniker": "Resources\\Splash\\splash1.svg",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Resources\\Splash\\splash1.svg",
+              "RelativeToolTip": "Resources\\Splash\\splash1.svg",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-09T03:03:38.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwC4AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T19:24:30.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FlyoutMenu.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\FlyoutMenu.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\FlyoutMenu.xaml.cs",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\FlyoutMenu.xaml.cs",
-              "RelativeToolTip": "Pages\\FlyoutMenu.xaml.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAwwBwAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T02:39:48.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FlyoutMenu.xaml",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\FlyoutMenu.xaml",
-              "RelativeDocumentMoniker": "Pages\\FlyoutMenu.xaml",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\FlyoutMenu.xaml",
-              "RelativeToolTip": "Pages\\FlyoutMenu.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-09T02:39:11.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "FlyoutItems.cs",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\FlyoutItems.cs",
-              "RelativeDocumentMoniker": "Pages\\FlyoutItems.cs",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\FlyoutItems.cs",
-              "RelativeToolTip": "Pages\\FlyoutItems.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBcwA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T02:38:49.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "CRUDAdmin.xaml",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\CRUDAdmin.xaml",
-              "RelativeDocumentMoniker": "Pages\\CRUDAdmin.xaml",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\CRUDAdmin.xaml",
-              "RelativeToolTip": "Pages\\CRUDAdmin.xaml",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAcwFgAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-09T17:47:17.043Z",
-              "EditorCaption": ""
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAP9SURBVDhPbZRNaJxFGMf/M/N\u002B7TZN0pCYFj\u002B6adFDiCQVxFuJJyFIm\u002BohCoqrCCooflw8SaIgiiDGo6c2tpeCJcGDBJWmFvEgtVnowTZJzVqMFalkd7Pfu\u002B87/p/ZNbTUZ/nzzM4885vnmXlnFP7PVlb7tRe/oGI1yX8TyiKjE0AlKmdimzdtvbTz5JGFTvBtZq29C2guXprm3JNKoR\u002B220mvEwUTc7xN3wa8lsqHTT3318z4HWDd9c70xV8\u002B4xKL7O0XlixnJYL\u002B9pWV/KzKWItT952\u002BMtvtdrYbF6yszsYqmbOaKAGxzw2yMdm7FxPpNAaMwZVCHctbRfhNBb\u002BhEDiv5zdeHXtbwt2c6NvVbKKTk9YArIyZWckB4z0pnBs9jH7P4Myf/\u002BBGpYXXM0MoNWI8vfIbquUEIaF\u002BXSOqqhO5d0eXHDC9vLqZaJtJjO2USQns\u002B4mHcKPexBOX1lGqx9xDhWODfTjz2Aje\u002BekPLF4rIKgrhDWRLvTcqo/ovV\u002BvZnUsp6igOUF0yA9xbuwwiq0YM5c3Ua4mPAQtpaFS55HRKrW4U7ZIxpqqH0Eqq01LHXcn15LT6\u002Bi9zAEcjAJ8c7OEm9ttV1JQo\u002BifvX8AWztNnF8vuz10QGYpexnW1SQ/N5NxMMrrbDCODvS4LM5uFBBWDYKKQUgFbJ9fq\u002BD42TzhxsVKyYEcDhcMa964Jn3Cb2p4HPQZdCRI44FUgFIzxvpWC\u002BGO4YZ7HXDN4MKvVdS3\u002BVVUCRARFDm5vcxoAXksJWRwVPYwFAcuu1Ijcf\u002BDCmGEBmyLD8udbCVegBEX4glT0tbQfk3nox0PTiUCap4D8pq5/9IfCrRbtgNVmIBIMqRPdRVVVE5HJT8XlX1ExQ5wc4P3i3ZvH7NtBUgxM7eYZCjZEHowHeLYeC8hZlfpMqFl/TuB\u002BodOJoRS7b8NLq83HfT5R/tYpsC62UmmbL8xvQ9ruaaDiCJuRYr9fstb1L1NnApLfiEqSpZUwcfpr2oOOPP4HowOhg4kmQ3Cwwev8bNZi7GzaZFmVemCwZ4SF6vq/Kc/H1hwN2XyuVvTXlst8rmCE\u002B/viakIr7wcOfD1fOz6Do0YfPlFBd8tVhA1rDvZyH3clhcC2Q\u002BvDneAYlNT2/PamjflprhOAob3K4w9bLD/HoVa2eLH5QZaxRhhi7A66PlCxXLvk/c/ujo8J9N2gWJPHa3MmVjzOZK3hsF8nxTFKw4/SbhHFgEBAjQJs1KJjH/\u002B8bWht9wE2h1AsWceqWW11bN8eDKKkz1OlMkewQLTlo8EnzgFW1A2fvGTtcGl7lRndwH/s5cebGY9y3ue2IxW8YRGQlCcNwo5reyFViNZmM/vK3TDuwb8C3iixh91FcJAAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-09-23T19:49:23.082Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "FlyoutPagesMenu.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\FlyoutPagesMenu.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\FlyoutPagesMenu.xaml.cs",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\FlyoutPagesMenu.xaml.cs",
-              "RelativeToolTip": "Pages\\FlyoutPagesMenu.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T02:40:58.782Z",
-              "EditorCaption": ""
+              "Title": "FlyoutPagesMenu.xaml",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\FlyoutPagesMenu.xaml",
+              "RelativeDocumentMoniker": "Pages\\FlyoutPagesMenu.xaml",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\FlyoutPagesMenu.xaml",
+              "RelativeToolTip": "Pages\\FlyoutPagesMenu.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-23T18:21:04.495Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Contactos.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\Contactos.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\Contactos.xaml.cs",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\Contactos.xaml.cs",
-              "RelativeToolTip": "Pages\\Contactos.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Login.xaml",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\Login.xaml",
+              "RelativeDocumentMoniker": "Pages\\Login.xaml",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\Login.xaml",
+              "RelativeToolTip": "Pages\\Login.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-23T15:37:40.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.xaml",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\Register.xaml",
+              "RelativeDocumentMoniker": "Pages\\Register.xaml",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\Register.xaml",
+              "RelativeToolTip": "Pages\\Register.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-23T19:23:47.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FlyoutMenu.xaml",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\FlyoutMenu.xaml",
+              "RelativeDocumentMoniker": "Pages\\FlyoutMenu.xaml",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\FlyoutMenu.xaml",
+              "RelativeToolTip": "Pages\\FlyoutMenu.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-09T02:39:11.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FlyoutMenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\FlyoutMenu.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\FlyoutMenu.xaml.cs",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\FlyoutMenu.xaml.cs",
+              "RelativeToolTip": "Pages\\FlyoutMenu.xaml.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwE4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T17:47:15.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T02:39:48.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T16:13:15.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HistorialCitas.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\HistorialCitas.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\HistorialCitas.xaml.cs",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\HistorialCitas.xaml.cs",
+              "RelativeToolTip": "Pages\\HistorialCitas.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T14:34:07.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\ViewsModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ViewsModel\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\ViewsModel\\LoginViewModel.cs",
+              "RelativeToolTip": "ViewsModel\\LoginViewModel.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwCgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T22:28:47.396Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "Consultas.xaml",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\Consultas.xaml",
-              "RelativeDocumentMoniker": "Pages\\Consultas.xaml",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\Consultas.xaml",
-              "RelativeToolTip": "Pages\\Consultas.xaml",
-              "ViewState": "AgIAACoAAAAAAAAAAIBswAEAAAABAAAAAAAAAA==",
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T19:24:30.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NewPage1.cs",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\NewPage1.cs",
+              "RelativeDocumentMoniker": "Pages\\NewPage1.cs",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\NewPage1.cs",
+              "RelativeToolTip": "Pages\\NewPage1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T15:36:41.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HistorialCitas.xaml",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\HistorialCitas.xaml",
+              "RelativeDocumentMoniker": "Pages\\HistorialCitas.xaml",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\HistorialCitas.xaml",
+              "RelativeToolTip": "Pages\\HistorialCitas.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-08T20:57:38.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T14:09:24.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Solicitud.xaml",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\Solicitud.xaml",
+              "RelativeDocumentMoniker": "Pages\\Solicitud.xaml",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\Solicitud.xaml",
+              "RelativeToolTip": "Pages\\Solicitud.xaml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-08T18:37:33.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FlyoutItems.cs",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\FlyoutItems.cs",
+              "RelativeDocumentMoniker": "Pages\\FlyoutItems.cs",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\FlyoutItems.cs",
+              "RelativeToolTip": "Pages\\FlyoutItems.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T02:38:49.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Historial.xaml",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\Historial.xaml",
+              "RelativeDocumentMoniker": "Pages\\Historial.xaml",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\Historial.xaml",
+              "RelativeToolTip": "Pages\\Historial.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-23T14:09:32.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-23T16:13:23.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-23T16:13:27.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T16:13:25.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-09T03:03:38.415Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "Contactos.xaml",
-              "DocumentMoniker": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\Contactos.xaml",
-              "RelativeDocumentMoniker": "Pages\\Contactos.xaml",
-              "ToolTip": "C:\\Users\\joset\\source\\repos\\Clinica_Universitaria\\Pages\\Contactos.xaml",
-              "RelativeToolTip": "Pages\\Contactos.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T01:19:34.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Home.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\Home.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Home.xaml.cs",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\Home.xaml.cs",
+              "RelativeToolTip": "Pages\\Home.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T15:36:46.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HistorialCitasViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\ViewsModel\\HistorialCitasViewModel.cs",
+              "RelativeDocumentMoniker": "ViewsModel\\HistorialCitasViewModel.cs",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\ViewsModel\\HistorialCitasViewModel.cs",
+              "RelativeToolTip": "ViewsModel\\HistorialCitasViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T14:34:37.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Solicitud.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\Solicitud.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Solicitud.xaml.cs",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\Solicitud.xaml.cs",
+              "RelativeToolTip": "Pages\\Solicitud.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T17:53:38.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Contactos.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\Contactos.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\Contactos.xaml.cs",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\Contactos.xaml.cs",
+              "RelativeToolTip": "Pages\\Contactos.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T17:47:15.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Consultas.xaml",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\Consultas.xaml",
+              "RelativeDocumentMoniker": "Pages\\Consultas.xaml",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\Consultas.xaml",
+              "RelativeToolTip": "Pages\\Consultas.xaml",
+              "ViewState": "AgIAAFEAAAAAAAAAAIBZwAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-08T19:04:16.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T20:57:38.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Contactos.xaml",
+              "DocumentMoniker": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\Contactos.xaml",
+              "RelativeDocumentMoniker": "Pages\\Contactos.xaml",
+              "ToolTip": "C:\\Users\\Robin_J\\source\\repos\\MedicalUTP\\Pages\\Contactos.xaml",
+              "RelativeToolTip": "Pages\\Contactos.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBZwAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-08T19:04:16.1Z"
             }
           ]
         }

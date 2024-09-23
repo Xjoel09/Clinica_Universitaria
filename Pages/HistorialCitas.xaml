@@ -3,38 +3,41 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MedicalUTP.Pages.HistorialCitas"
              Title="HistorialCitas">
-    <StackLayout>
-        <Button Text="Actualizar Historial" 
+    <ScrollView>
+        <StackLayout>
+            <Button Text="Actualizar Historial" FontAttributes="Bold" CornerRadius="0"  BackgroundColor="{StaticResource PrimaryApp}"
                 Command="{Binding ActualizarHistorialCommand}"/>
-        <Label Text="Citas Futuras" FontAttributes="Bold" Margin="0,20,0,0"/>
+        <Label Text="Citas Futuras" FontAttributes="Bold" FontSize="20" Margin="13,20,250,0" TextColor="{StaticResource PrimaryApp}"/>
         <CollectionView ItemsSource="{Binding CitasFuturas}">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Frame Margin="10" Padding="10">
+                    <Frame Margin="10" Padding="10" BorderColor="{StaticResource PrimaryApp}">
                         <StackLayout>
-                            <Label Text="{Binding TipoConsulta}" FontAttributes="Bold"/>
-                            <Label Text="{Binding FechaHora, StringFormat='Fecha: {0:dd/MM/yyyy HH:mm}'}"/>
-                            <Label Text="{Binding MedicoAsignado, StringFormat='Médico: {0}'}"/>
-                            <Label Text="{Binding MotivoConsulta, StringFormat='Motivo: {0}'}"/>
+                            <Label Text="{Binding TipoConsulta}" TextColor="{StaticResource PrimaryApp}" FontAttributes="Bold"/>
+                            <Label Text="{Binding FechaHora, StringFormat='Fecha: {0:dd/MM/yyyy HH:mm}'} " TextColor="{StaticResource SecundaryApp}"/>
+                            <Label Text="{Binding MedicoAsignado, StringFormat='Médico: {0}'}" TextColor="{StaticResource SecundaryApp}"/>
+                            <Label Text="{Binding MotivoConsulta, StringFormat='Motivo: {0}'}" TextColor="{StaticResource SecundaryApp}"/>
                         </StackLayout>
                     </Frame>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
-        <Label Text="Citas Pasadas" FontAttributes="Bold" Margin="0,20,0,0"/>
+        <Label Text="Citas Pasadas" FontAttributes="Bold" FontSize="20" Margin="13,20,0,0" TextColor="{StaticResource PrimaryApp}"/>
         <CollectionView ItemsSource="{Binding CitasPasadas}">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Frame Margin="10" Padding="10">
+                    <Frame Margin="10" Padding="10" BorderColor="{StaticResource PrimaryApp}">
                         <StackLayout>
-                            <Label Text="{Binding TipoConsulta}" FontAttributes="Bold"/>
-                            <Label Text="{Binding FechaHora, StringFormat='Fecha: {0:dd/MM/yyyy HH:mm}'}"/>
-                            <Label Text="{Binding MedicoAsignado, StringFormat='Médico: {0}'}"/>
-                            <Label Text="{Binding MotivoConsulta, StringFormat='Motivo: {0}'}"/>
+                            <Label Text="{Binding TipoConsulta}" FontAttributes="Bold"  TextColor="{StaticResource PrimaryApp}"/>
+                            <Label Text="{Binding FechaHora, StringFormat='Fecha: {0:dd/MM/yyyy HH:mm}'}" TextColor="{StaticResource SecundaryApp}"/>
+                            <Label Text="{Binding MedicoAsignado, StringFormat='Médico: {0}'}" TextColor="{StaticResource SecundaryApp}"/>
+                            <Label Text="{Binding MotivoConsulta, StringFormat='Motivo: {0}'}" TextColor="{StaticResource SecundaryApp}"/>
                         </StackLayout>
                     </Frame>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
         </CollectionView>
+       
     </StackLayout>
+    </ScrollView>
 </ContentPage>
