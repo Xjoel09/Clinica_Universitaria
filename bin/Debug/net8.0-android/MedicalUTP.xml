@@ -115,6 +115,9 @@
         <member name="P:MedicalUTP.ViewsModel.LoginViewModel.IsStudent">
             <inheritdoc cref="F:MedicalUTP.ViewsModel.LoginViewModel.isStudent"/>
         </member>
+        <member name="P:MedicalUTP.ViewsModel.LoginViewModel.IsDoctor">
+            <inheritdoc cref="F:MedicalUTP.ViewsModel.LoginViewModel.isDoctor"/>
+        </member>
         <member name="F:MedicalUTP.ViewsModel.LoginViewModel.loginCommand">
             <summary>The backing field for <see cref="P:MedicalUTP.ViewsModel.LoginViewModel.LoginCommand"/>.</summary>
         </member>
@@ -169,6 +172,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsStudent">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsStudent" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsDoctor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsDoctor" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -216,6 +222,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsStudent">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsStudent" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsDoctor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsDoctor" generated properties.</summary>
         </member>
     </members>
 </doc>

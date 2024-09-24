@@ -47,7 +47,7 @@ namespace MedicalUTP
             MainThread.BeginInvokeOnMainThread(() =>
             {
                  var MainPage = Application.Current?.MainPage ?? throw new InvalidOperationException("No se pudo acceder a MainPage.");
-                 MainPage.DisplayAlert("Mensaje", "Bienvenido Estudiante", "Aceptar");
+                 MainPage.DisplayAlert("Mensaje", "Bienvenido", "Aceptar");
                  Application.Current.MainPage = new FlyoutMenu(context, Services);
             });
         }

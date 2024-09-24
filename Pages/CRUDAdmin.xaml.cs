@@ -1,3 +1,4 @@
+//using AndroidX.Lifecycle;
 using MedicalUTP.DataAcess;
 using MedicalUTP.ViewsModel;
 
@@ -5,9 +6,11 @@ namespace MedicalUTP.Pages;
 
 public partial class CRUDAdmin : ContentPage
 {
-	public CRUDAdmin(MedicalUTPDbContext context)
+    private readonly MedicalUTPDbContext _context;
+    public CRUDAdmin(MedicalUTPDbContext context)
 	{
 		InitializeComponent();
-        BindingContext = new CRUDAdminViewModel(context);
+        _context = context;
+        BindingContext = new CRUDAdminViewModel(_context);
     }
 }

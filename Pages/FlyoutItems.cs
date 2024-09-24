@@ -14,6 +14,11 @@ namespace MedicalUTP.Pages
         public required Type? TargetType { get; set; }
         public bool IsLogout { get; set; } = false;
 
+        
+
+        public string FlyoutDisplayOptions { get; set; } 
+        
+
         public Color BackgroundColor { get; set; }
         public bool IsSelected { get; set; } = false;
     }

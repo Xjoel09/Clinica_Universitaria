@@ -25,6 +25,7 @@
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.medicalutp</ApplicationId>
+
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
 		<ApplicationVersion>1</ApplicationVersion>
@@ -39,10 +40,9 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\icon.svg" size="100" />
-.
+		<MauiIcon Include="Resources\AppIcon\medicutp.png" />
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash1.svg" />
+		<MauiSplashScreen Include="Resources\Splash\splash2.png" Color="#512BD4" BaseSize="128,128" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -56,11 +56,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiImage Remove="Resources\Images\icon.svg" />
-	  <MauiImage Remove="Resources\Images\splash1.svg" />
-	</ItemGroup>
-
-	<ItemGroup>
+	  <None Remove="Resources\AppIcon\medicutp.png" />
 	  <None Remove="Resources\Fonts\Menu-Icon.ttf" />
 	  <None Remove="Resources\Images\adn.svg" />
 	  <None Remove="Resources\Images\aguja.svg" />
@@ -76,7 +72,7 @@
 	  <None Remove="Resources\Images\email.svg" />
 	  <None Remove="Resources\Images\est.svg" />
 	  <None Remove="Resources\Images\home.svg" />
-	  <None Remove="Resources\Images\icon.svg" />
+	  <None Remove="Resources\Images\iconsapp.png" />
 	  <None Remove="Resources\Images\id.svg" />
 	  <None Remove="Resources\Images\inicio.svg" />
 	  <None Remove="Resources\Images\injeccion.svg" />
@@ -97,23 +93,22 @@
 	  <None Remove="Resources\Images\search.svg" />
 	  <None Remove="Resources\Images\servicios.svg" />
 	  <None Remove="Resources\Images\solicitudes.svg" />
-	  <None Remove="Resources\Images\splash1.svg" />
+	  <None Remove="Resources\Images\splash2.png" />
 	  <None Remove="Resources\Images\tel.svg" />
+	  <None Remove="Resources\Images\trash.svg" />
+	  <None Remove="Resources\Images\update.svg" />
 	  <None Remove="Resources\Images\user.svg" />
+	  <None Remove="Resources\Images\utp.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
-		  <PrivateAssets>all</PrivateAssets>
-		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-		</PackageReference>
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.8" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="8.0.8" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
-		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.90" />
-		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.90" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 	</ItemGroup>
 
@@ -128,9 +123,6 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\FlyoutPagesMenu.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Pages\HistorialCitas.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Home.xaml">

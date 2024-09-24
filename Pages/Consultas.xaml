@@ -8,24 +8,24 @@
         <VerticalStackLayout Spacing="20" Padding="20" HorizontalOptions="Center">
 
             <!-- Título de la página -->
-            <Label Text="Consultas"
-                   FontSize="Large"
+            <Label Text="Doctores"
+                   FontSize="30"
                    FontAttributes="Bold"
-                   TextColor="#4751d6"
+                   TextColor="{StaticResource PrimaryApp}"
                    HorizontalOptions="Center" />
 
             <!-- Contenedor para las consultas -->
             <VerticalStackLayout Spacing="20" HorizontalOptions="Center">
 
                 <!-- Primer Contenedor -->
-                <Frame BackgroundColor="#7e8ff6"
+                <Frame BackgroundColor="{StaticResource PrimaryApp}"
                        CornerRadius="15"
                        HasShadow="True"
                        Padding="15"
                        WidthRequest="300"
                        HorizontalOptions="Center">
                     <VerticalStackLayout>
-                        <Label Text="Certificado de Buena Salud"
+                        <Label Text="Consulta General"
                                FontSize="Medium"
                                FontAttributes="Bold"
                                TextColor="White" />
@@ -35,30 +35,16 @@
                                    HeightRequest="40"
                                    Aspect="AspectFit" />
                             <VerticalStackLayout>
-                                <Label Text="Dr. Carla Perez"
+                                <Label Text="Dr. Juan Martinez"
                                        FontSize="Small"
                                        TextColor="White" />
-                                <Label Text="Available"
+                                <Label Text="Disponible"
                                        FontSize="Small"
                                        TextColor="White" />
-                                <Label Text="8:00 AM - 10:00 AM"
+                                <Label Text="9:00 AM - 12:00 PM"
                                        FontSize="Small"
                                        TextColor="White" />
-                            </VerticalStackLayout>
-                        </HorizontalStackLayout>
-                        <HorizontalStackLayout Spacing="15" Padding="10, 5">
-                            <Image Source="doctor2.svg" 
-                                   WidthRequest="40" 
-                                   HeightRequest="40"
-                                   Aspect="AspectFit" />
-                            <VerticalStackLayout>
-                                <Label Text="Dr. Maria Palacios"
-                                       FontSize="Small"
-                                       TextColor="White" />
-                                <Label Text="Available"
-                                       FontSize="Small"
-                                       TextColor="White" />
-                                <Label Text="1:00 PM - 3:00 PM"
+                                <Label Text="Consultorio: 101"
                                        FontSize="Small"
                                        TextColor="White" />
                             </VerticalStackLayout>
@@ -67,47 +53,33 @@
                 </Frame>
 
                 <!-- Segundo Contenedor -->
-                <Frame BackgroundColor="#7e8ff6"
+                <Frame BackgroundColor="{StaticResource PrimaryApp}"
                        CornerRadius="15"
                        HasShadow="True"
                        Padding="15"
                        WidthRequest="300"
                        HorizontalOptions="Center">
                     <VerticalStackLayout>
-                        <Label Text="Certificado de Buena Salud"
+                        <Label Text="Consulta General"
                                FontSize="Medium"
                                FontAttributes="Bold"
                                TextColor="White" />
-                        <HorizontalStackLayout Spacing="15" Padding="10, 5">
-                            <Image Source="doctor1.svg" 
-                                   WidthRequest="40" 
-                                   HeightRequest="40"
-                                   Aspect="AspectFit" />
-                            <VerticalStackLayout>
-                                <Label Text="Dr. Carla Perez"
-                                       FontSize="Small"
-                                       TextColor="White" />
-                                <Label Text="Available"
-                                       FontSize="Small"
-                                       TextColor="White" />
-                                <Label Text="8:00 AM - 10:00 AM"
-                                       FontSize="Small"
-                                       TextColor="White" />
-                            </VerticalStackLayout>
-                        </HorizontalStackLayout>
                         <HorizontalStackLayout Spacing="15" Padding="10, 5">
                             <Image Source="doctor2.svg" 
                                    WidthRequest="40" 
                                    HeightRequest="40"
                                    Aspect="AspectFit" />
                             <VerticalStackLayout>
-                                <Label Text="Dr. Maria Palacios"
+                                <Label Text="Dra. Silvia Gómez"
                                        FontSize="Small"
                                        TextColor="White" />
-                                <Label Text="Available"
+                                <Label Text="Disponible"
                                        FontSize="Small"
                                        TextColor="White" />
-                                <Label Text="1:00 PM - 3:00 PM"
+                                <Label Text="2:00 PM - 5:00 PM"
+                                       FontSize="Small"
+                                       TextColor="White" />
+                                <Label Text="Consultorio: 203"
                                        FontSize="Small"
                                        TextColor="White" />
                             </VerticalStackLayout>
@@ -116,14 +88,14 @@
                 </Frame>
 
                 <!-- Tercer Contenedor -->
-                <Frame BackgroundColor="#7e8ff6"
+                <Frame BackgroundColor="{StaticResource PrimaryApp}"
                        CornerRadius="15"
                        HasShadow="True"
                        Padding="15"
                        WidthRequest="300"
                        HorizontalOptions="Center">
                     <VerticalStackLayout>
-                        <Label Text="Certificado de Buena Salud"
+                        <Label Text="Consulta General"
                                FontSize="Medium"
                                FontAttributes="Bold"
                                TextColor="White" />
@@ -133,79 +105,16 @@
                                    HeightRequest="40"
                                    Aspect="AspectFit" />
                             <VerticalStackLayout>
-                                <Label Text="Dr. Carla Perez"
+                                <Label Text="Dr. Manuel Ortega"
                                        FontSize="Small"
                                        TextColor="White" />
-                                <Label Text="Available"
+                                <Label Text="Disponible"
                                        FontSize="Small"
                                        TextColor="White" />
-                                <Label Text="8:00 AM - 10:00 AM"
+                                <Label Text="11:00 AM - 1:00 PM"
                                        FontSize="Small"
                                        TextColor="White" />
-                            </VerticalStackLayout>
-                        </HorizontalStackLayout>
-                        <HorizontalStackLayout Spacing="15" Padding="10, 5">
-                            <Image Source="doctor2.svg" 
-                                   WidthRequest="40" 
-                                   HeightRequest="40"
-                                   Aspect="AspectFit" />
-                            <VerticalStackLayout>
-                                <Label Text="Dr. Maria Palacios"
-                                       FontSize="Small"
-                                       TextColor="White" />
-                                <Label Text="Available"
-                                       FontSize="Small"
-                                       TextColor="White" />
-                                <Label Text="1:00 PM - 3:00 PM"
-                                       FontSize="Small"
-                                       TextColor="White" />
-                            </VerticalStackLayout>
-                        </HorizontalStackLayout>
-                    </VerticalStackLayout>
-                </Frame>
-
-                <!-- Cuarto Contenedor -->
-                <Frame BackgroundColor="#7e8ff6"
-                       CornerRadius="15"
-                       HasShadow="True"
-                       Padding="15"
-                       WidthRequest="300"
-                       HorizontalOptions="Center">
-                    <VerticalStackLayout>
-                        <Label Text="Certificado de Buena Salud"
-                               FontSize="Medium"
-                               FontAttributes="Bold"
-                               TextColor="White" />
-                        <HorizontalStackLayout Spacing="15" Padding="10, 5">
-                            <Image Source="doctor1.svg" 
-                                   WidthRequest="40" 
-                                   HeightRequest="40"
-                                   Aspect="AspectFit" />
-                            <VerticalStackLayout>
-                                <Label Text="Dr. Carla Perez"
-                                       FontSize="Small"
-                                       TextColor="White" />
-                                <Label Text="Available"
-                                       FontSize="Small"
-                                       TextColor="White" />
-                                <Label Text="8:00 AM - 10:00 AM"
-                                       FontSize="Small"
-                                       TextColor="White" />
-                            </VerticalStackLayout>
-                        </HorizontalStackLayout>
-                        <HorizontalStackLayout Spacing="15" Padding="10, 5">
-                            <Image Source="doctor2.svg" 
-                                   WidthRequest="40" 
-                                   HeightRequest="40"
-                                   Aspect="AspectFit" />
-                            <VerticalStackLayout>
-                                <Label Text="Dr. Maria Palacios"
-                                       FontSize="Small"
-                                       TextColor="White" />
-                                <Label Text="Available"
-                                       FontSize="Small"
-                                       TextColor="White" />
-                                <Label Text="1:00 PM - 3:00 PM"
+                                <Label Text="Consultorio: 304"
                                        FontSize="Small"
                                        TextColor="White" />
                             </VerticalStackLayout>

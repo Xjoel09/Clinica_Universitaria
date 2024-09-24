@@ -17,9 +17,10 @@
                 <local:FlyoutItems Title="Inicio"
                                     BackgroundColor="{StaticResource PrimaryApp}"
                                    IconSource="casa.svg"
-                                    /> <!--TargetType="{x:Type local:Home}"-->
+                    />
                 <local:FlyoutItems Title="Servicios"
                                     BackgroundColor="{StaticResource PrimaryApp}"
+                                   
                    IconSource="solicitudes.svg"
                    /> <!--TargetType="{x:Type local:Servicios}"-->
                 <local:FlyoutItems Title="Solicitudes"
@@ -28,8 +29,10 @@
                    /><!--TargetType="{x:Type local:Solicitud}"-->
                 <local:FlyoutItems Title="Historial"
                                     BackgroundColor="{StaticResource PrimaryApp}"
-                        IconSource="historial.svg"
-                        /><!--TargetType="{x:Type local:HistorialCitas}"-->
+                                    IconSource="historial.svg"
+                 /><!--TargetType="{x:Type local:HistorialCitas}"-->
+                <!--FlyoutDisplayOptions="AsMultipleItems" 
+IsVisible="{Binding IsDoctor}"-->
                 <local:FlyoutItems Title="Consultas"
                                     BackgroundColor="{StaticResource PrimaryApp}"
                    IconSource="flecha1.svg"

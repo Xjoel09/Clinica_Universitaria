@@ -15,7 +15,7 @@
                  AbsoluteLayout.LayoutBounds="1,0,200,200"
                  AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
-        <Image Source="logc.svg"
+        <Image Source="utp.svg"
                WidthRequest="120"
                HeightRequest="120"
                AbsoluteLayout.LayoutBounds="1,0,120,120"
@@ -85,6 +85,7 @@
                                     <x:String>Estudiante</x:String>
                                     <x:String>Docente</x:String>
                                     <x:String>Administrativo</x:String>
+                                    
                                 </Picker.Items>
                             </Picker>
                         </HorizontalStackLayout>

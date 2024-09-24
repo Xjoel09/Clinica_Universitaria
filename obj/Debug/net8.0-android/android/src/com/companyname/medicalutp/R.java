@@ -11628,13 +11628,16 @@ public final class R {
     public static final int search=0x7f070105;
     public static final int servicios=0x7f070106;
     public static final int solicitudes=0x7f070107;
-    public static final int splash1=0x7f070108;
+    public static final int splash2=0x7f070108;
     public static final int tel=0x7f070109;
     public static final int tell=0x7f07010a;
     public static final int test_level_drawable=0x7f07010b;
     public static final int tooltip_frame_dark=0x7f07010c;
     public static final int tooltip_frame_light=0x7f07010d;
-    public static final int user=0x7f07010e;
+    public static final int trash=0x7f07010e;
+    public static final int update=0x7f07010f;
+    public static final int user=0x7f070110;
+    public static final int utp=0x7f070111;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
@@ -12370,10 +12373,10 @@ public final class R {
     public static final int toolbar=0x7f0b0071;
   }
   public static final class mipmap {
-    public static final int icon=0x7f0d0000;
-    public static final int icon_background=0x7f0d0001;
-    public static final int icon_foreground=0x7f0d0002;
-    public static final int icon_round=0x7f0d0003;
+    public static final int medicutp=0x7f0d0000;
+    public static final int medicutp_background=0x7f0d0001;
+    public static final int medicutp_foreground=0x7f0d0002;
+    public static final int medicutp_round=0x7f0d0003;
   }
   public static final class plurals {
     public static final int mtrl_badge_content_description=0x7f0e0000;

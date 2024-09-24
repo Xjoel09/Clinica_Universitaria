@@ -22,15 +22,61 @@ namespace MedicalUTP.ViewsModel
         [ObservableProperty]
         public bool isStudent;
 
+        [ObservableProperty]
+        public bool isDoctor;
+
 
         public LoginViewModel(MedicalUTPDbContext context)
         {
             _context = context;
             EnsureAdminAccountExists();
+            EnsureDocAccountExists();
         }
         public LoginViewModel()
         {
 
+        }
+
+        private async Task EnsureDocAccountExists()
+        {
+            var docExists = await _context.User.AnyAsync(u => u.Role == "Doctor");
+            if (!docExists)
+            {
+                var doc1User = new User
+                {
+                    Nombre = "Juan Aguilar",
+                    Telefono = "65432178",
+                    Cedula = "4-334-5567",
+                    Correo = "juanes@example.com",
+                    Password = "Doc1",
+                    Role = "Doctor"
+                };
+                var doc2User = new User
+                {
+                    Nombre = "Acuña Chapulini",
+                    Telefono = "63322113",
+                    Cedula = "4-334-5545",
+                    Correo = "gomez@example.com",
+                    Password = "Doc2",
+                    Role = "Doctor"
+                };
+                var doc3User = new User
+                {
+                    Nombre = "Vellonicimo Cordoba",
+                    Telefono = "65432132",
+                    Cedula = "4-334-5221",
+                    Correo = "Ortega@example.com",
+                    Password = "Doc3",
+                    Role = "Doctor"
+                };
+
+
+
+                _context.User.Add(doc1User);
+                _context.User.Add(doc2User);
+                _context.User.Add(doc3User);
+                await _context.SaveChangesAsync();
+            }
         }
 
         private async Task EnsureAdminAccountExists()
@@ -72,7 +118,7 @@ namespace MedicalUTP.ViewsModel
 
                     var MainPage = Application.Current?.MainPage ?? throw new InvalidOperationException("No se pudo acceder a MainPage.");
                     await MainPage.DisplayAlert("Mensaje", "Bienvenido Administrador", "Aceptar");
-                    Application.Current.MainPage = new CRUDAdmin(_context);
+                    Application.Current.MainPage = new CRUDAdmin( _context);
                 }
                 else if (user.Role == "Estudiante")
                 {
@@ -86,6 +132,17 @@ namespace MedicalUTP.ViewsModel
                 }
                 else if (user.Role == "Docente")
                 {
+                    //var MainPage = Application.Current?.MainPage ?? throw new InvalidOperationException("No se pudo acceder a MainPage.");
+                    //await MainPage.DisplayAlert("Mensaje", "Bienvenido Docente", "Aceptar");
+                    //Application.Current.MainPage = new FlyoutMenu(_context, _serviceProvider);
+                    App.GoToMainPage();
+                }
+                else if (user.Role == "Doctor")
+                {
+                    //IsDoctor = true;
+                    //IsAdmin = false;
+                    //IsStudent = false;
+
                     //var MainPage = Application.Current?.MainPage ?? throw new InvalidOperationException("No se pudo acceder a MainPage.");
                     //await MainPage.DisplayAlert("Mensaje", "Bienvenido Docente", "Aceptar");
                     //Application.Current.MainPage = new FlyoutMenu(_context, _serviceProvider);
