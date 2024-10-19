@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MedicalUTP.Pages.Inventario"
+             Title="Inventario">
+    <VerticalStackLayout>
+        <ListView x:Name="MedicamentosListView" 
+                  SelectionMode="Single" 
+                  ItemSelected="MedicamentosListViewItemSelected"
+                  ItemsSource="{Binding Medicamentos}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Nombre}" Detail="{Binding Descripcion}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
+            <Button Text="Agregar Medicamento" 
+                    Clicked="MostrarFormularioAgregarMedicamento_Clicked" />
+            <Button Text="Eliminar Medicamento" 
+                    Command="{Binding DeleteMedicamentoCommand}" 
+                    CommandParameter="{Binding SelectedMedicamento}" />
+            <Button Text="Editar Medicamento" 
+                    Command="{Binding EditMedicamentoCommand}" 
+                    CommandParameter="{Binding SelectedMedicamento}" />
+        </StackLayout>
+
+        <Grid IsVisible="{Binding IsEditPopupVisible}" BackgroundColor="#80000000">
+            <Frame BackgroundColor="White" Padding="20" CornerRadius="10">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Editar Medicamento" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center" />
+                    <Entry Text="{Binding SelectedMedicamento.Nombre}" Placeholder="Nombre" />
+                    <Entry Text="{Binding SelectedMedicamento.Descripcion}" Placeholder="Descripción" />
+                    <Entry Text="{Binding SelectedMedicamento.Cantidad}" Placeholder="Cantidad" Keyboard="Numeric" />
+                    <Entry Text="{Binding SelectedMedicamento.Precio}" Placeholder="Precio" Keyboard="Numeric" />
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20">
+                        <Button Text="Guardar" Command="{Binding SaveMedicamentoChangesCommand}" BackgroundColor="{StaticResource PrimaryApp}" />
+                        <Button Text="Cancelar" Command="{Binding CancelEditCommand}" BackgroundColor="{StaticResource SecundaryApp}" />
+                    </StackLayout>
+                </VerticalStackLayout>
+            </Frame>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>
