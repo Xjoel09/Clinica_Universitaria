@@ -10,8 +10,9 @@ namespace MedicalUTP.DataAcess
         public DbSet<User> User { get; set; }
         public DbSet<Cita> Citas { get; set; }
 
+        public DbSet<Medicamento> Medicamentos { get; set; }
 
-      
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             string conexionDb = $"Filename={ConexionDB.DevolverRuta("clinica.db")}";

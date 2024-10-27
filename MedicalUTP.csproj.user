@@ -29,6 +29,12 @@
     <MauiXaml Update="Pages\Home.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Pages\Inventario.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Pages\RegistrarMedicamento.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Pages\Servicios.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

@@ -76,6 +76,12 @@ public partial class FlyoutMenu : FlyoutPage
                 return  new Consultas();// _serviceProvider.GetService<Consultas>();
             case "Contacto":
                 return new Contactos();//_serviceProvider.GetService<Contactos>();
+
+            case "Inventario":
+                return new Inventario(_context);
+
+            case "RegistrarMedicamento":
+                return new RegistrarMedicamento(_context);
            
             default:
                 Console.WriteLine($"No se pudo resolver la página para el título: {title}");
