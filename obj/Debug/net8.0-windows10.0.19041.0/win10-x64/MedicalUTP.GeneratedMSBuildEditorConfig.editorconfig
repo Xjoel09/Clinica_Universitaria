@@ -78,6 +78,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.Home.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Home.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Home.xaml
 
+[C:/Users/Robin_J/source/repos/MedicalUTP/Pages/Inventario.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.Inventario.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Inventario.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Inventario.xaml
+
 [C:/Users/Robin_J/source/repos/MedicalUTP/Pages/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.Login.xaml
@@ -89,6 +95,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.Register.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\Register.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\Register.xaml
+
+[C:/Users/Robin_J/source/repos/MedicalUTP/Pages/RegistrarMedicamento.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.RegistrarMedicamento.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\RegistrarMedicamento.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\RegistrarMedicamento.xaml
 
 [C:/Users/Robin_J/source/repos/MedicalUTP/Pages/Servicios.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
