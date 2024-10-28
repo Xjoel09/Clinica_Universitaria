@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MedicalUTP.Pages.Home"
              Title="Home">
-    
+
     <VerticalStackLayout Spacing="20" Padding="10">
 
         <Grid>
@@ -13,21 +13,24 @@
             </Grid.ColumnDefinitions>
 
             <HorizontalStackLayout VerticalOptions="Start">
-                <Image Source="logo_medic.png" HeightRequest="120" WidthRequest="107" Margin="0,-20,0,0"/>
-                <Label Text="Cure Life"
-                     FontSize="24"
+                <Image Source="logopill.png" HeightRequest="20" WidthRequest="20" Margin="0,0,10,0"/>
+                <Label Text="Medic School"
+                     FontSize="20"
+                     FontFamily="Roboto"
                      FontAttributes="Bold"
                      VerticalOptions="Center"
                      TextColor="{StaticResource SecundaryApp}"
-                     Margin="-2,0,0,0"/>
+                     Margin="0"/>
             </HorizontalStackLayout>
         </Grid>
+
         <Label Text="Welcome!"
-             FontSize="32"
-             FontAttributes="Bold"
-             TextColor="{StaticResource PrimaryApp}"
-             Margin="10,-25,19,0"
-             HorizontalOptions="Center"/>
+               FontSize="32"
+               FontFamily="Roboto"
+               FontAttributes="Bold"
+               TextColor="{StaticResource SecundaryApp}"
+               Margin="10,25,19,0"
+               HorizontalOptions="Center"/>
 
         <Label Text="¡Bienvenido a la Clínica Universitaria! Este es tu espacio de salud dentro del campus, diseñado especialmente para ti, estudiante y miembro de nuestra comunidad. Estamos aquí para apoyarte en cada etapa de tu vida universitaria, ofreciéndote atención médica integral en un entorno cercano y confiable. ¡Tu bienestar es nuestra prioridad!"
              FontSize="16"
@@ -35,11 +38,9 @@
              LineBreakMode="WordWrap"
              HorizontalTextAlignment="Center"/>
 
-        <Image Source="doctors.svg"
-             Aspect="AspectFit"
-             VerticalOptions="EndAndExpand"
-             HeightRequest="650"
-             Margin="-20,-200"
-           />
+        <Image Source="medic1.png"
+             Aspect="AspectFill"
+             HeightRequest="450"
+             WidthRequest="400" />
     </VerticalStackLayout>
 </ContentPage>

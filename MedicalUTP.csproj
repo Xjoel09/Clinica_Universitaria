@@ -40,9 +40,11 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\medicutp.png" />
+		
+		<MauiIcon Include="Resources\AppIcon\vector.png" Color="#FFF"  />
+		
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash2.png" Color="#512BD4" BaseSize="128,128" />
+		<MauiSplashScreen Include="Resources\Splash\variant2.png" Color="#FFF" BaseSize="90,90" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -57,11 +59,15 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\AppIcon\medicutp.png" />
+	  <None Remove="Resources\AppIcon\pillogo1.svg" />
 	  <None Remove="Resources\Fonts\Menu-Icon.ttf" />
+	  <None Remove="Resources\Fonts\RobotoFlex.ttf" />
 	  <None Remove="Resources\Images\adn.svg" />
 	  <None Remove="Resources\Images\aguja.svg" />
 	  <None Remove="Resources\Images\blood.svg" />
+	  <None Remove="Resources\Images\calendara.svg" />
 	  <None Remove="Resources\Images\cita.svg" />
+	  <None Remove="Resources\Images\close.svg" />
 	  <None Remove="Resources\Images\consulta.svg" />
 	  <None Remove="Resources\Images\contacto.svg" />
 	  <None Remove="Resources\Images\cure_logo.svg" />
@@ -74,17 +80,22 @@
 	  <None Remove="Resources\Images\home.svg" />
 	  <None Remove="Resources\Images\iconsapp.png" />
 	  <None Remove="Resources\Images\id.svg" />
+	  <None Remove="Resources\Images\imge.svg" />
 	  <None Remove="Resources\Images\inicio.svg" />
 	  <None Remove="Resources\Images\injeccion.svg" />
 	  <None Remove="Resources\Images\logc.svg" />
+	  <None Remove="Resources\Images\logon.svg" />
+	  <None Remove="Resources\Images\logopill.svg" />
 	  <None Remove="Resources\Images\logout1.svg" />
 	  <None Remove="Resources\Images\logo_medic.png" />
 	  <None Remove="Resources\Images\mask.svg" />
 	  <None Remove="Resources\Images\medic.svg" />
+	  <None Remove="Resources\Images\medic1.svg" />
 	  <None Remove="Resources\Images\menu_lines.svg" />
 	  <None Remove="Resources\Images\pasw.svg" />
 	  <None Remove="Resources\Images\peso.svg" />
 	  <None Remove="Resources\Images\pill.svg" />
+	  <None Remove="Resources\Images\pilla.svg" />
 	  <None Remove="Resources\Images\presion.svg" />
 	  <None Remove="Resources\Images\pulmon.svg" />
 	  <None Remove="Resources\Images\pulmones.svg" />
@@ -98,7 +109,9 @@
 	  <None Remove="Resources\Images\trash.svg" />
 	  <None Remove="Resources\Images\update.svg" />
 	  <None Remove="Resources\Images\user.svg" />
+	  <None Remove="Resources\Images\usera.svg" />
 	  <None Remove="Resources\Images\utp.svg" />
+	  <None Remove="Resources\Splash\logplash.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -113,6 +126,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Pages\adminView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\Consultas.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

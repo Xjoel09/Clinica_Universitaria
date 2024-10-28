@@ -5,7 +5,7 @@
   <Properties>
     <DisplayName>MedicalUTP</DisplayName>
     <PublisherDisplayName>User Name</PublisherDisplayName>
-    <Logo>medicutpStoreLogo.png</Logo>
+    <Logo>vectorStoreLogo.png</Logo>
   </Properties>
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
@@ -16,14 +16,14 @@
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="$targetentrypoint$">
-      <uap:VisualElements DisplayName="MedicalUTP" Description="MedicalUTP" Square150x150Logo="medicutpMediumTile.png" Square44x44Logo="medicutpLogo.png" BackgroundColor="transparent">
-        <uap:DefaultTile Square71x71Logo="medicutpSmallTile.png" Wide310x150Logo="medicutpWideTile.png" Square310x310Logo="medicutpLargeTile.png" ShortName="MedicalUTP">
+      <uap:VisualElements DisplayName="MedicalUTP" Description="MedicalUTP" Square150x150Logo="vectorMediumTile.png" Square44x44Logo="vectorLogo.png" BackgroundColor="transparent">
+        <uap:DefaultTile Square71x71Logo="vectorSmallTile.png" Wide310x150Logo="vectorWideTile.png" Square310x310Logo="vectorLargeTile.png" ShortName="MedicalUTP">
           <uap:ShowNameOnTiles>
             <uap:ShowOn Tile="square150x150Logo" />
             <uap:ShowOn Tile="wide310x150Logo" />
           </uap:ShowNameOnTiles>
         </uap:DefaultTile>
-        <uap:SplashScreen Image="splash2SplashScreen.png" />
+        <uap:SplashScreen Image="variant2SplashScreen.png" />
       </uap:VisualElements>
     </Application>
   </Applications>

@@ -15,7 +15,7 @@
                  AbsoluteLayout.LayoutBounds="0,0,300,300"
                  AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
-        <Image Source="utp.svg"
+        <Image Source="imge.png"
                WidthRequest="150"
                HeightRequest="150"
                AbsoluteLayout.LayoutBounds="30,30,120,120"

@@ -9,15 +9,16 @@
 
     <AbsoluteLayout>
         <Polygon Points="200,0 400,0 400,200"
-                 Fill="{StaticResource PrimaryApp}"
+                 Fill="{StaticResource SecundaryApp}"
                  HorizontalOptions="End"
                  VerticalOptions="Start"
                  AbsoluteLayout.LayoutBounds="1,0,200,200"
                  AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
-        <Image Source="utp.svg"
-               WidthRequest="120"
+        <Image Source="logon.png"
+               WidthRequest="85"
                HeightRequest="120"
+               Rotation="15"
                AbsoluteLayout.LayoutBounds="1,0,120,120"
                AbsoluteLayout.LayoutFlags="PositionProportional"/>
 
@@ -32,71 +33,82 @@
 
             <StackLayout Grid.Row="1" Orientation="Vertical" Spacing="10">
 
-                <Label Text="Bienvenido"
+                <Label Text="Bienvenido!"
                        FontSize="24"
                        HorizontalOptions="Center"
                        VerticalOptions="Start"
-                       TextColor="{StaticResource PrimaryApp}"
-                       Margin="0,20,0,10" />
+                       FontFamily="Roboto"
+                       FontAttributes="Bold"
+                       TextColor="{StaticResource SecundaryApp}"
+                       Margin="0,20,0,0" />
+
+                <Label Text="Inicia sesión para continuar"
+                       FontSize="14"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Start"
+                       FontFamily="Roboto"
+                       Opacity="0.9"
+                       TextColor="{StaticResource SecundaryApp}"
+                       Margin="0,5,0,10" />
 
                 <StackLayout Orientation="Vertical" Spacing="10" HorizontalOptions="FillAndExpand" Padding="30,0">
 
-                    <Frame CornerRadius="20" Padding="10" BorderColor="{StaticResource PrimaryApp}" BackgroundColor="White" HasShadow="True">
+                    <Frame CornerRadius="30" Padding="10" BorderColor="{StaticResource PrimaryApp}" BackgroundColor="White" HasShadow="True">
                         <HorizontalStackLayout Spacing="10">
-                            <Image Source="user.svg" WidthRequest="20" HeightRequest="20"/>
+                            <Image Source="user.png" WidthRequest="20" HeightRequest="20"/>
                             <Entry x:Name="UsuarioEntry" Placeholder="Usuario" PlaceholderColor="{StaticResource PrimaryApp}" TextColor="Black"/>
                         </HorizontalStackLayout>
                     </Frame>
 
-                    <Frame CornerRadius="20" Padding="10" BorderColor="{StaticResource PrimaryApp}" BackgroundColor="White" HasShadow="True">
+                    <Frame CornerRadius="30" Padding="10" BorderColor="{StaticResource PrimaryApp}" BackgroundColor="White" HasShadow="True">
                         <HorizontalStackLayout Spacing="10">
-                            <Image Source="tel.svg" WidthRequest="20" HeightRequest="20"/>
+                            <Image Source="tel.png" WidthRequest="20" HeightRequest="20"/>
                             <Entry x:Name="TelefonoEntry" Placeholder="Teléfono" PlaceholderColor="{StaticResource PrimaryApp}" TextColor="Black"/>
                         </HorizontalStackLayout>
                     </Frame>
 
-                    <Frame CornerRadius="20" Padding="10" BorderColor="{StaticResource PrimaryApp}" BackgroundColor="White" HasShadow="True">
+                    <Frame CornerRadius="30" Padding="10" BorderColor="{StaticResource PrimaryApp}" BackgroundColor="White" HasShadow="True">
                         <HorizontalStackLayout Spacing="10">
-                            <Image Source="id.svg" WidthRequest="20" HeightRequest="20"/>
+                            <Image Source="id.png" WidthRequest="20" HeightRequest="20"/>
                             <Entry x:Name="CedulaEntry" Placeholder="Cédula" PlaceholderColor="{StaticResource PrimaryApp}" TextColor="Black"/>
                         </HorizontalStackLayout>
                     </Frame>
 
-                    <Frame CornerRadius="20" Padding="10" BorderColor="{StaticResource PrimaryApp}" BackgroundColor="White" HasShadow="True">
+                    <Frame CornerRadius="30" Padding="10" BorderColor="{StaticResource PrimaryApp}" BackgroundColor="White" HasShadow="True">
                         <HorizontalStackLayout Spacing="10">
-                            <Image Source="email.svg" WidthRequest="20" HeightRequest="20"/>
+                            <Image Source="email.png" WidthRequest="20" HeightRequest="20"/>
                             <Entry x:Name="EmailEntry" Placeholder="Correo" PlaceholderColor="{StaticResource PrimaryApp}" TextColor="Black" />
                         </HorizontalStackLayout>
                     </Frame>
 
-                    <Frame CornerRadius="20" Padding="10" BorderColor="{StaticResource PrimaryApp}" BackgroundColor="White" HasShadow="True">
+                    <Frame CornerRadius="30" Padding="10" BorderColor="{StaticResource PrimaryApp}" BackgroundColor="White" HasShadow="True">
                         <HorizontalStackLayout Spacing="10">
-                            <Image Source="pasw.svg" WidthRequest="20" HeightRequest="20"/>
+                            <Image Source="pasw.png" WidthRequest="20" HeightRequest="20"/>
                             <Entry x:Name="PasswordEntry" Placeholder="Contraseña" IsPassword="True" PlaceholderColor="{StaticResource PrimaryApp}" TextColor="Black"/>
                         </HorizontalStackLayout>
                     </Frame>
 
-                    <Frame CornerRadius="20" Padding="10" BorderColor="{StaticResource PrimaryApp}" BackgroundColor="White" HasShadow="True">
+                    <Frame CornerRadius="30" Padding="10" BorderColor="{StaticResource PrimaryApp}" BackgroundColor="White" HasShadow="True">
                         <HorizontalStackLayout Spacing="10">
-                            <Image Source="user.svg" WidthRequest="20" HeightRequest="20"/>
-                            <Picker x:Name="RolPicker" FontSize="Micro" Title="Elije un rol" TextColor="Black" BackgroundColor="#5A67D8">
+                            <Image Source="user.png" WidthRequest="20" HeightRequest="20"/>
+                            <Picker x:Name="RolPicker" FontSize="Micro" Title="Elije un rol" TextColor="Black">
                                 <Picker.Items>
                                     <!--<x:String>Admin</x:String>-->
                                     <x:String>Estudiante</x:String>
                                     <x:String>Docente</x:String>
                                     <x:String>Administrativo</x:String>
-                                    
+
                                 </Picker.Items>
                             </Picker>
                         </HorizontalStackLayout>
                     </Frame>
 
-                    <Button Text="Sign up" HeightRequest="50" FontSize="Medium" BackgroundColor="{StaticResource PrimaryApp}" Clicked="OnSaveUserClicked"/>
+                    <Button Text="Sign up" HeightRequest="50" FontSize="Medium" BackgroundColor="{StaticResource SecundaryApp}         " Clicked="OnSaveUserClicked" CornerRadius="30"/>
 
                 </StackLayout>
 
                 <StackLayout>
-                    <Button Text="¿Ya tienes cuenta? Haz clic aquí" HeightRequest="50" BackgroundColor="{StaticResource SecundaryApp}" WidthRequest="300" Clicked="IrASingIn"/>
+                    <Button Text="¿Ya tienes cuenta? Haz clic aquí" HeightRequest="50" BackgroundColor="Transparent" TextColor="{StaticResource SecundaryApp}" WidthRequest="300" Clicked="IrASingIn"/>
                 </StackLayout>
             </StackLayout>
         </Grid>

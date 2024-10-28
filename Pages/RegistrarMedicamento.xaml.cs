@@ -16,19 +16,19 @@ public partial class RegistrarMedicamento : ContentPage
             _context = context;
         }
 
-        private async void OnGuardarMedicamentoClicked(object sender, EventArgs e)
+    private async void OnGuardarMedicamentoClicked(object sender, EventArgs e)
+    {
+        var medicamento = new Medicamento
         {
-            var medicamento = new Medicamento
-            {
-                Nombre = NombreEntry.Text,
-                Cantidad = int.Parse(CantidadEntry.Text),
-                Precio = decimal.Parse(PrecioEntry.Text)
-            };
+            Nombre = NombreEntry.Text,
+            Cantidad = int.Parse(CantidadEntry.Text),
+            Precio = decimal.Parse(PrecioEntry.Text)
+        };
 
-            _context.Medicamentos.Add(medicamento);
-            await _context.SaveChangesAsync();
+        _context.Medicamentos.Add(medicamento);
+        await _context.SaveChangesAsync();
 
-            await DisplayAlert("Éxito", "Medicamento guardado exitosamente!", "OK");
-            await Navigation.PopAsync();
-        }
+        await DisplayAlert("Éxito", "Medicamento guardado exitosamente!", "OK");
+        await Navigation.PopAsync();
     }
+}
