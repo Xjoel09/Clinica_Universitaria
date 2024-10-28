@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MedicalUTP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d6437f39fafa99b584ddc02a888a0bf1d6e3e2b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a439893cd7ee1334a7d3c0ff4c2c3b1bd2ea04c8")]
 [assembly: System.Reflection.AssemblyProductAttribute("MedicalUTP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MedicalUTP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

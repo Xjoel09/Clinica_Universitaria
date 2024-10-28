@@ -66,8 +66,10 @@
 
             </VerticalStackLayout>
         </ScrollView>
-        <Image Source="logc.svg"
+        <Image Source="imge.png"
                Aspect="AspectFit"
+               HeightRequest="170"
+               Margin="50"
                AbsoluteLayout.LayoutBounds="0.5,1,-1,AutoSize"
                AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"
                HorizontalOptions="Center"

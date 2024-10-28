@@ -40,20 +40,20 @@
     <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash2SplashScreen.scale-100.png">
-      <PackagePath>splash2SplashScreen.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\variant2SplashScreen.scale-100.png">
+      <PackagePath>variant2SplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash2SplashScreen.scale-125.png">
-      <PackagePath>splash2SplashScreen.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\variant2SplashScreen.scale-125.png">
+      <PackagePath>variant2SplashScreen.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash2SplashScreen.scale-150.png">
-      <PackagePath>splash2SplashScreen.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\variant2SplashScreen.scale-150.png">
+      <PackagePath>variant2SplashScreen.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash2SplashScreen.scale-200.png">
-      <PackagePath>splash2SplashScreen.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\variant2SplashScreen.scale-200.png">
+      <PackagePath>variant2SplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splash2SplashScreen.scale-400.png">
-      <PackagePath>splash2SplashScreen.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\variant2SplashScreen.scale-400.png">
+      <PackagePath>variant2SplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\Menu-Icon.ttf">
       <PackagePath>Menu-Icon.ttf</PackagePath>
@@ -63,6 +63,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\RobotoFlex.ttf">
+      <PackagePath>RobotoFlex.ttf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\adn.scale-100.png">
       <PackagePath>adn.scale-100.png</PackagePath>
@@ -109,6 +112,21 @@
     <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\blood.scale-400.png">
       <PackagePath>blood.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\calendara.scale-100.png">
+      <PackagePath>calendara.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\calendara.scale-125.png">
+      <PackagePath>calendara.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\calendara.scale-150.png">
+      <PackagePath>calendara.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\calendara.scale-200.png">
+      <PackagePath>calendara.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\calendara.scale-400.png">
+      <PackagePath>calendara.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\casa.scale-100.png">
       <PackagePath>casa.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -138,6 +156,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cita.scale-400.png">
       <PackagePath>cita.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-100.png">
+      <PackagePath>close.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-125.png">
+      <PackagePath>close.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-150.png">
+      <PackagePath>close.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-200.png">
+      <PackagePath>close.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\close.scale-400.png">
+      <PackagePath>close.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\consulta.scale-100.png">
       <PackagePath>consulta.scale-100.png</PackagePath>
@@ -349,6 +382,21 @@
     <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\id.scale-400.png">
       <PackagePath>id.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imge.scale-100.png">
+      <PackagePath>imge.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imge.scale-125.png">
+      <PackagePath>imge.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imge.scale-150.png">
+      <PackagePath>imge.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imge.scale-200.png">
+      <PackagePath>imge.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\imge.scale-400.png">
+      <PackagePath>imge.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\inicio.scale-100.png">
       <PackagePath>inicio.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -393,6 +441,36 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logc.scale-400.png">
       <PackagePath>logc.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logon.scale-100.png">
+      <PackagePath>logon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logon.scale-125.png">
+      <PackagePath>logon.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logon.scale-150.png">
+      <PackagePath>logon.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logon.scale-200.png">
+      <PackagePath>logon.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logon.scale-400.png">
+      <PackagePath>logon.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logopill.scale-100.png">
+      <PackagePath>logopill.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logopill.scale-125.png">
+      <PackagePath>logopill.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logopill.scale-150.png">
+      <PackagePath>logopill.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logopill.scale-200.png">
+      <PackagePath>logopill.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logopill.scale-400.png">
+      <PackagePath>logopill.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\logout1.scale-100.png">
       <PackagePath>logout1.scale-100.png</PackagePath>
@@ -442,143 +520,20 @@
     <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medic.scale-400.png">
       <PackagePath>medic.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutp.ico">
-      <PackagePath>medicutp.ico</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medic1.scale-100.png">
+      <PackagePath>medic1.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLargeTile.scale-100.png">
-      <PackagePath>medicutpLargeTile.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medic1.scale-125.png">
+      <PackagePath>medic1.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLargeTile.scale-125.png">
-      <PackagePath>medicutpLargeTile.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medic1.scale-150.png">
+      <PackagePath>medic1.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLargeTile.scale-150.png">
-      <PackagePath>medicutpLargeTile.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medic1.scale-200.png">
+      <PackagePath>medic1.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLargeTile.scale-200.png">
-      <PackagePath>medicutpLargeTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLargeTile.scale-400.png">
-      <PackagePath>medicutpLargeTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLogo.altform-lightunplated_targetsize-16.png">
-      <PackagePath>medicutpLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>medicutpLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>medicutpLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>medicutpLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>medicutpLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLogo.altform-unplated_targetsize-16.png">
-      <PackagePath>medicutpLogo.altform-unplated_targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>medicutpLogo.altform-unplated_targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>medicutpLogo.altform-unplated_targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>medicutpLogo.altform-unplated_targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>medicutpLogo.altform-unplated_targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLogo.scale-100.png">
-      <PackagePath>medicutpLogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLogo.scale-125.png">
-      <PackagePath>medicutpLogo.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLogo.scale-150.png">
-      <PackagePath>medicutpLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLogo.scale-200.png">
-      <PackagePath>medicutpLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLogo.scale-400.png">
-      <PackagePath>medicutpLogo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLogo.targetsize-16.png">
-      <PackagePath>medicutpLogo.targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLogo.targetsize-24.png">
-      <PackagePath>medicutpLogo.targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLogo.targetsize-256.png">
-      <PackagePath>medicutpLogo.targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLogo.targetsize-32.png">
-      <PackagePath>medicutpLogo.targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpLogo.targetsize-48.png">
-      <PackagePath>medicutpLogo.targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpMediumTile.scale-100.png">
-      <PackagePath>medicutpMediumTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpMediumTile.scale-125.png">
-      <PackagePath>medicutpMediumTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpMediumTile.scale-150.png">
-      <PackagePath>medicutpMediumTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpMediumTile.scale-200.png">
-      <PackagePath>medicutpMediumTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpMediumTile.scale-400.png">
-      <PackagePath>medicutpMediumTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpSmallTile.scale-100.png">
-      <PackagePath>medicutpSmallTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpSmallTile.scale-125.png">
-      <PackagePath>medicutpSmallTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpSmallTile.scale-150.png">
-      <PackagePath>medicutpSmallTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpSmallTile.scale-200.png">
-      <PackagePath>medicutpSmallTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpSmallTile.scale-400.png">
-      <PackagePath>medicutpSmallTile.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpStoreLogo.scale-100.png">
-      <PackagePath>medicutpStoreLogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpStoreLogo.scale-125.png">
-      <PackagePath>medicutpStoreLogo.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpStoreLogo.scale-150.png">
-      <PackagePath>medicutpStoreLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpStoreLogo.scale-200.png">
-      <PackagePath>medicutpStoreLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpStoreLogo.scale-400.png">
-      <PackagePath>medicutpStoreLogo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpWideTile.scale-100.png">
-      <PackagePath>medicutpWideTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpWideTile.scale-125.png">
-      <PackagePath>medicutpWideTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpWideTile.scale-150.png">
-      <PackagePath>medicutpWideTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpWideTile.scale-200.png">
-      <PackagePath>medicutpWideTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medicutpWideTile.scale-400.png">
-      <PackagePath>medicutpWideTile.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\medic1.scale-400.png">
+      <PackagePath>medic1.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_lines.scale-100.png">
       <PackagePath>menu_lines.scale-100.png</PackagePath>
@@ -654,6 +609,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pill.scale-400.png">
       <PackagePath>pill.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pilla.scale-100.png">
+      <PackagePath>pilla.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pilla.scale-125.png">
+      <PackagePath>pilla.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pilla.scale-150.png">
+      <PackagePath>pilla.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pilla.scale-200.png">
+      <PackagePath>pilla.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pilla.scale-400.png">
+      <PackagePath>pilla.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\presion.scale-100.png">
       <PackagePath>presion.scale-100.png</PackagePath>
@@ -850,6 +820,21 @@
     <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\user.scale-400.png">
       <PackagePath>user.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\usera.scale-100.png">
+      <PackagePath>usera.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\usera.scale-125.png">
+      <PackagePath>usera.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\usera.scale-150.png">
+      <PackagePath>usera.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\usera.scale-200.png">
+      <PackagePath>usera.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\usera.scale-400.png">
+      <PackagePath>usera.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\utp.scale-100.png">
       <PackagePath>utp.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -864,6 +849,144 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\utp.scale-400.png">
       <PackagePath>utp.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vector.ico">
+      <PackagePath>vector.ico</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLargeTile.scale-100.png">
+      <PackagePath>vectorLargeTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLargeTile.scale-125.png">
+      <PackagePath>vectorLargeTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLargeTile.scale-150.png">
+      <PackagePath>vectorLargeTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLargeTile.scale-200.png">
+      <PackagePath>vectorLargeTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLargeTile.scale-400.png">
+      <PackagePath>vectorLargeTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>vectorLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>vectorLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>vectorLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>vectorLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>vectorLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>vectorLogo.altform-unplated_targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>vectorLogo.altform-unplated_targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>vectorLogo.altform-unplated_targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>vectorLogo.altform-unplated_targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>vectorLogo.altform-unplated_targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLogo.scale-100.png">
+      <PackagePath>vectorLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLogo.scale-125.png">
+      <PackagePath>vectorLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLogo.scale-150.png">
+      <PackagePath>vectorLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLogo.scale-200.png">
+      <PackagePath>vectorLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLogo.scale-400.png">
+      <PackagePath>vectorLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLogo.targetsize-16.png">
+      <PackagePath>vectorLogo.targetsize-16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLogo.targetsize-24.png">
+      <PackagePath>vectorLogo.targetsize-24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLogo.targetsize-256.png">
+      <PackagePath>vectorLogo.targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLogo.targetsize-32.png">
+      <PackagePath>vectorLogo.targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorLogo.targetsize-48.png">
+      <PackagePath>vectorLogo.targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorMediumTile.scale-100.png">
+      <PackagePath>vectorMediumTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorMediumTile.scale-125.png">
+      <PackagePath>vectorMediumTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorMediumTile.scale-150.png">
+      <PackagePath>vectorMediumTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorMediumTile.scale-200.png">
+      <PackagePath>vectorMediumTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorMediumTile.scale-400.png">
+      <PackagePath>vectorMediumTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorSmallTile.scale-100.png">
+      <PackagePath>vectorSmallTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorSmallTile.scale-125.png">
+      <PackagePath>vectorSmallTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorSmallTile.scale-150.png">
+      <PackagePath>vectorSmallTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorSmallTile.scale-200.png">
+      <PackagePath>vectorSmallTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorSmallTile.scale-400.png">
+      <PackagePath>vectorSmallTile.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorStoreLogo.scale-100.png">
+      <PackagePath>vectorStoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorStoreLogo.scale-125.png">
+      <PackagePath>vectorStoreLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorStoreLogo.scale-150.png">
+      <PackagePath>vectorStoreLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorStoreLogo.scale-200.png">
+      <PackagePath>vectorStoreLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorStoreLogo.scale-400.png">
+      <PackagePath>vectorStoreLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorWideTile.scale-100.png">
+      <PackagePath>vectorWideTile.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorWideTile.scale-125.png">
+      <PackagePath>vectorWideTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorWideTile.scale-150.png">
+      <PackagePath>vectorWideTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorWideTile.scale-200.png">
+      <PackagePath>vectorWideTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\vectorWideTile.scale-400.png">
+      <PackagePath>vectorWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Robin_J\source\repos\MedicalUTP\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MedicalUTP.deps.json">
       <PackagePath>MedicalUTP.deps.json</PackagePath>
