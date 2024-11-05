@@ -1,0 +1,59 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MedicalUTP.Pages.HistorialDoctor"
+             Title="Historial Doctor">
+    <Grid Padding="10" RowDefinitions="Auto,*" ColumnDefinitions="*,2*">
+
+        <!-- Lista de Pacientes -->
+        <Label Grid.Row="0" Text="Lista de Pacientes" 
+               FontSize="Large" 
+               HorizontalOptions="Center" 
+               VerticalOptions="Start" />
+
+        <!-- Lista Scrollable de Pacientes -->
+        <CollectionView Grid.Row="1" Grid.Column="0"
+                        ItemsSource="{Binding Patients}"
+                        SelectionMode="Single"
+                        BackgroundColor="LightGray"
+                        Margin="0,10,10,0"
+                        SelectedItem="{Binding SelectedPatient, Mode=TwoWay}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BorderColor="Gray" CornerRadius="5" Padding="10" Margin="5">
+                        <Grid ColumnDefinitions="*,2*" RowDefinitions="Auto,Auto,Auto">
+                            <Label Grid.Column="0" Text="Nombre:" FontAttributes="Bold" />
+                            <Label Grid.Column="1" Text="{Binding Nombre}" />
+
+                            <Label Grid.Column="0" Grid.Row="1" Text="Teléfono:" FontAttributes="Bold" />
+                            <Label Grid.Column="1" Grid.Row="1" Text="{Binding Telefono}" />
+
+                            <Label Grid.Column="0" Grid.Row="2" Text="Correo:" FontAttributes="Bold" />
+                            <Label Grid.Column="1" Grid.Row="2" Text="{Binding Correo}" />
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <!-- Sección de Información del Paciente Seleccionado -->
+        <ContentView Grid.Row="1" Grid.Column="1" IsVisible="{Binding IsPatientSelected}">
+            <StackLayout Padding="10">
+                <Label Text="{Binding SelectedPatient.Nombre}" FontSize="Title" FontAttributes="Bold" />
+                <Label Text="Datos ........................" FontSize="Small" />
+
+                <Frame Margin="0,10" BackgroundColor="#E6E6FA" CornerRadius="5">
+                    <Label Text="Historial" FontSize="Medium" FontAttributes="Bold" />
+                </Frame>
+
+                <Frame Margin="0,10" BackgroundColor="#E6E6FA" CornerRadius="5">
+                    <Label Text="Certificados" FontSize="Medium" FontAttributes="Bold" />
+                </Frame>
+
+                <Frame Margin="0,10" BackgroundColor="#E6E6FA" CornerRadius="5">
+                    <Label Text="Referencias médicas" FontSize="Medium" FontAttributes="Bold" />
+                </Frame>
+            </StackLayout>
+        </ContentView>
+
+    </Grid>
+</ContentPage>

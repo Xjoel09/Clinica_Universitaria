@@ -26,7 +26,7 @@ public partial class FlyoutMenu : FlyoutPage
             {
                 Preferences.Remove("logueado");
 
-               
+
                 Application.Current.MainPage = new NavigationPage(new Login(_context, new LoginViewModel(_context)))
                 {
                     BarBackgroundColor = Colors.White
@@ -34,7 +34,7 @@ public partial class FlyoutMenu : FlyoutPage
             }
             else
             {
-               
+
                 var page = ResolvePage(item.Title);
                 if (page != null)
                 {
@@ -62,10 +62,10 @@ public partial class FlyoutMenu : FlyoutPage
 
             case "Servicios":
                 return new Servicios();//_serviceProvider.GetService<Servicios>();no encontre la manera de usar esto
-              //return  Application.Current.MainPage = new NavigationPage(new Servicios()); esto elimina el menu
+                                       //return  Application.Current.MainPage = new NavigationPage(new Servicios()); esto elimina el menu
 
             case "Solicitudes":
-               // return _serviceProvider.GetService<Solicitud>();
+                // return _serviceProvider.GetService<Solicitud>();
                 var consultaViewModel = new ConsultaViewModel(_context);
                 return new Solicitud(consultaViewModel, _context);
             case "Historial":
@@ -73,7 +73,7 @@ public partial class FlyoutMenu : FlyoutPage
                 var historialCitasViewModel = new HistorialCitasViewModel(_context);
                 return new HistorialCitas(historialCitasViewModel, _context);
             case "Consultas":
-                return  new Consultas();// _serviceProvider.GetService<Consultas>();
+                return new Consultas();// _serviceProvider.GetService<Consultas>();
             case "Contacto":
                 return new Contactos();//_serviceProvider.GetService<Contactos>();
 
@@ -82,13 +82,15 @@ public partial class FlyoutMenu : FlyoutPage
 
             case "RegistrarMedicamento":
                 return new RegistrarMedicamento(_context);
-           
+
+            case "HistorialDoctor":
+                //return _serviceProvider.GetService<HistorialDoctor>();
+                var historialDoctorViewModel = new HistorialDoctorViewModel(_context);
+                return new HistorialDoctor(historialDoctorViewModel, _context);
+
             default:
                 Console.WriteLine($"No se pudo resolver la página para el título: {title}");
                 return null;
         }
     }
 }
-
-
-    

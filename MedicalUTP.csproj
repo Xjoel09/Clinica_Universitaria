@@ -36,19 +36,25 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+		<Platforms>AnyCPU;x64</Platforms>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<!-- App Icon -->
 		
-		<MauiIcon Include="Resources\AppIcon\vector.png" Color="#FFF"  />
+		<MauiIcon Include="Resources\AppIcon\vector.png" Color="#FFF" />
+		
+		<MauiSplashScreen Include="Resources\Splash\variant2.svg">
+		  <Color>#FFF</Color>
+		  <BaseSize>90,90</BaseSize>
+		</MauiSplashScreen>
 		
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\variant2.png" Color="#FFF" BaseSize="90,90" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
 		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
+	
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
@@ -56,6 +62,8 @@
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
+
+	
 
 	<ItemGroup>
 	  <None Remove="Resources\AppIcon\medicutp.png" />
@@ -78,6 +86,9 @@
 	  <None Remove="Resources\Images\email.svg" />
 	  <None Remove="Resources\Images\est.svg" />
 	  <None Remove="Resources\Images\home.svg" />
+	  <None Remove="Resources\Images\icon.svg" />
+	  <None Remove="Resources\Images\icon2.svg" />
+	  <None Remove="Resources\Images\icon3.svg" />
 	  <None Remove="Resources\Images\iconsapp.png" />
 	  <None Remove="Resources\Images\id.svg" />
 	  <None Remove="Resources\Images\imge.svg" />
@@ -111,7 +122,9 @@
 	  <None Remove="Resources\Images\user.svg" />
 	  <None Remove="Resources\Images\usera.svg" />
 	  <None Remove="Resources\Images\utp.svg" />
+	  <None Remove="Resources\Images\variant2.png" />
 	  <None Remove="Resources\Splash\logplash.svg" />
+	  
 	</ItemGroup>
 
 	<ItemGroup>
@@ -139,6 +152,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\FlyoutPagesMenu.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\HistorialDoctor.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\Home.xaml">

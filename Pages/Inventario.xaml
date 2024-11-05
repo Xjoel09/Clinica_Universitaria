@@ -8,10 +8,10 @@
           Title="Inventario">
     
     <!--x:DataType="viewmodels:CRUDAdminViewModel" Arreglar para que se vean las imagenes-->
-         
-   
 
-  
+
+
+    <ScrollView>
 
         <Grid>
             <!-- Contenido principal -->
@@ -28,7 +28,7 @@
                 </Grid>
 
                 <!--Aqui va lo demas de inventario-->
-            <ScrollView>
+            
                 <StackLayout Padding="20">
                     <SearchBar x:Name="BuscarMedicamento" Placeholder="Buscar medicamento" SearchButtonPressed="OnBuscarMedicamento"/>
                     <Button Text="Agregar Medicamento" Clicked="OnAgregarMedicamentoClicked"/>
@@ -54,11 +54,12 @@
                     </CollectionView>
 
                 </StackLayout>
-            </ScrollView>
+           
 
         </Grid>
-
-            <!-- Flyout personalizado (oculto al principio) -->
+    
+    
+    <!-- Flyout personalizado (oculto al principio) -->
             <Grid x:Name="FlyoutMenu" 
               BackgroundColor="{StaticResource SecundaryApp}"
               WidthRequest="100" 
@@ -116,5 +117,5 @@
 
             <!---->
         </Grid>
-
-    </ContentPage>
+    </ScrollView>
+</ContentPage>

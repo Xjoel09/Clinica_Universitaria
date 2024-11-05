@@ -3,6 +3,8 @@ using System;
 using MedicalUTP.ViewModel;
 using MedicalUTP.DataAcess;
 using SQLitePCL;
+using MedicalUTP.Models;
+using MedicalUTP.ViewsModel;
 
 public partial class Solicitud : ContentPage
 {
