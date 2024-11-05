@@ -82,6 +82,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.Historial
 build_metadata.AdditionalFiles.TargetPath = Pages\HistorialCitas.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\HistorialCitas.xaml
 
+[C:/Users/Robin_J/source/repos/MedicalUTP/Pages/HistorialDoctor.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.HistorialDoctor.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\HistorialDoctor.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\HistorialDoctor.xaml
+
 [C:/Users/Robin_J/source/repos/MedicalUTP/Pages/Home.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MedicalUTP.Pages.Home.xaml

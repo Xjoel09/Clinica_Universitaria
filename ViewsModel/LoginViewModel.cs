@@ -23,6 +23,9 @@ namespace MedicalUTP.ViewsModel
         public bool isStudent;
 
         [ObservableProperty]
+        public bool isAdministrativo;
+
+        [ObservableProperty]
         public bool isDoctor;
 
 
@@ -140,6 +143,19 @@ namespace MedicalUTP.ViewsModel
                 else if (user.Role == "Doctor")
                 {
                     //IsDoctor = true;
+                    //IsAdmin = false;
+                    //IsStudent = false;
+
+                    //var MainPage = Application.Current?.MainPage ?? throw new InvalidOperationException("No se pudo acceder a MainPage.");
+                    //await MainPage.DisplayAlert("Mensaje", "Bienvenido Docente", "Aceptar");
+                    //Application.Current.MainPage = new FlyoutMenu(_context, _serviceProvider);
+                    App.GoToMainPage();
+                }
+
+                else if (user.Role == "Administrativo")
+                {
+                    //IsAdministrativo = true;
+                    //IsDoctor = false;
                     //IsAdmin = false;
                     //IsStudent = false;
 

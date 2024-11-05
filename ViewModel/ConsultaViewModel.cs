@@ -79,7 +79,7 @@ namespace MedicalUTP.ViewModel
                     $"Su cita ha sido agendada para el {nuevaCita.FechaHora:dd/MM/yyyy} a las {nuevaCita.FechaHora:HH:mm}",
                     "OK");
 
-                
+
                 TipoConsulta = string.Empty;
                 FechaSeleccionada = DateTime.Now;
                 HoraSeleccionada = TimeSpan.Zero;

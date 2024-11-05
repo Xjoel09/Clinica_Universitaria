@@ -29,6 +29,12 @@
         <member name="P:MedicalUTP.ViewModel.ConsultaViewModel.AgendarCitaCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MedicalUTP.ViewModel.ConsultaViewModel.AgendarCita"/>.</summary>
         </member>
+        <member name="T:MedicalUTP.ViewModel.HistorialDoctorViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:MedicalUTP.ViewModel.HistorialDoctorViewModel.Patients">
+            <inheritdoc cref="F:MedicalUTP.ViewModel.HistorialDoctorViewModel.patients"/>
+        </member>
         <member name="T:MedicalUTP.ViewsModel.CRUDAdminViewModel">
             <inheritdoc/>
             <inheritdoc/>
@@ -145,6 +151,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.MedicoAsignado">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "MedicoAsignado" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Patients">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Patients" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Users">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Users" generated properties.</summary>
         </member>
@@ -195,6 +204,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.MedicoAsignado">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "MedicoAsignado" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Patients">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Patients" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Users">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Users" generated properties.</summary>

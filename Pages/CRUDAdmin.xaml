@@ -5,12 +5,18 @@
              xmlns:local="clr-namespace:MedicalUTP.Models"
              x:Class="MedicalUTP.Pages.CRUDAdmin"
              xmlns:viewmodels="clr-namespace:MedicalUTP.ViewsModel"
+             xmlns:local1="clr-namespace:MedicalUTP.Converters"
              x:DataType="viewmodels:CRUDAdminViewModel"
              BackgroundColor="White"
              NavigationPage.HasNavigationBar="False"
              Title="CRUDAdmin">
 
-
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local1:RoleToImageConverter x:Key="RoleToImageConverter"/>
+            <!-- Definición del convertidor en los recursos -->
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
     <Grid>
         <!-- Contenido principal -->
@@ -34,7 +40,7 @@
                                 <Frame Padding="10" BorderColor="{StaticResource PrimaryApp}" CornerRadius="5">
                                     <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="Auto,*">
 
-                                        <Image Source="icon.png" 
+                                        <Image Source="{Binding Role, Converter={StaticResource RoleToImageConverter}}" 
                                                WidthRequest="80" 
                                                HeightRequest="80" 
                                                Aspect="AspectFit" 
