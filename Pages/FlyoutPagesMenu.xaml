@@ -41,6 +41,10 @@ IsVisible="{Binding IsDoctor}"-->
                                    BackgroundColor="{StaticResource PrimaryApp}"
                                    IconSource="flecha1.svg"
                                    />-->
+                <local:FlyoutItems Title="HistorialDoctor"
+                 BackgroundColor="{StaticResource PrimaryApp}"
+                           IconSource="tell.svg"
+/>
                 
                 <local:FlyoutItems Title="Contacto"
                                     BackgroundColor="{StaticResource PrimaryApp}"

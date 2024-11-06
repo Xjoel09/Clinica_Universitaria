@@ -82,7 +82,12 @@ public partial class FlyoutMenu : FlyoutPage
 
             case "RegistrarMedicamento":
                 return new RegistrarMedicamento(_context);
-           
+
+            case "HistorialDoctor":
+                //return _serviceProvider.GetService<HistorialDoctor>();
+                var historialDoctorViewModel = new HistorialDoctorViewModel(_context);
+                return new HistorialDoctor(historialDoctorViewModel, _context);
+
             default:
                 Console.WriteLine($"No se pudo resolver la página para el título: {title}");
                 return null;

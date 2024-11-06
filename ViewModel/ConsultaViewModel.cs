@@ -22,24 +22,24 @@ namespace MedicalUTP.ViewModel
         private string medicoAsignado;
         public List<string> TiposConsultas { get; } = new List<string>
         {
-            "Consultas y evaluaciones médicas con previa cita",
+            "Consultas y evaluaciones m?dicas con previa cita",
             "Consultas y evaluaciones de urgencias",
-            "Referencias a especialidades médicas",
+            "Referencias a especialidades m?dicas",
             "Certificado de buena salud",
             "Solicitudes de estudios de gabinete",
-            "Administración gratuita de medicamentos básicos",
+            "Administraci?n gratuita de medicamentos b?sicos",
             "Curaciones y corte de puntos",
             "Control de peso y talla",
-            "Control de presión arterial",
+            "Control de presi?n arterial",
             "Inhaloterapias",
-            "Aplicación de medicamentos inyectables",
+            "Aplicaci?n de medicamentos inyectables",
             "Toma de glicemia capilar"
         };
 
         public List<string> MedicosAsignados { get; } = new List<string>
         {
             "Dr Juanes Aguilar",
-            "Dr Acuña Chapulini",
+            "Dr Acu?a Chapulini",
             "Dr Vellonicimo Cordoba"
         };
         public List<TimeSpan> HorasDisponibles { get; } = new List<TimeSpan>
@@ -79,7 +79,7 @@ namespace MedicalUTP.ViewModel
                     $"Su cita ha sido agendada para el {nuevaCita.FechaHora:dd/MM/yyyy} a las {nuevaCita.FechaHora:HH:mm}",
                     "OK");
 
-                
+
                 TipoConsulta = string.Empty;
                 FechaSeleccionada = DateTime.Now;
                 HoraSeleccionada = TimeSpan.Zero;
@@ -89,8 +89,8 @@ namespace MedicalUTP.ViewModel
             catch (DbUpdateException dbEx)
             {
                 var innerException = dbEx.InnerException?.Message ?? "No hay detalles adicionales.";
-                Debug.WriteLine($"Error de actualización en la base de datos: {innerException}");
-                await Application.Current.MainPage.DisplayAlert("Error", $"No se pudo agendar la cita. Por favor, inténtelo de nuevo.{innerException}", "OK");
+                Debug.WriteLine($"Error de actualizaci?n en la base de datos: {innerException}");
+                await Application.Current.MainPage.DisplayAlert("Error", $"No se pudo agendar la cita. Por favor, int?ntelo de nuevo.{innerException}", "OK");
             }
         }
     }

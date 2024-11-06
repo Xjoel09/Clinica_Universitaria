@@ -25,6 +25,9 @@ namespace MedicalUTP.ViewsModel
         [ObservableProperty]
         public bool isDoctor;
 
+        [ObservableProperty]
+        public bool isAdministrativo;
+
 
         public LoginViewModel(MedicalUTPDbContext context)
         {
@@ -108,7 +111,7 @@ namespace MedicalUTP.ViewsModel
             {
                 Preferences.Set("logueado", "si");
                 // Después de la autenticación exitosa
-                
+
                 if (user.Role == "Admin")
                 {
                     // isAdmin = true;
@@ -140,6 +143,19 @@ namespace MedicalUTP.ViewsModel
                 else if (user.Role == "Doctor")
                 {
                     //IsDoctor = true;
+                    //IsAdmin = false;
+                    //IsStudent = false;
+
+                    //var MainPage = Application.Current?.MainPage ?? throw new InvalidOperationException("No se pudo acceder a MainPage.");
+                    //await MainPage.DisplayAlert("Mensaje", "Bienvenido Docente", "Aceptar");
+                    //Application.Current.MainPage = new FlyoutMenu(_context, _serviceProvider);
+                    App.GoToMainPage();
+                }
+
+                else if (user.Role == "Administrativo")
+                {
+                    //IsAdministrativo = true;
+                    //IsDoctor = false;
                     //IsAdmin = false;
                     //IsStudent = false;
 

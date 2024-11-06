@@ -1,75 +1,136 @@
-namespace MedicalUTP.Pages;
 using MedicalUTP.DataAcess;
 using MedicalUTP.Models;
-using MedicalUTP.ViewModel;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.ObjectModel;
-using Microsoft.EntityFrameworkCore;
-using MedicalUTP.ViewsModel;
+using System.Linq;
+using System.Windows.Input;
+using Microsoft.Maui.Controls;
 
-
+namespace MedicalUTP.Pages
+{
     public partial class Inventario : ContentPage
     {
         private readonly MedicalUTPDbContext _context;
-        public ObservableCollection<Medicamento> Medicamentos{ get; set; }
+        public ObservableCollection<Medicamento> Medicamentos { get; set; }
+        public ObservableCollection<Medicamento> MedicamentosCaducados { get; set; } // Nueva colección para medicamentos caducados o próximos a caducar
         private bool _isMenuOpen;
-    public Inventario(MedicalUTPDbContext context)
+
+        public ICommand EditarCommand { get; }
+        public ICommand EliminarCommand { get; }
+
+        public Inventario(MedicalUTPDbContext context)
         {
             InitializeComponent();
             _context = context;
-            Medicamentos= new ObservableCollection<Medicamento>();
-        MedicamentosCollectionView.ItemsSource = Medicamentos;
+            Medicamentos = new ObservableCollection<Medicamento>();
+            MedicamentosCaducados = new ObservableCollection<Medicamento>();
+            MedicamentosCollectionView.ItemsSource = Medicamentos;
+            MedicamentosCaducadosCollectionView.ItemsSource = MedicamentosCaducados;
+
+            EditarCommand = new Command<Medicamento>(OnEditarMedicamento);
+            EliminarCommand = new Command<Medicamento>(OnEliminarMedicamento);
+
             CargarMedicamentos();
-            BindingContext = new CRUDAdminViewModel(_context);
-            _isMenuOpen = false;  // Inicia el menú como cerrado
+            BindingContext = this;
+            _isMenuOpen = false;
             NavigationPage.SetHasBackButton(this, false);
-    }
+        }
 
-    public Inventario()
-    {
-       
-        
-    }
-
-
-    private async void CargarMedicamentos()
-    {
-        var medicamentos = await _context.Medicamentos.ToListAsync();
-        foreach (var medicamento in medicamentos)
+        private async void CargarMedicamentos()
         {
+            var medicamentos = await _context.Medicamentos.ToListAsync();
+            Medicamentos.Clear();
+            MedicamentosCaducados.Clear();
+
+            foreach (var medicamento in medicamentos)
+            {
+                Medicamentos.Add(medicamento);
+
+                // Agregar a la lista de caducados si la fecha es menor o igual a 30 días desde hoy
+                if (medicamento.FechaCaducidad <= DateTime.Now.AddDays(30))
+                {
+                    MedicamentosCaducados.Add(medicamento);
+                }
+            }
+        }
+
+        public void ActualizarListaMedicamentos(Medicamento medicamento)
+        {
+            var existente = Medicamentos.FirstOrDefault(m => m.Id == medicamento.Id);
+            if (existente != null)
+            {
+                Medicamentos.Remove(existente);
+            }
             Medicamentos.Add(medicamento);
-        }
-    }
 
-    private async void OnAgregarMedicamentoClicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new RegistrarMedicamento(_context));
+            // Actualizar la lista de caducados
+            if (medicamento.FechaCaducidad <= DateTime.Now.AddDays(30))
+            {
+                if (!MedicamentosCaducados.Contains(medicamento))
+                {
+                    MedicamentosCaducados.Add(medicamento);
+                }
+            }
+            else
+            {
+                MedicamentosCaducados.Remove(medicamento);
+            }
         }
 
-        private void OnBuscarMedicamento(object sender, EventArgs e)
+        public async void OnEditarMedicamento(Medicamento medicamento)
         {
-            // lógica de búsqueda
+            await Navigation.PushAsync(new RegistrarMedicamento(_context, medicamento, this));
         }
-        // Evento para abrir el Flyout
+
+        public async void OnEliminarMedicamento(Medicamento medicamento)
+        {
+            bool confirmacion = await DisplayAlert("Confirmar", $"¿Desea eliminar el medicamento {medicamento.Nombre}?", "Sí", "No");
+            if (confirmacion)
+            {
+                _context.Medicamentos.Remove(medicamento);
+                await _context.SaveChangesAsync();
+                Medicamentos.Remove(medicamento);
+                MedicamentosCaducados.Remove(medicamento);
+                await DisplayAlert("Éxito", "Medicamento eliminado correctamente.", "OK");
+            }
+        }
+
+        private async void OnAgregarMedicamentoClicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new RegistrarMedicamento(_context, null, this));
+        }
+
+        private async void OnBuscarMedicamento(object sender, TextChangedEventArgs e)
+        {
+            string textoBusqueda = e.NewTextValue.ToLower();
+            Medicamentos.Clear();
+
+            var medicamentos = await _context.Medicamentos.ToListAsync();
+            foreach (var medicamento in medicamentos)
+            {
+                if (medicamento.Nombre.ToLower().Contains(textoBusqueda))
+                {
+                    Medicamentos.Add(medicamento);
+                }
+            }
+        }
+
         private void OnOpenMenuClicked(object sender, EventArgs e)
         {
-            // Cambia el estado de visibilidad del menú
             FlyoutMenu.IsVisible = !FlyoutMenu.IsVisible;
-
-            // Cambia la imagen del botón según el estado del menú
             _isMenuOpen = FlyoutMenu.IsVisible;
             MenuButton.Source = _isMenuOpen ? "logon.png" : "close.png";
         }
 
         private async void OnUserpage_Clicked(object sender, EventArgs e)
         {
-            var context = new MedicalUTPDbContext(); // o obtiene el contexto desde el servicio de dependencia
-            await Navigation.PushAsync(new CRUDAdmin(context));
+            await Navigation.PushAsync(new CRUDAdmin(_context));
         }
 
         private async void OnCalendarpage_Clicked(object sender, EventArgs e)
         {
-            var context = new MedicalUTPDbContext(); // o obtiene el contexto desde el servicio de dependencia
-            await Navigation.PushAsync(new adminView(context));
+            await Navigation.PushAsync(new adminView(_context));
         }
+    }
 }

@@ -15,6 +15,9 @@ namespace MedicalUTP.Models
         public required string Correo { get; set; }
         public required string Password { get; set; }
         public required string Role { get; set; }
+        // Nueva propiedad para almacenar el historial médico
+        public string Historial { get; set; } = string.Empty;
     }
-
 }
+
+

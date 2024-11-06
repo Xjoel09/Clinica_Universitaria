@@ -4,30 +4,27 @@
         <name>MedicalUTP</name>
     </assembly>
     <members>
-        <member name="T:MedicalUTP.ViewModel.ConsultaViewModel">
+        <member name="T:MedicalUTP.ViewsModel.PacientesDocModel">
             <inheritdoc/>
             <inheritdoc/>
         </member>
-        <member name="P:MedicalUTP.ViewModel.ConsultaViewModel.TipoConsulta">
-            <inheritdoc cref="F:MedicalUTP.ViewModel.ConsultaViewModel.tipoConsulta"/>
+        <member name="P:MedicalUTP.ViewsModel.PacientesDocModel.Users">
+            <inheritdoc cref="F:MedicalUTP.ViewsModel.PacientesDocModel.users"/>
         </member>
-        <member name="P:MedicalUTP.ViewModel.ConsultaViewModel.FechaSeleccionada">
-            <inheritdoc cref="F:MedicalUTP.ViewModel.ConsultaViewModel.fechaSeleccionada"/>
+        <member name="P:MedicalUTP.ViewsModel.PacientesDocModel.CitasPasadas">
+            <inheritdoc cref="F:MedicalUTP.ViewsModel.PacientesDocModel.citasPasadas"/>
         </member>
-        <member name="P:MedicalUTP.ViewModel.ConsultaViewModel.HoraSeleccionada">
-            <inheritdoc cref="F:MedicalUTP.ViewModel.ConsultaViewModel.horaSeleccionada"/>
+        <member name="P:MedicalUTP.ViewsModel.PacientesDocModel.CitasFuturas">
+            <inheritdoc cref="F:MedicalUTP.ViewsModel.PacientesDocModel.citasFuturas"/>
         </member>
-        <member name="P:MedicalUTP.ViewModel.ConsultaViewModel.MotivoConsulta">
-            <inheritdoc cref="F:MedicalUTP.ViewModel.ConsultaViewModel.motivoConsulta"/>
+        <member name="P:MedicalUTP.ViewsModel.PacientesDocModel.PacienteSeleccionado">
+            <inheritdoc cref="F:MedicalUTP.ViewsModel.PacientesDocModel.pacienteSeleccionado"/>
         </member>
-        <member name="P:MedicalUTP.ViewModel.ConsultaViewModel.MedicoAsignado">
-            <inheritdoc cref="F:MedicalUTP.ViewModel.ConsultaViewModel.medicoAsignado"/>
+        <member name="F:MedicalUTP.ViewsModel.PacientesDocModel.seleccionarPacienteCommand">
+            <summary>The backing field for <see cref="P:MedicalUTP.ViewsModel.PacientesDocModel.SeleccionarPacienteCommand"/>.</summary>
         </member>
-        <member name="F:MedicalUTP.ViewModel.ConsultaViewModel.agendarCitaCommand">
-            <summary>The backing field for <see cref="P:MedicalUTP.ViewModel.ConsultaViewModel.AgendarCitaCommand"/>.</summary>
-        </member>
-        <member name="P:MedicalUTP.ViewModel.ConsultaViewModel.AgendarCitaCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MedicalUTP.ViewModel.ConsultaViewModel.AgendarCita"/>.</summary>
+        <member name="P:MedicalUTP.ViewsModel.PacientesDocModel.SeleccionarPacienteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MedicalUTP.ViewsModel.PacientesDocModel.SeleccionarPaciente(MedicalUTP.Models.User)"/>.</summary>
         </member>
         <member name="T:MedicalUTP.ViewsModel.CRUDAdminViewModel">
             <inheritdoc/>
@@ -124,11 +121,51 @@
         <member name="P:MedicalUTP.ViewsModel.LoginViewModel.LoginCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MedicalUTP.ViewsModel.LoginViewModel.Login"/>.</summary>
         </member>
+        <member name="T:MedicalUTP.ViewModel.ConsultaViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:MedicalUTP.ViewModel.ConsultaViewModel.TipoConsulta">
+            <inheritdoc cref="F:MedicalUTP.ViewModel.ConsultaViewModel.tipoConsulta"/>
+        </member>
+        <member name="P:MedicalUTP.ViewModel.ConsultaViewModel.FechaSeleccionada">
+            <inheritdoc cref="F:MedicalUTP.ViewModel.ConsultaViewModel.fechaSeleccionada"/>
+        </member>
+        <member name="P:MedicalUTP.ViewModel.ConsultaViewModel.HoraSeleccionada">
+            <inheritdoc cref="F:MedicalUTP.ViewModel.ConsultaViewModel.horaSeleccionada"/>
+        </member>
+        <member name="P:MedicalUTP.ViewModel.ConsultaViewModel.MotivoConsulta">
+            <inheritdoc cref="F:MedicalUTP.ViewModel.ConsultaViewModel.motivoConsulta"/>
+        </member>
+        <member name="P:MedicalUTP.ViewModel.ConsultaViewModel.MedicoAsignado">
+            <inheritdoc cref="F:MedicalUTP.ViewModel.ConsultaViewModel.medicoAsignado"/>
+        </member>
+        <member name="P:MedicalUTP.ViewModel.ConsultaViewModel.User">
+            <inheritdoc cref="F:MedicalUTP.ViewModel.ConsultaViewModel.user"/>
+        </member>
+        <member name="F:MedicalUTP.ViewModel.ConsultaViewModel.agendarCitaCommand">
+            <summary>The backing field for <see cref="P:MedicalUTP.ViewModel.ConsultaViewModel.AgendarCitaCommand"/>.</summary>
+        </member>
+        <member name="P:MedicalUTP.ViewModel.ConsultaViewModel.AgendarCitaCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MedicalUTP.ViewModel.ConsultaViewModel.AgendarCita"/>.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Users">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Users" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CitasPasadas">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CitasPasadas" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CitasFuturas">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CitasFuturas" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PacienteSeleccionado">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PacienteSeleccionado" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TipoConsulta">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TipoConsulta" generated properties.</summary>
@@ -145,20 +182,14 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.MedicoAsignado">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "MedicoAsignado" generated properties.</summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Users">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Users" generated properties.</summary>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.User">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "User" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedUser">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedUser" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsEditPopupVisible">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsEditPopupVisible" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CitasPasadas">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CitasPasadas" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CitasFuturas">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CitasFuturas" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Usuario">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Usuario" generated properties.</summary>
@@ -181,6 +212,18 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Users">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Users" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CitasPasadas">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CitasPasadas" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CitasFuturas">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CitasFuturas" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PacienteSeleccionado">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PacienteSeleccionado" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TipoConsulta">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TipoConsulta" generated properties.</summary>
         </member>
@@ -196,20 +239,14 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.MedicoAsignado">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "MedicoAsignado" generated properties.</summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Users">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Users" generated properties.</summary>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.User">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "User" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedUser">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedUser" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsEditPopupVisible">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsEditPopupVisible" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CitasPasadas">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CitasPasadas" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CitasFuturas">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CitasFuturas" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Usuario">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Usuario" generated properties.</summary>

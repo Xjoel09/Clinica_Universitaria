@@ -27,6 +27,7 @@ casa.scale-125.png
 casa.scale-150.png
 casa.scale-200.png
 casa.scale-400.png
+certificado_pdf.scale-100.png
 cita.scale-100.png
 cita.scale-125.png
 cita.scale-150.png
@@ -102,6 +103,21 @@ home.scale-125.png
 home.scale-150.png
 home.scale-200.png
 home.scale-400.png
+icon.scale-100.png
+icon.scale-125.png
+icon.scale-150.png
+icon.scale-200.png
+icon.scale-400.png
+icon2.scale-100.png
+icon2.scale-125.png
+icon2.scale-150.png
+icon2.scale-200.png
+icon2.scale-400.png
+icon3.scale-100.png
+icon3.scale-125.png
+icon3.scale-150.png
+icon3.scale-200.png
+icon3.scale-400.png
 id.scale-100.png
 id.scale-125.png
 id.scale-150.png
@@ -208,6 +224,7 @@ radio.scale-125.png
 radio.scale-150.png
 radio.scale-200.png
 radio.scale-400.png
+referencia_pdf.scale-100.png
 salud.scale-100.png
 salud.scale-125.png
 salud.scale-150.png
@@ -315,3 +332,5 @@ variant2SplashScreen.scale-150.png
 variant2SplashScreen.scale-200.png
 variant2SplashScreen.scale-400.png
 AboutAssets.txt
+Certificado de salud.pdf
+Referencias medica.pdf

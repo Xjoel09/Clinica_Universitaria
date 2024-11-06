@@ -36,7 +36,7 @@
             <Frame CornerRadius="20" Padding="10" BorderColor="{StaticResource PrimaryApp}" BackgroundColor="White" HasShadow="True"
                    WidthRequest="350" HorizontalOptions="FillAndExpand" Margin="0,0,0,10">
                 <HorizontalStackLayout Spacing="10">
-                    <Image Source="user.svg" WidthRequest="40" HeightRequest="40"/>
+                    <Image Source="user.png" WidthRequest="40" HeightRequest="40"/>
                     <Entry Placeholder="Usuario" 
                            Text="{Binding Usuario}" 
                            BackgroundColor="White"
@@ -49,7 +49,7 @@
             <Frame CornerRadius="20" Padding="10" BorderColor="#5A67D8" BackgroundColor="White" HasShadow="True"
                    WidthRequest="350" HorizontalOptions="FillAndExpand" Margin="0,0,0,10">
                 <HorizontalStackLayout Spacing="10">
-                    <Image Source="pasw.svg" WidthRequest="40" HeightRequest="40"/>
+                    <Image Source="pasw.png" WidthRequest="40" HeightRequest="40"/>
                     <Entry Placeholder="Contraseña" 
                            IsPassword="True" 
                            Text="{Binding Password}" 

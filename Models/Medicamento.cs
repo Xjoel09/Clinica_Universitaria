@@ -4,7 +4,6 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 namespace MedicalUTP.Models
 {
     public class Medicamento
@@ -14,5 +13,12 @@ namespace MedicalUTP.Models
         public required string Nombre { get; set; }
         public required int Cantidad { get; set; }
         public required decimal Precio { get; set; }
+
+        // Nuevas propiedades para las fechas
+        public DateTime FechaEntrega { get; set; }
+        public DateTime FechaCaducidad { get; set; }
+
     }
+
 }
+

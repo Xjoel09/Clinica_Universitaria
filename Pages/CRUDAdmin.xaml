@@ -3,12 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              xmlns:local="clr-namespace:MedicalUTP.Models"
+             xmlns:local1="clr-namespace:MedicalUTP.Converters"
              x:Class="MedicalUTP.Pages.CRUDAdmin"
              xmlns:viewmodels="clr-namespace:MedicalUTP.ViewsModel"
              x:DataType="viewmodels:CRUDAdminViewModel"
              BackgroundColor="White"
              NavigationPage.HasNavigationBar="False"
              Title="CRUDAdmin">
+
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local1:RoleToImageConverter x:Key="RoleToImageConverter"/>
+            <!-- Definición del convertidor en los recursos -->
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
 
 
@@ -34,12 +43,13 @@
                                 <Frame Padding="10" BorderColor="{StaticResource PrimaryApp}" CornerRadius="5">
                                     <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="Auto,*">
 
-                                        <Image Source="icon.png" 
-                                               WidthRequest="80" 
-                                               HeightRequest="80" 
-                                               Aspect="AspectFit" 
-                                               Margin="0,0,60,10"
-                                               Grid.RowSpan="6"/>
+                                        <Image Source="{Binding Role, Converter={StaticResource RoleToImageConverter}}" 
+                                                       WidthRequest="80" 
+                                                       HeightRequest="80" 
+                                                       Aspect="AspectFit" 
+                                                       Margin="0,0,60,10"
+                                                       Grid.RowSpan="6"/> 
+                                        
 
                                         <Label Grid.Row="0" Grid.Column="0" Text="Usuario:" FontAttributes="Bold" TextColor="{StaticResource SecundaryApp}" Padding="150,20,0,0" />
                                         <Label Grid.Row="0" Grid.Column="1" Text="{Binding Nombre}" TextColor="{StaticResource SecundaryApp}" Padding="50,20,0,0"/>

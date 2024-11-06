@@ -1,72 +1,86 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-           x:Class="MedicalUTP.Pages.Inventario"
-           xmlns:local="clr-namespace:MedicalUTP.Models"
-            xmlns:viewmodels="clr-namespace:MedicalUTP.ViewsModel"
-          NavigationPage.HasNavigationBar="False"
-          Title="Inventario">
-    
-    <!--x:DataType="viewmodels:CRUDAdminViewModel" Arreglar para que se vean las imagenes-->
-         
-   
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MedicalUTP.Pages.Inventario"
+             xmlns:local="clr-namespace:MedicalUTP.Models"
+             xmlns:viewmodels="clr-namespace:MedicalUTP.ViewsModel"
+             NavigationPage.HasNavigationBar="False"
+             Title="Inventario">
 
-  
+    <Grid>
+        <!-- Contenido principal -->
+        <Grid RowDefinitions="Auto,*">
+            <!-- Título de Inventario -->
+            <Label Text="Inventario" 
+                   FontSize="24" 
+                   Padding="3,50,0,10"
+                   FontAttributes="Bold" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="Center"
+                   TextColor="{StaticResource SecundaryApp}" />
 
-        <Grid>
-            <!-- Contenido principal -->
-            <Grid RowDefinitions="Auto,*">
-                <Grid ColumnDefinitions="Auto,*">
-                    <Label Grid.Column="1"
-                Text="Inventario" 
-                FontSize="24" 
-                Padding="3,50,0,10"
-                FontAttributes="Bold" 
-                HorizontalOptions="Center" 
-                VerticalOptions="Center"
-                TextColor="{StaticResource SecundaryApp}" />
-                </Grid>
-
-                <!--Aqui va lo demas de inventario-->
-            <ScrollView>
+            <!-- Aquí va el resto del contenido -->
+            <ScrollView Grid.Row="1">
                 <StackLayout Padding="20">
-                    <SearchBar x:Name="BuscarMedicamento" Placeholder="Buscar medicamento" SearchButtonPressed="OnBuscarMedicamento"/>
+                    <SearchBar x:Name="BuscarMedicamento" Placeholder="Buscar medicamento" TextChanged="OnBuscarMedicamento"/>
                     <Button Text="Agregar Medicamento" Clicked="OnAgregarMedicamentoClicked"/>
 
+                    <!-- Lista de medicamentos -->
                     <CollectionView x:Name="MedicamentosCollectionView" ItemsSource="{Binding Medicamentos}">
                         <CollectionView.ItemTemplate>
                             <DataTemplate>
                                 <Frame Padding="10" Margin="5" BorderColor="{StaticResource PrimaryApp}">
-
                                     <StackLayout>
                                         <Label Text="{Binding Nombre}" FontAttributes="Bold"/>
-                                        <Label Text="{Binding Cantidad}" />
+                                        <Label Text="{Binding Cantidad, StringFormat='Cantidad: {0}'}" />
                                         <Label Text="{Binding Precio, StringFormat='Precio: {0:C}'}" />
+                                        <Label Text="{Binding FechaEntrega, StringFormat='Fecha de Entrega: {0:dd/MM/yyyy}'}" />
+                                        <Label Text="{Binding FechaCaducidad, StringFormat='Fecha de Caducidad: {0:dd/MM/yyyy}'}" />
                                         <StackLayout Orientation="Horizontal">
                                             <Button Text="Editar" Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.EditarCommand}" CommandParameter="{Binding .}"/>
                                             <Button Text="Eliminar" Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.EliminarCommand}" CommandParameter="{Binding .}"/>
                                         </StackLayout>
                                     </StackLayout>
-
                                 </Frame>
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
                     </CollectionView>
 
+                    <!-- Advertencia para medicamentos caducados o próximos a caducar -->
+                    <Label Text="Medicamentos caducados o próximos a caducar" 
+                           FontSize="20" 
+                           FontAttributes="Bold" 
+                           TextColor="Red" 
+                           HorizontalOptions="Center" 
+                           Margin="0,30,0,10"/>
+
+                    <!-- Lista de medicamentos caducados o próximos a caducar -->
+                    <CollectionView x:Name="MedicamentosCaducadosCollectionView" ItemsSource="{Binding MedicamentosCaducados}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Frame Padding="10" Margin="5" BorderColor="Red" BackgroundColor="#FFF0F0">
+                                    <StackLayout>
+                                        <Label Text="{Binding Nombre}" FontAttributes="Bold"/>
+                                        <Label Text="{Binding Cantidad, StringFormat='Cantidad: {0}'}" />
+                                        <Label Text="{Binding Precio, StringFormat='Precio: {0:C}'}" />
+                                        <Label Text="{Binding FechaCaducidad, StringFormat='Fecha de Caducidad: {0:dd/MM/yyyy}'}" TextColor="Red"/>
+                                    </StackLayout>
+                                </Frame>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
                 </StackLayout>
             </ScrollView>
-
         </Grid>
 
-            <!-- Flyout personalizado (oculto al principio) -->
-            <Grid x:Name="FlyoutMenu" 
+        <!-- Flyout personalizado -->
+        <Grid x:Name="FlyoutMenu" 
               BackgroundColor="{StaticResource SecundaryApp}"
               WidthRequest="100" 
               HorizontalOptions="Start" 
               IsVisible="False">
-                <StackLayout Padding="10">
-
-                    <ImageButton Source="usera.png" 
+            <StackLayout Padding="10">
+                <ImageButton Source="usera.png" 
                              Margin="0,160,10,0"
                              HeightRequest="30"
                              WidthRequest="30"
@@ -74,7 +88,7 @@
                              BackgroundColor="Transparent"
                              Clicked="OnUserpage_Clicked"/>
 
-                    <ImageButton Source="calendara.png" 
+                <ImageButton Source="calendara.png" 
                              Margin="0,70,10,0"
                              HeightRequest="30"
                              WidthRequest="30"
@@ -82,7 +96,7 @@
                              BackgroundColor="Transparent"
                              Clicked="OnCalendarpage_Clicked"/>
 
-                    <ImageButton Source="pilla.png" 
+                <ImageButton Source="pilla.png" 
                              Margin="0,70,10,0"
                              HeightRequest="30"
                              WidthRequest="30"
@@ -90,20 +104,18 @@
                              BackgroundColor="Transparent"
                              />
 
-                    <ImageButton Source="logout1.png"
+                <ImageButton Source="logout1.png"
                              Margin="0,250,0,0"
                              HeightRequest="70"
                              WidthRequest="70"
                              Aspect="AspectFit"
                              BackgroundColor="Transparent"
                              Command="{Binding LogOutCommand}"/>
+            </StackLayout>
+        </Grid>
 
-
-                </StackLayout>
-            </Grid>
-
-            <!-- Botón para abrir el Flyout -->
-            <ImageButton x:Name="MenuButton"
+        <!-- Botón para abrir el Flyout -->
+        <ImageButton x:Name="MenuButton"
                      Source="close.png"
                      Clicked="OnOpenMenuClicked"
                      HorizontalOptions="Start"
@@ -113,8 +125,6 @@
                      WidthRequest="40"
                      Margin="25, 20"
                      />
+    </Grid>
+</ContentPage>
 
-            <!---->
-        </Grid>
-
-    </ContentPage>
